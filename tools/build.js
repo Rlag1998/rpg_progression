@@ -21,15 +21,22 @@ const TIER = {
   3: { n: 'III', label: 'Specialist', lv: 25 },
   4: { n: 'IV', label: 'Elite', lv: 40 },
   5: { n: 'V', label: 'Mythic', lv: 60 },
+  6: { n: 'VI', label: 'Apotheosis', lv: 85 },
 };
 
-// Fixed topology every family must follow: suffix -> [tier, parentSuffix]
+// Fixed topology every family must follow: suffix -> [tier, parentSuffix].
+// Each tier-3 specialist has two rival elite orders (t4a/t4e share parent t3a, etc.);
+// tiers 5 and 6 continue each elite line 1:1 by letter.
 const TOPOLOGY = {
   t1: [1, null],
   t2a: [2, 't1'], t2b: [2, 't1'],
   t3a: [3, 't2a'], t3b: [3, 't2a'], t3c: [3, 't2b'], t3d: [3, 't2b'],
   t4a: [4, 't3a'], t4b: [4, 't3b'], t4c: [4, 't3c'], t4d: [4, 't3d'],
+  t4e: [4, 't3a'], t4f: [4, 't3b'], t4g: [4, 't3c'], t4h: [4, 't3d'],
   t5a: [5, 't4a'], t5b: [5, 't4b'], t5c: [5, 't4c'], t5d: [5, 't4d'],
+  t5e: [5, 't4e'], t5f: [5, 't4f'], t5g: [5, 't4g'], t5h: [5, 't4h'],
+  t6a: [6, 't5a'], t6b: [6, 't5b'], t6c: [6, 't5c'], t6d: [6, 't5d'],
+  t6e: [6, 't5e'], t6f: [6, 't5f'], t6g: [6, 't5g'], t6h: [6, 't5h'],
 };
 
 function fail(msg) { console.error('BUILD FAILED: ' + msg); process.exit(1); }
@@ -88,15 +95,24 @@ function asciiTree(f) {
   const n = suffix => f.nodes.find(x => x.id === `${f.id}.${suffix}`);
   const tag = suffix => { const x = n(suffix); return `${x.name} (Lv ${x.level})`; };
   const chain = (a, b, c) => `${tag(a)} → ${tag(b)} → ${tag(c)}`;
-  return [
-    tag('t1'),
-    `├── ${tag('t2a')}`,
-    `│   ├── ${chain('t3a', 't4a', 't5a')}`,
-    `│   └── ${chain('t3b', 't4b', 't5b')}`,
-    `└── ${tag('t2b')}`,
-    `    ├── ${chain('t3c', 't4c', 't5c')}`,
-    `    └── ${chain('t3d', 't4d', 't5d')}`,
-  ].join('\n');
+  const lines = [tag('t1')];
+  const paths = [
+    ['├──', '│  ', 't2a', ['t3a', 't3b'], { t3a: ['a', 'e'], t3b: ['b', 'f'] }],
+    ['└──', '   ', 't2b', ['t3c', 't3d'], { t3c: ['c', 'g'], t3d: ['d', 'h'] }],
+  ];
+  for (const [head, pad, t2, t3s, elites] of paths) {
+    lines.push(`${head} ${tag(t2)}`);
+    t3s.forEach((t3, i) => {
+      const last3 = i === t3s.length - 1;
+      lines.push(`${pad} ${last3 ? '└──' : '├──'} ${tag(t3)}`);
+      const pad3 = `${pad} ${last3 ? '   ' : '│  '}`;
+      elites[t3].forEach((L, j) => {
+        const branch = j === 1 ? '└──' : '├──';
+        lines.push(`${pad3} ${branch} ${chain('t4' + L, 't5' + L, 't6' + L)}`);
+      });
+    });
+  }
+  return lines.join('\n');
 }
 
 function familyDoc(f) {
@@ -114,7 +130,7 @@ function familyDoc(f) {
   lines.push('```text');
   lines.push(asciiTree(f));
   lines.push('```');
-  for (let tier = 1; tier <= 5; tier++) {
+  for (let tier = 1; tier <= 6; tier++) {
     const t = TIER[tier];
     lines.push('');
     lines.push(`## Tier ${t.n} — ${t.label} (Level ${t.lv})`);
@@ -152,7 +168,7 @@ function docsIndex(data) {
     lines.push(`| ${f.icon} [${f.name}](./${f.id}.md) | ${f.archetype} | *${f.tagline}* |`);
   }
   lines.push('');
-  lines.push('Each origin holds 15 ranks across 5 tiers — Initiate (Lv 1), Adept (Lv 10), Specialist (Lv 25), Elite (Lv 40), Mythic (Lv 60) — branching into 4 mythic destinies.');
+  lines.push('Each origin holds 31 ranks across 6 tiers — Initiate (Lv 1), Adept (Lv 10), Specialist (Lv 25), Elite (Lv 40), Mythic (Lv 60), Apotheosis (Lv 85) — branching into 8 apotheoses.');
   lines.push('');
   return lines.join('\n');
 }

@@ -21,6 +21,7 @@
     --arcane: #a98ae8;
     --spirit: #e0b354;
     --esoteric: #5fb8ba;
+    --threshold: #96a7d9;
     --serif: Georgia, "Iowan Old Style", "Palatino Linotype", "Book Antiqua", serif;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -267,7 +268,7 @@
     <div class="brand-mark">✦</div>
     <div>
       <h1>Codex of Ascension</h1>
-      <div class="sub">Fifteen origins. Two hundred twenty-five destinies.</div>
+      <div class="sub" id="brandSub"></div>
     </div>
   </div>
   <div class="head-right">
@@ -295,19 +296,21 @@
   if (!DATA || !DATA.families) { document.getElementById('app').textContent = 'Codex data missing — run tools/build.js.'; return; }
 
   const ARCH = {
-    Might:    { color: 'var(--might)',    blurb: 'Steel, sinew, and the refusal to fall.' },
-    Cunning:  { color: 'var(--cunning)',  blurb: 'Wits sharp enough to cut where blades cannot.' },
-    Arcane:   { color: 'var(--arcane)',   blurb: 'Power studied, inherited, or borrowed at interest.' },
-    Spirit:   { color: 'var(--spirit)',   blurb: 'Faith, nature, and breath made manifest.' },
-    Esoteric: { color: 'var(--esoteric)', blurb: 'The forbidden arts that fit no tradition.' },
+    Might:     { color: 'var(--might)',     blurb: 'Steel, sinew, and the refusal to fall.' },
+    Cunning:   { color: 'var(--cunning)',   blurb: 'Wits sharp enough to cut where blades cannot.' },
+    Arcane:    { color: 'var(--arcane)',    blurb: 'Power studied, inherited, or borrowed at interest.' },
+    Spirit:    { color: 'var(--spirit)',    blurb: 'Faith, nature, and breath made manifest.' },
+    Esoteric:  { color: 'var(--esoteric)',  blurb: 'The forbidden arts that fit no tradition.' },
+    Threshold: { color: 'var(--threshold)', blurb: 'What waits in the spaces between.' },
   };
-  const ARCH_ORDER = ['Might', 'Cunning', 'Arcane', 'Spirit', 'Esoteric'];
+  const ARCH_ORDER = ['Might', 'Cunning', 'Arcane', 'Spirit', 'Esoteric', 'Threshold'];
   const TIERS = [
     { n: 'I',   label: 'Initiate',   lv: 1  },
     { n: 'II',  label: 'Adept',      lv: 10 },
     { n: 'III', label: 'Specialist', lv: 25 },
     { n: 'IV',  label: 'Elite',      lv: 40 },
     { n: 'V',   label: 'Mythic',     lv: 60 },
+    { n: 'VI',  label: 'Apotheosis', lv: 85 },
   ];
 
   /* ----- indexes ----- */
@@ -328,21 +331,25 @@
   const acOf = f => ARCH[f.archetype] ? ARCH[f.archetype].color : 'var(--gold)';
 
   const nNodes = fams.reduce((a, f) => a + f.nodes.length, 0);
+  const NT = TIERS.length;
   document.getElementById('headStats').textContent =
     ARCH_ORDER.length + ' archetypes · ' + fams.length + ' origins · ' + nNodes + ' ranks';
+  document.getElementById('brandSub').textContent =
+    fams.length + ' origins. ' + nNodes + ' destinies.';
 
-  /* ----- tree geometry (fixed 1-2-4-4-4 topology) ----- */
+  /* ----- tree geometry (fixed 1-2-4-8-8-8 topology, 8 rows) ----- */
   const CW = 182, CH = 60, GX = 62, RH = 92, PX = 18, HY = 56;
-  const ROW = { t1: 1.5, t2a: 0.5, t2b: 2.5 };
+  const ROW = { t1: 3.5, t2a: 1.5, t2b: 5.5, t3a: 0.5, t3b: 2.5, t3c: 4.5, t3d: 6.5 };
+  const LETTER_ROW = { a: 0, e: 1, b: 2, f: 3, c: 4, g: 5, d: 6, h: 7 };
   const rowOf = id => {
     const s = id.slice(id.lastIndexOf('.') + 1);
     if (ROW[s] !== undefined) return ROW[s];
-    return { a: 0, b: 1, c: 2, d: 3 }[s.slice(-1)];
+    return LETTER_ROW[s.slice(-1)];
   };
   const colX = t => PX + (t - 1) * (CW + GX);
   const rowY = r => HY + r * RH;
-  const TREE_W = PX * 2 + 5 * CW + 4 * GX;
-  const TREE_H = HY + 3 * RH + CH + 18;
+  const TREE_W = PX * 2 + NT * CW + (NT - 1) * GX;
+  const TREE_H = HY + 7 * RH + CH + 18;
 
   /* ----- views ----- */
   const app = document.getElementById('app');
@@ -351,7 +358,7 @@
   function renderHome() {
     let h = '<div class="hero">' +
       '<h2>Every legend begins as a beginner.</h2>' +
-      '<p>Choose one of fifteen origins. Each unfolds through five tiers of written trials — from first oath to mythic apotheosis — along four diverging destinies.</p>' +
+      '<p>Choose one of ' + fams.length + ' origins. Each unfolds through six tiers of written trials — from first oath to apotheosis — along eight diverging destinies.</p>' +
       '<div class="rule">' + ARCH_ORDER.map(a => '<i style="background:' + ARCH[a].color + '"></i>').join('') + '</div></div>';
     for (const a of ARCH_ORDER) {
       const list = fams.filter(f => f.archetype === a);
@@ -364,7 +371,8 @@
           '<span class="icon">' + f.icon + '</span><span>' +
           '<h4>' + esc(f.name) + '</h4>' +
           '<div class="tagline">' + esc(f.tagline) + '</div>' +
-          '<div class="meta">' + f.nodes.length + ' ranks · 4 mythic destinies</div>' +
+          '<div class="meta">' + f.nodes.length + ' ranks · ' +
+            f.nodes.filter(n => n.tier === TIERS.length).length + ' apotheoses</div>' +
           '</span></button>';
       }
       h += '</div></section>';
@@ -402,7 +410,7 @@
     }
     svg += '</svg>';
     let heads = '';
-    for (let t = 1; t <= 5; t++) {
+    for (let t = 1; t <= NT; t++) {
       heads += '<div class="tier-head" style="left:' + colX(t) + 'px;width:' + CW + 'px">' +
         '<b>' + TIERS[t - 1].n + ' — ' + TIERS[t - 1].label + '</b>Level ' + TIERS[t - 1].lv + '</div>';
     }
