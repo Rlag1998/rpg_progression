@@ -6,7 +6,9 @@ An RPG class-progression system with **15 starting classes** ("origins") across 
 
 ## Viewing the codex
 
-Open **`index.html`** in any browser — it is fully self-contained (no server, no dependencies, works offline). Or read the same content as prose in [`docs/`](docs/README.md), one markdown file per class.
+**Live site:** https://rlag1998.github.io/rpg_progression/ (served from the `gh-pages` branch, republished automatically on every push by `.github/workflows/pages.yml`).
+
+Or open **`index.html`** in any browser — it is fully self-contained (no server, no dependencies, works offline). Or read the same content as prose in [`docs/`](docs/README.md), one markdown file per class.
 
 In the UI:
 
