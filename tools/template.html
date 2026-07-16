@@ -1,0 +1,528 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Codex of Ascension — RPG Class Progression</title>
+<style>
+  :root {
+    --bg: #0d0d11;
+    --bg-soft: #131318;
+    --panel: #17171d;
+    --panel-2: #1d1d25;
+    --line: #2a2a35;
+    --line-soft: #23232c;
+    --ink: #e9e3d4;
+    --ink-dim: #a39c8e;
+    --ink-faint: #6f6a5f;
+    --gold: #c9a962;
+    --might: #d96a5f;
+    --cunning: #7dbb6e;
+    --arcane: #a98ae8;
+    --spirit: #e0b354;
+    --esoteric: #5fb8ba;
+    --serif: Georgia, "Iowan Old Style", "Palatino Linotype", "Book Antiqua", serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scrollbar-color: #33333f var(--bg); }
+  body {
+    background: var(--bg);
+    background-image: radial-gradient(1100px 500px at 50% -10%, #1a1722 0%, transparent 60%);
+    color: var(--ink);
+    font-family: var(--serif);
+    font-size: 15.5px;
+    line-height: 1.55;
+    min-height: 100vh;
+  }
+  button { font-family: inherit; cursor: pointer; }
+  ::selection { background: rgba(201,169,98,.3); }
+
+  /* ---------- header ---------- */
+  header {
+    display: flex; align-items: center; justify-content: space-between; gap: 16px;
+    padding: 18px 28px 16px;
+    border-bottom: 1px solid var(--line-soft);
+    background: linear-gradient(180deg, rgba(23,23,29,.9), rgba(13,13,17,.6));
+    position: sticky; top: 0; z-index: 30; backdrop-filter: blur(6px);
+  }
+  .brand { display: flex; align-items: center; gap: 14px; cursor: pointer; user-select: none; }
+  .brand-mark {
+    width: 40px; height: 40px; border: 1px solid var(--gold); border-radius: 50%;
+    display: grid; place-items: center; color: var(--gold); font-size: 18px;
+    box-shadow: 0 0 18px rgba(201,169,98,.18), inset 0 0 10px rgba(201,169,98,.12);
+    flex: none;
+  }
+  .brand h1 {
+    font-size: 19px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase;
+    color: var(--ink);
+  }
+  .brand .sub { font-size: 12.5px; color: var(--ink-dim); font-style: italic; letter-spacing: .02em; }
+  .head-right { display: flex; align-items: center; gap: 18px; }
+  .head-stats { font-size: 12.5px; color: var(--ink-faint); letter-spacing: .08em; text-transform: uppercase; }
+  .search-btn {
+    background: var(--panel); color: var(--ink-dim);
+    border: 1px solid var(--line); border-radius: 8px;
+    padding: 8px 14px; font-size: 13.5px; letter-spacing: .02em;
+    transition: border-color .15s, color .15s;
+  }
+  .search-btn:hover { border-color: var(--gold); color: var(--ink); }
+
+  main { max-width: 1440px; margin: 0 auto; padding: 30px 28px 80px; }
+
+  /* ---------- landing ---------- */
+  .hero { text-align: center; margin: 18px auto 44px; max-width: 720px; }
+  .hero h2 {
+    font-size: 30px; font-weight: 500; letter-spacing: .04em; margin-bottom: 12px;
+  }
+  .hero p { color: var(--ink-dim); font-size: 15.5px; font-style: italic; }
+  .hero .rule {
+    display: flex; gap: 6px; justify-content: center; margin-top: 22px;
+  }
+  .hero .rule i { width: 44px; height: 2px; border-radius: 2px; opacity: .8; }
+
+  .arch-section { margin-bottom: 42px; }
+  .arch-head { display: flex; align-items: baseline; gap: 14px; margin-bottom: 6px; }
+  .arch-head h3 {
+    font-size: 15px; letter-spacing: .22em; text-transform: uppercase; font-weight: 600;
+  }
+  .arch-head .blurb { color: var(--ink-faint); font-size: 13.5px; font-style: italic; }
+  .arch-rule { height: 1px; margin: 10px 0 18px; background: linear-gradient(90deg, var(--ac), transparent 70%); opacity: .45; }
+  .class-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
+
+  .class-card {
+    text-align: left; background: linear-gradient(160deg, var(--panel-2), var(--panel));
+    border: 1px solid var(--line); border-left: 3px solid var(--ac);
+    border-radius: 10px; padding: 18px 18px 16px; color: var(--ink);
+    display: flex; gap: 14px; align-items: flex-start;
+    transition: transform .15s, border-color .15s, box-shadow .15s;
+  }
+  .class-card:hover {
+    transform: translateY(-2px); border-color: var(--ac);
+    box-shadow: 0 8px 24px rgba(0,0,0,.45);
+  }
+  .class-card .icon { font-size: 26px; line-height: 1.2; flex: none; filter: saturate(.85); }
+  .class-card h4 { font-size: 18px; font-weight: 600; letter-spacing: .03em; }
+  .class-card .tagline { color: var(--ink-dim); font-size: 13.5px; font-style: italic; margin-top: 3px; }
+  .class-card .meta { color: var(--ink-faint); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; margin-top: 10px; }
+
+  /* ---------- family view ---------- */
+  .fam-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 18px; margin-bottom: 8px; flex-wrap: wrap; }
+  .back-btn {
+    background: none; border: 1px solid var(--line); color: var(--ink-dim);
+    border-radius: 8px; padding: 7px 14px; font-size: 13.5px;
+  }
+  .back-btn:hover { border-color: var(--gold); color: var(--ink); }
+  .fam-title { display: flex; gap: 16px; align-items: center; margin: 14px 0 4px; }
+  .fam-title .icon { font-size: 34px; }
+  .fam-title h2 { font-size: 28px; font-weight: 600; letter-spacing: .04em; }
+  .fam-title .chip {
+    font-size: 11.5px; letter-spacing: .18em; text-transform: uppercase;
+    border: 1px solid var(--ac); color: var(--ac);
+    border-radius: 20px; padding: 3px 12px; margin-left: 6px;
+  }
+  .fam-title .tagline { color: var(--ink-dim); font-style: italic; font-size: 14px; }
+  .fam-desc { color: var(--ink-dim); max-width: 860px; font-size: 14.5px; margin: 6px 0 4px; }
+  .tree-hint { color: var(--ink-faint); font-size: 12.5px; font-style: italic; margin: 8px 0 14px; }
+
+  .fam-layout { display: grid; grid-template-columns: minmax(0, 1fr) 400px; gap: 22px; align-items: start; }
+  @media (max-width: 1160px) { .fam-layout { grid-template-columns: 1fr; } }
+
+  .tree-wrap {
+    background: var(--bg-soft);
+    border: 1px solid var(--line-soft); border-radius: 12px;
+    overflow-x: auto; overflow-y: hidden;
+    padding: 6px 0 14px;
+  }
+  .tree { position: relative; }
+  .tree svg { position: absolute; inset: 0; pointer-events: none; }
+  .tree svg path { fill: none; stroke: var(--line); stroke-width: 1.6; transition: stroke .15s; }
+  .tree svg path.lit { stroke: var(--ac); stroke-width: 2.2; filter: drop-shadow(0 0 3px var(--ac)); }
+
+  .tier-head {
+    position: absolute; top: 8px; text-align: center;
+    font-size: 11px; letter-spacing: .2em; text-transform: uppercase; color: var(--ink-faint);
+  }
+  .tier-head b { display: block; color: var(--ink-dim); font-size: 12.5px; letter-spacing: .16em; margin-bottom: 1px; }
+
+  .node {
+    position: absolute; text-align: left;
+    background: linear-gradient(160deg, var(--panel-2), var(--panel));
+    border: 1px solid var(--line); border-left: 3px solid var(--ac);
+    border-radius: 8px; padding: 9px 12px 8px; color: var(--ink);
+    transition: border-color .15s, box-shadow .15s, opacity .15s, transform .1s;
+  }
+  .node:hover { border-color: var(--ac); transform: translateY(-1px); }
+  .node .n-name { font-size: 13.5px; font-weight: 600; letter-spacing: .02em; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .node .n-meta { font-size: 10.5px; color: var(--ink-faint); letter-spacing: .14em; text-transform: uppercase; margin-top: 3px; display: block; }
+  .node.on-path { border-color: var(--ac); }
+  .node.dimmed { opacity: .38; }
+  .node.selected {
+    border-color: var(--ac);
+    box-shadow: 0 0 0 1px var(--ac), 0 0 20px color-mix(in srgb, var(--ac) 35%, transparent);
+    opacity: 1;
+  }
+
+  /* ---------- detail panel ---------- */
+  .detail {
+    background: linear-gradient(170deg, var(--panel-2), var(--panel));
+    border: 1px solid var(--line); border-top: 3px solid var(--ac);
+    border-radius: 12px; padding: 22px 24px 24px;
+    position: sticky; top: 92px;
+    max-height: calc(100vh - 116px); overflow-y: auto;
+  }
+  @media (max-width: 1160px) { .detail { position: static; max-height: none; } }
+  .crumbs { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 14px; align-items: center; }
+  .crumbs .sep { color: var(--ink-faint); font-size: 11px; }
+  .crumb {
+    background: none; border: 1px solid var(--line); color: var(--ink-dim);
+    font-size: 11.5px; border-radius: 14px; padding: 2px 10px; letter-spacing: .04em;
+  }
+  .crumb:hover { border-color: var(--ac); color: var(--ink); }
+  .crumb.here { border-color: var(--ac); color: var(--ac); }
+  .detail h2 { font-size: 23px; font-weight: 600; letter-spacing: .03em; margin-bottom: 6px; }
+  .badges { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+  .badge {
+    font-size: 11px; letter-spacing: .14em; text-transform: uppercase;
+    border: 1px solid var(--line); color: var(--ink-dim);
+    border-radius: 4px; padding: 3px 9px;
+  }
+  .badge.tier { border-color: var(--ac); color: var(--ac); }
+  .lore { font-style: italic; color: var(--ink-dim); border-left: 2px solid var(--ac); padding-left: 14px; margin-bottom: 16px; font-size: 14.5px; }
+  .d-label { font-size: 11px; letter-spacing: .22em; text-transform: uppercase; color: var(--ink-faint); margin: 18px 0 8px; }
+  .playstyle { font-size: 14.5px; color: var(--ink); }
+  .abilities { list-style: none; }
+  .abilities li { padding: 8px 0; border-bottom: 1px solid var(--line-soft); font-size: 14px; }
+  .abilities li:last-child { border-bottom: none; }
+  .abilities b { color: var(--gold); font-weight: 600; letter-spacing: .02em; }
+  .abilities span { color: var(--ink-dim); }
+
+  .steps { list-style: none; counter-reset: step; }
+  .steps li {
+    counter-increment: step; position: relative;
+    padding: 7px 0 7px 38px; font-size: 14px; color: var(--ink);
+  }
+  .steps li::before {
+    content: counter(step, upper-roman);
+    position: absolute; left: 0; top: 8px;
+    width: 26px; text-align: center;
+    font-size: 11px; color: var(--ac); border: 1px solid var(--line);
+    border-radius: 4px; padding: 1px 0; letter-spacing: .05em;
+  }
+  .road-btn {
+    width: 100%; margin-top: 18px;
+    background: none; border: 1px solid var(--line); color: var(--ink-dim);
+    border-radius: 8px; padding: 9px 12px; font-size: 13px; letter-spacing: .06em;
+  }
+  .road-btn:hover { border-color: var(--gold); color: var(--gold); }
+  .full-road h5 {
+    font-size: 13.5px; color: var(--ink); font-weight: 600; letter-spacing: .04em;
+    margin: 16px 0 2px; display: flex; align-items: baseline; gap: 8px;
+  }
+  .full-road h5 small { color: var(--ink-faint); font-weight: 400; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; }
+  .kids { display: flex; flex-wrap: wrap; gap: 8px; }
+  .kid {
+    background: none; border: 1px solid var(--line); color: var(--ink);
+    border-radius: 8px; padding: 6px 12px; font-size: 13px;
+  }
+  .kid:hover { border-color: var(--ac); }
+  .kid small { color: var(--ink-faint); margin-left: 6px; font-size: 11px; }
+  .apex { color: var(--ink-faint); font-style: italic; font-size: 13px; }
+
+  /* ---------- search ---------- */
+  .veil {
+    position: fixed; inset: 0; z-index: 50;
+    background: rgba(8,8,11,.72); backdrop-filter: blur(4px);
+    display: grid; justify-items: center; align-items: start; padding: 12vh 20px 20px;
+  }
+  .veil[hidden] { display: none; }
+  .search-box {
+    width: min(640px, 100%); background: var(--panel-2);
+    border: 1px solid var(--line); border-radius: 12px; overflow: hidden;
+    box-shadow: 0 24px 60px rgba(0,0,0,.6);
+  }
+  .search-box input {
+    width: 100%; background: none; border: none; outline: none;
+    color: var(--ink); font-family: var(--serif); font-size: 17px;
+    padding: 16px 20px; border-bottom: 1px solid var(--line-soft);
+  }
+  .results { max-height: 52vh; overflow-y: auto; }
+  .result {
+    display: flex; align-items: center; gap: 12px; width: 100%; text-align: left;
+    background: none; border: none; border-bottom: 1px solid var(--line-soft);
+    padding: 11px 20px; color: var(--ink); font-size: 14.5px;
+  }
+  .result:hover { background: var(--panel); }
+  .result .r-fam { color: var(--ink-faint); font-size: 12px; margin-left: auto; text-align: right; flex: none; }
+  .result .r-dot { width: 8px; height: 8px; border-radius: 50%; flex: none; }
+  .result small { color: var(--ink-faint); }
+  .no-results { padding: 18px 20px; color: var(--ink-faint); font-style: italic; font-size: 14px; }
+
+  footer { text-align: center; color: var(--ink-faint); font-size: 12px; letter-spacing: .08em; padding: 24px; border-top: 1px solid var(--line-soft); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand" id="brand" title="Return to the codex">
+    <div class="brand-mark">✦</div>
+    <div>
+      <h1>Codex of Ascension</h1>
+      <div class="sub">Fifteen origins. Two hundred twenty-five destinies.</div>
+    </div>
+  </div>
+  <div class="head-right">
+    <div class="head-stats" id="headStats"></div>
+    <button class="search-btn" id="searchBtn">⌕ &nbsp;Search the codex&hairsp;… &nbsp;<span style="opacity:.55">/</span></button>
+  </div>
+</header>
+
+<main id="app"></main>
+
+<footer>CODEX OF ASCENSION · CHOOSE YOUR ORIGIN, WALK IT TO MYTH</footer>
+
+<div class="veil" id="veil" hidden>
+  <div class="search-box">
+    <input id="searchInput" placeholder="Search ranks, roles, classes… (Esc to close)" autocomplete="off">
+    <div class="results" id="results"></div>
+  </div>
+</div>
+
+<script>window.CODEX = /*__DATA__*/null;</script>
+<script>
+(function () {
+  'use strict';
+  const DATA = window.CODEX;
+  if (!DATA || !DATA.families) { document.getElementById('app').textContent = 'Codex data missing — run tools/build.js.'; return; }
+
+  const ARCH = {
+    Might:    { color: 'var(--might)',    blurb: 'Steel, sinew, and the refusal to fall.' },
+    Cunning:  { color: 'var(--cunning)',  blurb: 'Wits sharp enough to cut where blades cannot.' },
+    Arcane:   { color: 'var(--arcane)',   blurb: 'Power studied, inherited, or borrowed at interest.' },
+    Spirit:   { color: 'var(--spirit)',   blurb: 'Faith, nature, and breath made manifest.' },
+    Esoteric: { color: 'var(--esoteric)', blurb: 'The forbidden arts that fit no tradition.' },
+  };
+  const ARCH_ORDER = ['Might', 'Cunning', 'Arcane', 'Spirit', 'Esoteric'];
+  const TIERS = [
+    { n: 'I',   label: 'Initiate',   lv: 1  },
+    { n: 'II',  label: 'Adept',      lv: 10 },
+    { n: 'III', label: 'Specialist', lv: 25 },
+    { n: 'IV',  label: 'Elite',      lv: 40 },
+    { n: 'V',   label: 'Mythic',     lv: 60 },
+  ];
+
+  /* ----- indexes ----- */
+  const fams = DATA.families;
+  const famById = {};
+  const nodeById = {};   // "fam.node" -> node
+  const childrenOf = {}; // "fam.node" -> [node,...]
+  for (const f of fams) {
+    famById[f.id] = f;
+    for (const n of f.nodes) {
+      nodeById[n.id] = n;
+      n._fam = f.id;
+      if (n.parent) (childrenOf[n.parent] = childrenOf[n.parent] || []).push(n);
+    }
+  }
+  const lineage = n => { const out = []; let cur = n; while (cur) { out.unshift(cur); cur = cur.parent ? nodeById[cur.parent] : null; } return out; };
+  const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const acOf = f => ARCH[f.archetype] ? ARCH[f.archetype].color : 'var(--gold)';
+
+  const nNodes = fams.reduce((a, f) => a + f.nodes.length, 0);
+  document.getElementById('headStats').textContent =
+    ARCH_ORDER.length + ' archetypes · ' + fams.length + ' origins · ' + nNodes + ' ranks';
+
+  /* ----- tree geometry (fixed 1-2-4-4-4 topology) ----- */
+  const CW = 182, CH = 60, GX = 62, RH = 92, PX = 18, HY = 56;
+  const ROW = { t1: 1.5, t2a: 0.5, t2b: 2.5 };
+  const rowOf = id => {
+    const s = id.slice(id.lastIndexOf('.') + 1);
+    if (ROW[s] !== undefined) return ROW[s];
+    return { a: 0, b: 1, c: 2, d: 3 }[s.slice(-1)];
+  };
+  const colX = t => PX + (t - 1) * (CW + GX);
+  const rowY = r => HY + r * RH;
+  const TREE_W = PX * 2 + 5 * CW + 4 * GX;
+  const TREE_H = HY + 3 * RH + CH + 18;
+
+  /* ----- views ----- */
+  const app = document.getElementById('app');
+  let fullRoad = false;
+
+  function renderHome() {
+    let h = '<div class="hero">' +
+      '<h2>Every legend begins as a beginner.</h2>' +
+      '<p>Choose one of fifteen origins. Each unfolds through five tiers of written trials — from first oath to mythic apotheosis — along four diverging destinies.</p>' +
+      '<div class="rule">' + ARCH_ORDER.map(a => '<i style="background:' + ARCH[a].color + '"></i>').join('') + '</div></div>';
+    for (const a of ARCH_ORDER) {
+      const list = fams.filter(f => f.archetype === a);
+      if (!list.length) continue;
+      h += '<section class="arch-section" style="--ac:' + ARCH[a].color + '">' +
+        '<div class="arch-head"><h3 style="color:' + ARCH[a].color + '">' + esc(a) + '</h3>' +
+        '<span class="blurb">' + esc(ARCH[a].blurb) + '</span></div><div class="arch-rule"></div><div class="class-grid">';
+      for (const f of list) {
+        h += '<button class="class-card" data-go="#/f/' + f.id + '" style="--ac:' + acOf(f) + '">' +
+          '<span class="icon">' + f.icon + '</span><span>' +
+          '<h4>' + esc(f.name) + '</h4>' +
+          '<div class="tagline">' + esc(f.tagline) + '</div>' +
+          '<div class="meta">' + f.nodes.length + ' ranks · 4 mythic destinies</div>' +
+          '</span></button>';
+      }
+      h += '</div></section>';
+    }
+    app.innerHTML = h;
+  }
+
+  function edgePath(p, c) {
+    const x1 = colX(p.tier) + CW, y1 = rowY(rowOf(p.id)) + CH / 2;
+    const x2 = colX(c.tier), y2 = rowY(rowOf(c.id)) + CH / 2;
+    return 'M' + x1 + ' ' + y1 + ' C' + (x1 + GX / 2) + ' ' + y1 + ',' + (x2 - GX / 2) + ' ' + y2 + ',' + x2 + ' ' + y2;
+  }
+
+  function renderFamily(famId, nodeId) {
+    const f = famById[famId];
+    if (!f) { location.hash = '#/'; return; }
+    const sel = nodeById[nodeId] && nodeById[nodeId]._fam === famId ? nodeById[nodeId] : f.nodes[0];
+    const ac = acOf(f);
+    const path = new Set(lineage(sel).map(n => n.id));
+    const dimOthers = sel.tier > 1; // with the root selected, the whole tree is still ahead of you
+
+    let svg = '<svg width="' + TREE_W + '" height="' + TREE_H + '" viewBox="0 0 ' + TREE_W + ' ' + TREE_H + '">';
+    let cards = '';
+    for (const n of f.nodes) {
+      if (n.parent) {
+        const lit = path.has(n.id) && path.has(n.parent);
+        svg += '<path d="' + edgePath(nodeById[n.parent], n) + '"' + (lit ? ' class="lit"' : '') + '/>';
+      }
+      const cls = 'node' + (n.id === sel.id ? ' selected' : path.has(n.id) ? ' on-path' : dimOthers ? ' dimmed' : '');
+      cards += '<button class="' + cls + '" data-go="#/f/' + f.id + '/' + n.id + '" ' +
+        'style="left:' + colX(n.tier) + 'px;top:' + rowY(rowOf(n.id)) + 'px;width:' + CW + 'px;height:' + CH + 'px" ' +
+        'title="' + esc(n.name) + '">' +
+        '<span class="n-name">' + esc(n.name) + '</span>' +
+        '<span class="n-meta">Tier ' + TIERS[n.tier - 1].n + ' · Lv ' + n.level + '</span></button>';
+    }
+    svg += '</svg>';
+    let heads = '';
+    for (let t = 1; t <= 5; t++) {
+      heads += '<div class="tier-head" style="left:' + colX(t) + 'px;width:' + CW + 'px">' +
+        '<b>' + TIERS[t - 1].n + ' — ' + TIERS[t - 1].label + '</b>Level ' + TIERS[t - 1].lv + '</div>';
+    }
+
+    app.innerHTML =
+      '<div style="--ac:' + ac + '">' +
+      '<div class="fam-top"><button class="back-btn" data-go="#/">← All origins</button></div>' +
+      '<div class="fam-title"><span class="icon">' + f.icon + '</span>' +
+      '<div><h2>' + esc(f.name) + '<span class="chip">' + esc(f.archetype) + '</span></h2>' +
+      '<div class="tagline">' + esc(f.tagline) + '</div></div></div>' +
+      '<p class="fam-desc">' + esc(f.description) + '</p>' +
+      '<p class="tree-hint">Click a rank to read its lore and the written road that leads to it. Its lineage lights up in the tree.</p>' +
+      '<div class="fam-layout">' +
+      '<div class="tree-wrap"><div class="tree" style="width:' + TREE_W + 'px;height:' + TREE_H + 'px">' + svg + heads + cards + '</div></div>' +
+      '<aside class="detail" id="detail">' + detailHTML(f, sel) + '</aside>' +
+      '</div></div>';
+  }
+
+  function detailHTML(f, n) {
+    const chain = lineage(n);
+    const crumbs = chain.map((c, i) =>
+      (i ? '<span class="sep">›</span>' : '') +
+      '<button class="crumb' + (c.id === n.id ? ' here' : '') + '" data-go="#/f/' + f.id + '/' + c.id + '">' + esc(c.name) + '</button>'
+    ).join('');
+
+    let road;
+    if (fullRoad && chain.length > 1) {
+      road = '<div class="d-label">The Full Road — ' + esc(chain[0].name) + ' to ' + esc(n.name) + '</div><div class="full-road">' +
+        chain.map(c =>
+          '<h5>' + esc(c.name) + ' <small>Tier ' + TIERS[c.tier - 1].n + ' · Lv ' + c.level + '</small></h5>' +
+          '<ol class="steps">' + c.progressionSteps.map(s => '<li>' + esc(s) + '</li>').join('') + '</ol>'
+        ).join('') + '</div>' +
+        '<button class="road-btn" data-road="off">Show this rank only</button>';
+    } else {
+      road = '<div class="d-label">' + (n.tier === 1 ? 'Taking the First Step' : 'The Road to ' + esc(n.name)) + '</div>' +
+        '<ol class="steps">' + n.progressionSteps.map(s => '<li>' + esc(s) + '</li>').join('') + '</ol>' +
+        (chain.length > 1 ? '<button class="road-btn" data-road="on">≡ Trace the full road from ' + esc(chain[0].name) + '</button>' : '');
+    }
+
+    const kids = (childrenOf[n.id] || []);
+    const onward = kids.length
+      ? '<div class="d-label">From Here the Path Divides</div><div class="kids">' +
+        kids.map(k => '<button class="kid" data-go="#/f/' + f.id + '/' + k.id + '">' + esc(k.name) +
+          '<small>Lv ' + k.level + '</small></button>').join('') + '</div>'
+      : '<div class="d-label">Apex</div><p class="apex">There is no rank beyond this one — only the stories they will tell.</p>';
+
+    return '<div class="crumbs">' + crumbs + '</div>' +
+      '<h2>' + esc(n.name) + '</h2>' +
+      '<div class="badges"><span class="badge tier">Tier ' + TIERS[n.tier - 1].n + ' — ' + TIERS[n.tier - 1].label + '</span>' +
+      '<span class="badge">Level ' + n.level + '</span><span class="badge">' + esc(n.role) + '</span></div>' +
+      '<p class="lore">' + esc(n.lore) + '</p>' +
+      '<div class="d-label">Playstyle</div><p class="playstyle">' + esc(n.playstyle) + '</p>' +
+      '<div class="d-label">Abilities Granted</div><ul class="abilities">' +
+      n.abilities.map(a => '<li><b>' + esc(a.name) + '.</b> <span>' + esc(a.desc) + '</span></li>').join('') + '</ul>' +
+      road + onward;
+  }
+
+  /* ----- search ----- */
+  const veil = document.getElementById('veil');
+  const input = document.getElementById('searchInput');
+  const resultsEl = document.getElementById('results');
+  const searchIndex = [];
+  for (const f of fams) for (const n of f.nodes) {
+    searchIndex.push({ f, n, hay: (n.name + ' ' + n.role + ' ' + f.name + ' ' + f.archetype).toLowerCase() });
+  }
+  function openSearch() { veil.hidden = false; input.value = ''; runSearch(''); setTimeout(() => input.focus(), 0); }
+  function closeSearch() { veil.hidden = true; }
+  function runSearch(q) {
+    q = q.trim().toLowerCase();
+    const hits = q
+      ? searchIndex.filter(e => e.hay.includes(q)).slice(0, 40)
+      : searchIndex.filter(e => e.n.tier === 5).slice(0, 40); // idle: show the myths
+    resultsEl.innerHTML = hits.length
+      ? hits.map(e =>
+          '<button class="result" data-go="#/f/' + e.f.id + '/' + e.n.id + '">' +
+          '<span class="r-dot" style="background:' + acOf(e.f) + '"></span>' +
+          '<span>' + esc(e.n.name) + ' <small>· Tier ' + TIERS[e.n.tier - 1].n + '</small></span>' +
+          '<span class="r-fam">' + e.f.icon + ' ' + esc(e.f.name) + '</span></button>'
+        ).join('')
+      : '<div class="no-results">Nothing in the codex answers to that name.</div>';
+  }
+  input.addEventListener('input', () => runSearch(input.value));
+  veil.addEventListener('click', e => { if (e.target === veil) closeSearch(); });
+  document.getElementById('searchBtn').addEventListener('click', openSearch);
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') closeSearch();
+    else if (e.key === '/' && veil.hidden && document.activeElement !== input) { e.preventDefault(); openSearch(); }
+  });
+
+  /* ----- routing & delegation ----- */
+  function route() {
+    const h = location.hash || '#/';
+    const m = h.match(/^#\/f\/([\w-]+)(?:\/([\w.-]+))?$/);
+    if (m) renderFamily(m[1], m[2]); else renderHome();
+    if (!veil.hidden) closeSearch();
+  }
+  document.addEventListener('click', e => {
+    const road = e.target.closest('[data-road]');
+    if (road) {
+      fullRoad = road.dataset.road === 'on';
+      const m = (location.hash || '').match(/^#\/f\/([\w-]+)(?:\/([\w.-]+))?$/);
+      if (m) {
+        const f = famById[m[1]];
+        const n = nodeById[m[2]] || f.nodes[0];
+        document.getElementById('detail').innerHTML = detailHTML(f, n);
+      }
+      return;
+    }
+    const go = e.target.closest('[data-go]');
+    if (go) {
+      const cur = (location.hash || '').match(/^#\/f\/([\w-]+)/);
+      const nxt = go.dataset.go.match(/^#\/f\/([\w-]+)/);
+      if (!(cur && nxt && cur[1] === nxt[1])) fullRoad = false; // keep road mode within a family
+      if (location.hash === go.dataset.go) route(); else location.hash = go.dataset.go;
+    }
+  });
+  document.getElementById('brand').addEventListener('click', () => { location.hash = '#/'; });
+  window.addEventListener('hashchange', route);
+  route();
+})();
+</script>
+</body>
+</html>
