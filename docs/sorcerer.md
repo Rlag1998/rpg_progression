@@ -11,11 +11,19 @@ No tutor chose them and no book explains them. Sorcery arrived with the blood �
 ```text
 Sorcerer (Lv 1)
 ├── Wyrmblooded (Lv 10)
-│   ├── Cinderthroat (Lv 25) → Voice of the Furnace (Lv 40) → Worldpyre (Lv 60)
-│   └── Scalewrought (Lv 25) → The Molted (Lv 40) → The Ancestor (Lv 60)
+│   ├── Cinderthroat (Lv 25)
+│   │   ├── Voice of the Furnace (Lv 40) → Worldpyre (Lv 60) → The False Dawn (Lv 85)
+│   │   └── Shutmouth (Lv 40) → The Indrawn (Lv 60) → The Deferred (Lv 85)
+│   └── Scalewrought (Lv 25)
+│       ├── The Molted (Lv 40) → The Ancestor (Lv 60) → The Inheritance (Lv 85)
+│       └── Scutewright (Lv 40) → Wyrmwall (Lv 60) → Worldkeep (Lv 85)
 └── Stormveined (Lv 10)
-    ├── Levinbrand (Lv 25) → Eye of the Tempest (Lv 40) → Standing Storm (Lv 60)
-    └── Chancewright (Lv 25) → Hazard Saint (Lv 40) → The Unfated (Lv 60)
+    ├── Levinbrand (Lv 25)
+    │   ├── Eye of the Tempest (Lv 40) → Standing Storm (Lv 60) → The Fifth Season (Lv 85)
+    │   └── Thunderless (Lv 40) → The Sudden (Lv 60) → The Long Levin (Lv 85)
+    └── Chancewright (Lv 25)
+        ├── Hazard Saint (Lv 40) → The Unfated (Lv 60) → The Exception (Lv 85)
+        └── Lotcaster (Lv 40) → The Decided (Lv 60) → The Constant (Lv 85)
 ```
 
 ## Tier I — Initiate (Level 1)
@@ -268,6 +276,94 @@ Sorcerer (Lv 1)
 - **Martyr's Odds** — Take a catastrophe aimed elsewhere onto yourself, then shatter it into a hundred harmless inconveniences.
 - **Sainted Coin** — Flip: heads, your next spell is free and doubled; tails, your enemy's is. You may not look first.
 
+### Shutmouth
+
+**Role:** Anti-caster tank — fire absorption and denial · **Advances from:** Cinderthroat
+
+*Where the Voice of the Furnace spends the breath, the Shutmouth keep it. Their vow is a shut mouth: no flame leaves the body, and every fire they meet goes in. Burning cities send for them and watch the blaze drain away like water finding a hole. They whisper, always. A raised voice might kindle something.*
+
+**Playstyle.** Implacable absorption tank. Devour enemy fire and spellwork, grow hotter and harder with everything swallowed, and win by making the field's destruction quietly disappear.
+
+**The road to Shutmouth:**
+
+1. Reach level 40 and eat a burning granary down to cool timbers, swallowing every ember before the roof falls.
+2. Take the vow of the shut mouth at the order's one cold brazier, and whisper from then on.
+3. Sit through a Voice of the Furnace's sermon and inhale it. Apologize afterward, quietly.
+4. Carry the last fire of a dead village in your chest until you find its survivors, so somebody's warmth outlives the map.
+
+**Abilities granted:**
+
+- **Siege Diet** — Inhale a hostile spell or burning zone whole; its remaining strength seals inside you as stacking heat.
+- **The Swallowed Vowel** — Hold your silence for a round; every flame on the field dims, and what the fires lose, you keep.
+- **Sealed Kiln** — Passive — swallowed fire bakes you hard as kiln-clay; your armor rises with every flame you keep.
+- **One Breath Out** — Exhale everything stored in one annihilating cone; your vow, your armor, and the order's patience break with it.
+
+### Scutewright
+
+**Role:** Frontline support — ally armament and protection · **Advances from:** Scalewrought
+
+*The Molted shelve their skins in the cold hall under the mountain; Scutewrights refuse the archive. Every molt goes to the forge still warm, hammered into shields, scale-coats, gates. Their charter holds that the wyrm is a yield, not a destiny, and that the human hand giving it away is the only part worth keeping.*
+
+**Playstyle.** Frontline support-tank. Shed scale deliberately to armor allies mid-battle, anchor shield-lines with your own plate, and grow lighter, quicker, and more human with everything you give.
+
+**The road to Scutewright:**
+
+1. Reach level 40 and forge your first molt into a shield while it still holds your warmth, then give it away the same day.
+2. Stand unarmored behind your own work while a siege tests it.
+3. Visit the cold hall beneath the mountain, view the shelved skins, and decline, in writing.
+4. Armor someone who once feared your hands.
+
+**Abilities granted:**
+
+- **Warm from the Molt** — Clad an ally in freshly shed scale; it fits better than forge-work and burns the first blade that tests it.
+- **Public Armory** — Declare your body the company armory; any ally within reach may tear away a shield's worth of scale, free.
+- **Lighter by Giving** — Passive — every scale given this battle quickens you; fully spent, you cast human-fast, twice as often.
+- **The Smith's Refusal** — Halt your own molt mid-change to halt all shapeshifting nearby; nothing changes form while you refuse to.
+
+### Thunderless
+
+**Role:** Assassin-caster — single-target instant execution · **Advances from:** Levinbrand
+
+*The Eye of the Tempest parks a hurricane as an argument; the Thunderless consider weather a confession. Their doctrine is the bolt from a clear sky — no cloud, no warning, no sound, thunder being only lightning's apology. Border forts that log Levinbrands as weather have no column at all for what the Thunderless are.*
+
+**Playstyle.** Surgical execution from nowhere. Sweep the sky clean, cross impossible distances as a single strike, kill the one correct target, and leave before physics files its report.
+
+**The road to Thunderless:**
+
+1. Reach level 40 and put a bolt through a weathervane from beyond its horizon, under a sky you swept clean first.
+2. Renounce thunder. Practice until the sky agrees to keep your secrets.
+3. Decline a war by ending its one necessary person, and let both armies walk home under clear weather.
+4. Stand inside an Eye's hurricane, unimpressed, and leave without being rained on.
+
+**Abilities granted:**
+
+- **The Blue Bolt** — Strike any target you can name beneath an open sky, from anywhere beneath the same sky.
+- **Apology Withheld** — Passive — your lightning arrives without sound, flash, or omen; wards record it in the past tense.
+- **One Correct Target** — Study a foe for one round; your next strike ignores everything between you — walls, allies, likelihood.
+- **Dry Strike** — Strike without heat or fire, stopping one heart while leaving the grass, the rooftops, and the treaty unburned.
+
+### Lotcaster
+
+**Role:** Debuff controller — misfortune assignment · **Advances from:** Chancewright
+
+*Hazard Saints take catastrophes onto themselves and call it grace; Lotcasters call it bad arithmetic. Their doctrine is conservation: misfortune is never destroyed, only relocated, so somebody honest should choose where it lands. They draw lots for a living. The lots are people, and the order keeps its quills sharp.*
+
+**Playstyle.** Misfortune logistics. Gather every accident, curse, and failure pending on the field, then assign each a recipient; protect allies by addressing their disasters to enemies.
+
+**The road to Lotcaster:**
+
+1. Reach level 40 and walk a city's worst month out the gates piece by piece, to a place you will name to no one.
+2. Attend a Hazard Saint's miracle, then follow the luck downhill to the stranger it landed on. Buy them dinner. Say nothing.
+3. Draw the short lot yourself once a year, in full, so the hand stays honest.
+4. Refuse to let a king choose the recipient. That hand stays yours.
+
+**Abilities granted:**
+
+- **The Drawn Lot** — Mark one enemy as recipient; every misfortune meant for your allies this battle arrives, collected, at that address.
+- **Conservation of Ruin** — Passive — no mishap near you is wasted; each harm prevented banks as one assignable accident.
+- **Somebody's Roof** — Redirect a falling catastrophe, literal or otherwise, onto a target of your choosing; witnesses agree it looked natural.
+- **Short Straw** — Force a group of enemies to draw; one of them — the choice never matters — receives everything at once.
+
 ## Tier V — Mythic (Level 60)
 
 ### Worldpyre
@@ -358,3 +454,269 @@ Sorcerer (Lv 1)
 - **The Unhappened** — Once per battle, one event that just occurred, did not.
 - **Dictated Ending** — Declare how a duel ends before it begins; the world spends the fight arranging it.
 - **Probability Zero** — Step briefly through an outcome no dice could reach — unharmed, elsewhere, already acting.
+
+### The Indrawn
+
+**Role:** Nullification colossus — fire's living absence · **Advances from:** Shutmouth
+
+*Histories record great fires ending mid-street, and the same hooded figure in each account, centuries apart, inhaling. The Indrawn carry every flame they ever swallowed, still burning, in order, remembered — the library fire, the war-pyres, a candle from a child's window. Scholars dispute whether anything person-shaped remains, or only the inside of a fire, walking.*
+
+**Playstyle.** Walking nullification. Nothing burns within your reach without leave; drink whole conflagrations for power and answer siege-scale magic by simply being where it ends.
+
+**The road to The Indrawn:**
+
+1. Reach level 60 and end a firestorm the size of a city district in one unbroken breath.
+2. Swallow a Worldpyre's exhalation, or survive refusing to. Histories disagree on which you did.
+3. Let the order examine your chest with mirrors and augurs, and let them find the old library fire inside, still burning, page by page.
+4. Refuse a fire cult's worship politely, twice.
+
+**Abilities granted:**
+
+- **Drink the Field** — Inhale every flame, spark, and burning surface in sight; each one banked grants a surge of stored power.
+- **The Ark of Fires** — Kindle the memory of any fire you have ever swallowed — its light, heat, and appetite — without releasing the original.
+- **Kneeling Flame** — Passive — fire will not act against you; enemy flames gutter, lean toward you, and go out apologizing.
+- **Century Lung** — Take any single effect — spell, breath, falling star — wholly into yourself, and hold it there indefinitely.
+
+### Wyrmwall
+
+**Role:** Living fortification — army-scale protection · **Advances from:** Scutewright
+
+*One northern border is walled for forty miles in overlapping scale, and the wall is warm. Histories dispute whether the Wyrmwall built it or is it; the garrison repairs nothing, because the wall repairs itself, and in hard winters it breathes. Somewhere along those miles stands a human outline where the last scale went — the frontier's softest point, never reached.*
+
+**Playstyle.** Army-scale protection. Extend your plate across formations, walls, and miles; be the fortification the battle happens against, and keep the one gate that is yourself.
+
+**The road to Wyrmwall:**
+
+1. Reach level 60 and hold a border alone for one winter as its wall, gates, and garrison.
+2. Give the last scale away, and learn what the human left over is for.
+3. Let a war spend itself against you, then count what you kept standing, not what you broke.
+4. Stay so long the maps mark you. Correct their spelling once.
+
+**Abilities granted:**
+
+- **Forty-Mile Molt** — Extend your scale along a chosen line to the horizon; it stands as fortress wall until you next sleep.
+- **The Warm Gate** — Open a door shaped like yourself in any wall of yours; who passes is your choice, and the wall remembers faces.
+- **Breathing Battlement** — Passive — fortifications you become or touch repair themselves, run warm, and cannot be tunneled under, because they notice.
+- **Softest Point** — Stand bare at your wall's heart; while you remain its only weakness, no other part of it can fail.
+
+### The Sudden
+
+**Role:** Execution incarnate — the unannounced end · **Advances from:** Thunderless
+
+*Coroners four centuries apart record the same signature: clear day, one mark, no sound reported. Histories treat the Sudden as a family, a curse, or a superstition of well-guarded men, because the alternative is a single person for whom every open sky is the same sky. Guards do not fail against the Sudden. They finish blinking.*
+
+**Playstyle.** Be the moment between safe and struck. Exist only at points of contact, unfindable between them, and end engagements that never learn they began.
+
+**The road to The Sudden:**
+
+1. Reach level 60 and end a crowned tyrant at noon, in the open, before the taster has swallowed.
+2. Let scholars prove you are four different people. Provide the fourth's alibi yourself.
+3. Spare one target at the moment of contact, and let them spend a lifetime explaining the weather.
+4. Never be seen arriving. The day you are, retire.
+
+**Abilities granted:**
+
+- **Same Sky** — All open sky is one place to you; step from any point beneath it to any other, arriving as the strike.
+- **Finished Blinking** — Passive — nothing may react to your first action in a battle, since the battle begins after it lands.
+- **Cloudless Alibi** — You are verifiably elsewhere until the instant of contact; the world backfills your journey afterward, poorly.
+- **One Mark** — Your strike leaves a single mark and takes a single life, regardless of armor, contingencies, or how certain the survival was.
+
+### The Decided
+
+**Role:** Outcome authority — inevitability made present · **Advances from:** Lotcaster
+
+*Around most legends the histories multiply; around the Decided they converge, every source suddenly agreeing, which frightens archivists more than any contradiction. Nothing near them stays pending. Coins land before the flip; harvests come in at the number already written in the margin. Whether they decide outcomes or merely attend them is the one question left open.*
+
+**Playstyle.** Inevitability control. Declare results and let causality do the paperwork; strip randomness from enemies who live on it, and stand immune to every gamble in reach.
+
+**The road to The Decided:**
+
+1. Reach level 60 and call a kingdom's harvest, war, and succession a year ahead, publicly, to the digit.
+2. Cancel a Hazard Saint's miracle by having scheduled its failure the previous spring.
+3. Keep one thing you never decided — small, wild, yours — or calcify.
+4. Let the archives converge on you, and correct not one word.
+
+**Abilities granted:**
+
+- **Already Landed** — Passive — all randomness within reach resolves instantly and permanently; nothing near you may be rerolled, hedged, or hoped at.
+- **The Agreed Version** — Declare aloud what is about to happen; every account, including reality's, converges on yours.
+- **Margin Number** — Fix the exact result of the next effect, yours or an enemy's, before it occurs; the number is honored.
+- **No Further Bets** — Remove one enemy's access to chance entirely; their lucky escapes and miracle recoveries are no longer among their outcomes.
+
+## Tier VI — Apotheosis (Level 85)
+
+### The False Dawn
+
+**Role:** Horizon-scale erasure — light before the sun · **Advances from:** Worldpyre
+
+*The last Worldpyre's pyre did not go out; it went up. There is a light now that comes before sunrise, listed separately in the almanacs, and farmers wake by it, and armies disband under it. The False Dawn is that light — still technically a person, still on two kingdoms' registries, filed under weather by clerks who prefer not to specify.*
+
+**Playstyle.** Fight as the world's second light. Appear on the horizon before you exist anywhere, burn at dawn-scale, and end wars by the act of rising.
+
+**The road to The False Dawn:**
+
+1. Reach level 85 and let your pyre light itself while you still need the body. Step off it, lit.
+2. Spend a year as the light the farmers wake by, and scorch nothing.
+3. Be surveyed as terrain, taxed as territory, and answer the assessors politely.
+4. Set, once. See what the world does with the dark. Rise anyway.
+
+**Abilities granted:**
+
+- **Second Sunrise** — Break over the horizon ahead of the sun; for a span, every fire on the field is dawn, and dawn is yours.
+- **Cartographer's Grief** — Convert all terrain in sight to level glass; the new maps are the surveyors' problem.
+- **The Lit Rim** — Passive — you are visible from a day's march in every direction, and everything that sees you understands exactly what it sees.
+- **Gentle Morning** — Choose one place inside your light to spare; until dusk, nothing and no one can burn it.
+
+### The Inheritance
+
+**Role:** Bloodline sovereign — dominion through descent · **Advances from:** The Ancestor
+
+*The Ancestor waited ahead of the bloodline; the Inheritance is the bloodline. No single body holds them now — they are what the blood carries: the mountain every gifted child sees from above, the heat in a stranger's spit, the luck that runs in families. Genealogists tracing any sorcerer back far enough arrive at the same name, and stop publishing.*
+
+**Playstyle.** Dynastic presence. Fight through the gift itself — kindle, steady, or still the blood of every sorcerous creature present, ally and enemy alike, as family business.
+
+**The road to The Inheritance:**
+
+1. Reach level 85 and be dreamed, on the same night, by every gifted child on the continent.
+2. Attend a descendant's naming-day unrecognized, and leave the granary standing.
+3. Let go of the one body. The blood has room.
+4. Answer a genealogist's letter honestly. Enclose nothing flammable.
+
+**Abilities granted:**
+
+- **Seen From Above** — Passive — every carrier of the gift has dreamed you; sorcerous enemies fight you without a whole heart.
+- **Kindle the Line** — Wake the dormant gift in any creature's blood for one battle; it surges loyal to you first.
+- **Call the Gift Home** — Silence one inherited power mid-cast and take it into yourself, already lit.
+- **The Long Bequest** — Die, and choose where along the line the whole of you wakes; the world calls this succession, not death.
+
+### The Fifth Season
+
+**Role:** Living season — continental weather sovereignty · **Advances from:** Standing Storm
+
+*The Standing Storm dispersed one last time and never fully regathered; what gathers instead is a season. Almanacs in the affected provinces now print five, the fifth arriving without date and staying as long as grief requires. Farmers do not curse it. It remembers roofs, mercies, and every place that once made it rain gently.*
+
+**Playstyle.** Season-scale control. Battlefields do not host you; they occur inside your weather. Dictate climate across provinces and let the sky conduct the actual fighting.
+
+**The road to The Fifth Season:**
+
+1. Reach level 85 and stay dispersed past all reassembly, until the sky keeps your shape out of habit.
+2. Be added to the almanacs as a season, over the astronomers' objections.
+3. Skip one year over the province that prayed loudest, and let them consider what the praying is for.
+4. Rain gently, again, on the place that wronged you. Make it a custom.
+
+**Abilities granted:**
+
+- **Out of Calendar** — Arrive as weather no forecast can hold; every plan, ambush, and divination that relied on the sky simply fails.
+- **Remembered Roofs** — Passive — no storm of yours harms what you have once chosen to spare; the sky keeps your lists.
+- **Harvest of Lightning** — Seed a province's clouds across the season, then reap every stored bolt at once, wherever you are standing.
+- **Blood Weather** — Passive — the season runs in your family; wherever your kin bleed, your weather is already overhead.
+
+### The Exception
+
+**Role:** Standing exemption — reality's sole caveat · **Advances from:** The Unfated
+
+*Natural law is written in general terms, and in the fine print of each one there is now a name-shaped gap. The Exception is what the Unfated became when probability stopped withdrawing and formally recused itself. Scholars end their proofs 'save one.' So, more quietly, do gods.*
+
+**Playstyle.** Exemption warfare. Rules, physics, and fates apply to everyone else; walk through consequences selectively and extend your fine print, briefly, to allies about to be ruled against.
+
+**The road to The Exception:**
+
+1. Reach level 85 and be formally recused by probability, witnessed by an oracle, a court, and a falling stone that reconsiders.
+2. Read the fine print of a divine decree and find your name already exempted, in an older hand.
+3. Break no rule for a decade. Exemption is not appetite.
+4. Leave one law you still obey, unnamed, so you and the world stay on speaking terms.
+
+**Abilities granted:**
+
+- **Save One** — Passive — every rule, law, spell, and certainty operating on the field applies to everyone but you.
+- **Recusal** — One law of nature declines involvement in the current battle — gravity, fire's heat, the straightness of arrows.
+- **Extended Caveat** — Write an ally into your fine print until dawn; nothing sworn, written, or foretold can hold them.
+- **The General Case** — Rejoin the rules for a single act; the world, out of sheer relief, lets that act succeed completely.
+
+### The Deferred
+
+**Role:** Suspended cataclysm — fire's absolute custody · **Advances from:** The Indrawn
+
+*One breath now holds every fire the line ever swallowed, and every fire wants out. The world has quietly rearranged itself around the exhale that must never happen: wars relocate, prophets footnote their endings, doomsday sects time their vigils to the Deferred's breathing. Postponement, kept long enough, becomes a kind of mercy the world builds calendars around.*
+
+**Playstyle.** Cosmological deterrent. Fight in fractions of an ending — spend the breath a grain at a time and let every enemy calculate what the whole would cost.
+
+**The road to The Deferred:**
+
+1. Reach level 85 and hold the exhale through your own death and back, so even endings learn to wait on you.
+2. Let three kingdoms draft their treaties around your breathing, and correct none of their arithmetic.
+3. Walk into the world's oldest caldera and swallow what it was saving.
+4. Choose the day. Tell no one. Keep not choosing it, daily.
+
+**Abilities granted:**
+
+- **Fraction of the Breath** — Exhale one ten-thousandth of what you hold, enough to erase the engagement in front of you.
+- **Terms of Deferral** — Declare a span in which nothing in sight may end — no flame, no life, no wall — until you permit it.
+- **The Patient Detonation** — Passive — whatever slays you triggers the exhale; everything that reads futures has advised against it.
+- **Ashen Amnesty** — Pardon one swallowed fire and return it exactly where it was taken from, whatever stands there now.
+
+### Worldkeep
+
+**Role:** World-fortress — final interception of harm · **Advances from:** Wyrmwall
+
+*Wyrmwall held one border; the Worldkeep is what the word wall was practicing for. When catastrophe comes anywhere — flood, horde, falling star — something between it and the people hardens, and the catastrophe is the one that breaks. Strategists no longer plan last stands. There is a standing last stand, and it is a person.*
+
+**Playstyle.** Absolute interception. Harm anywhere near you arrives at you instead; blunt anything, outlast everything, and return each blow with a note on its exact shortfall.
+
+**The road to Worldkeep:**
+
+1. Reach level 85 and be struck by everything one age can produce — siege, star, god's regret — and remain the direction the survivors ran.
+2. Retire the word unbreakable from three languages by existing.
+3. Find the one blow that could end you. Keep it somewhere safe. Never test it.
+4. Let a child's fist be the only thing to hurt you this century, because you decided it should.
+
+**Abilities granted:**
+
+- **Learned Limit** — Passive — anything that strikes you once can never exceed that blow against you again; the world's arsenal only shrinks.
+- **Interposition** — Appear between any blow and any victim in sight; distance, walls, and timing concede.
+- **Bearing Wall** — Declare one structure, formation, or person load-bearing; until dusk, it cannot be the thing that breaks.
+- **The Insufficient World** — Return any attack to its maker with a precise measure of how far short it fell.
+
+### The Long Levin
+
+**Role:** Trans-historical strike — one bolt, still falling · **Advances from:** The Sudden
+
+*A theory suppressed in three universities holds that every clear-sky strike ever recorded is one bolt — loosed before the first storm, threading history, landing where it must. The Long Levin is that bolt's custodian, or its current position; the scholars cannot decide, and the bolt declines to slow down for the seminar.*
+
+**Playstyle.** Fight along time's length. Your strikes may depart years before a battle and arrive during it; seed past and future with landings only you remember scheduling.
+
+**The road to The Long Levin:**
+
+1. Reach level 85 and take custody of the bolt thrown before the first storm — from its previous keeper, mid-flight.
+2. Land three strikes in centuries you never lived, and leave the folklore uncorrected.
+3. Be denied by three universities and confirmed by every farmer's aunt.
+4. Pick the final landing. Walk there, unhurried, over decades.
+
+**Abilities granted:**
+
+- **Thrown Before Storms** — Loose a strike into history rather than distance; it lands on your target at any moment you have ever witnessed.
+- **Old Light** — Passive — strikes from your past battles remain live; on any former battlefield, the air still answers you.
+- **Scheduled Sky** — Name a place and an hour within the age; the bolt is now on its way, and nothing can be elsewhere enough.
+- **The Oldest Arc** — Channel the original strike for one blow that predates wards, armor, and the concept of shelter.
+
+### The Constant
+
+**Role:** Fixed point — the world's one invariable · **Advances from:** The Decided
+
+*Every equation the world runs on carries one term that never varies, and the scholars have stopped pretending it is a number. The Constant is the Decided with its last question closed: it no longer decides or attends — it holds still, and everything else moves relative to it. Astronomers correct their tables; sailors take their bearings; empires calibrate.*
+
+**Playstyle.** Absolute reference frame. You do not act so much as remain; battles reorganize around your fixed value, and whatever contradicts you is the thing that changes.
+
+**The road to The Constant:**
+
+1. Reach level 85 and hold one value — any value — while a god, a war, and an age try to move it.
+2. Be adopted by the astronomers as a correction and by the sailors as a bearing.
+3. Change nothing for a hundred years, including your mind.
+4. Remain. When everything else has moved, be what it moved relative to.
+
+**Abilities granted:**
+
+- **Held Value** — Passive — set your own state at battle's start; nothing may alter it afterward, including you.
+- **Relative Motion** — You do not dodge; the world moves. Every attack's path is recalculated around your unchanged position.
+- **Calibration** — Touch one changing thing — a wound, a rout, a collapsing wall — and fix it at its current value indefinitely.
+- **The Closed Question** — Answer any paradox, prophecy, or wager by existing; effects that require uncertainty fail within your sight.

@@ -11,11 +11,19 @@ Born to alleys and taught by hunger, the Rogue learned that honor is a luxury of
 ```text
 Rogue (Lv 1)
 ├── Whisperknife (Lv 10)
-│   ├── Cupbearer (Lv 25) → Hemlock Deacon (Lv 40) → Mithridate (Lv 60)
-│   └── Anatomist (Lv 25) → Heartstiller (Lv 40) → Hush of Crowns (Lv 60)
+│   ├── Cupbearer (Lv 25)
+│   │   ├── Hemlock Deacon (Lv 40) → Mithridate (Lv 60) → The Theriac (Lv 85)
+│   │   └── Wormwood Herald (Lv 40) → Kingsbane (Lv 60) → The Bitter Season (Lv 85)
+│   └── Anatomist (Lv 25)
+│       ├── Heartstiller (Lv 40) → Hush of Crowns (Lv 60) → The Interregnum (Lv 85)
+│       └── Exciseman (Lv 40) → Clemency (Lv 60) → The Shortfall (Lv 85)
 └── Velvet Hand (Lv 10)
-    ├── Nightlatch (Lv 25) → The Keyless (Lv 40) → Moontaker (Lv 60)
-    └── Intelligencer (Lv 25) → Undercrown (Lv 40) → The Rumor (Lv 60)
+    ├── Nightlatch (Lv 25)
+    │   ├── The Keyless (Lv 40) → Moontaker (Lv 60) → The Dark of the Moon (Lv 85)
+    │   └── Housefriend (Lv 40) → The Bequest (Lv 60) → The Windfall (Lv 85)
+    └── Intelligencer (Lv 25)
+        ├── Undercrown (Lv 40) → The Rumor (Lv 60) → The Unclaimed (Lv 85)
+        └── Tocsin (Lv 40) → The Telling (Lv 60) → The Audit (Lv 85)
 ```
 
 ## Tier I — Initiate (Level 1)
@@ -268,6 +276,94 @@ Rogue (Lv 1)
 - **Turned Coat** — Offer a visible enemy hireling a better deal mid-combat; morale decides the rest.
 - **Sanitation** — Erase an event from a city's official memory: records altered, witnesses paid, ballads rewritten.
 
+### Wormwood Herald
+
+**Role:** Terror assassin — poison as public proclamation · **Advances from:** Cupbearer
+
+*The Heralds of Wormwood call the Hemlock's quiet work wasted: a death no one reads teaches nothing. Their kills happen at high table, mid-toast, unmistakably poison and unprovably theirs. Each carries a signature symptom in place of a seal. Courts that receive one death seldom require a second.*
+
+**Playstyle.** Kill seldom and loudly. One theatrical death, correctly witnessed, wins the sieges, votes, and successions that follow; the fear does the remaining work for you.
+
+**The road to Wormwood Herald:**
+
+1. Reach level 40, then kill a man the Hemlock was paid to spare, publicly, and leave both employers alive to argue doctrine.
+2. Devise your signature symptom and teach it to no one; the trade must learn to read it from the dead alone.
+3. End a duke at his own victory feast, before four hundred guests, and let every physician testify to poison and none to you.
+4. Send a warning instead of a dose once, and watch a border war cancel itself; fear, properly aged, outsells hemlock.
+
+**Abilities granted:**
+
+- **The Public Cup** — Poison a vessel before a watching crowd; no witness, mundane or arcane, can name the moment your hand moved.
+- **Signature Symptom** — Your toxins announce your order as they kill; creatures who witness the death fear you and yours for a season.
+- **Bitter Proclamation** — After a witnessed kill, enemies of your patron in that court suffer dread: penalties to morale, command, and appetite.
+- **Parley Dose** — Spare one poisoned victim; they recover wholly and must carry, verbatim, the message you set in their mouth.
+
+### Exciseman
+
+**Role:** Precision controller — surgical, nonlethal subtraction · **Advances from:** Anatomist
+
+*Excisemen hold that death is a butcher's answer to a clerk's question. Their contracts name a levy, never a life: the duelist's sword-hand, the witch's voice, the treasurer's memory for numbers. The mark wakes lighter, the balance is settled, and the guild's ledgers record no murder at all.*
+
+**Playstyle.** Fight to subtract, not to slay. Target the limb, sense, or skill that makes the enemy dangerous, take exactly that, and leave the rest breathing.
+
+**The road to Exciseman:**
+
+1. Reach level 40, then take a famous swordsman's grip so cleanly he wakes praising the mattress, and duel him honestly a year later.
+2. Serve two years under the Anatomists' chart of gates, then map the forty lesser gates where skills live; publish nothing.
+3. Surrender a levy of your own choosing to a senior Exciseman, so you never price what you have not paid.
+4. Return a levy to a reformed man unasked, and record in the ledger: account closed.
+
+**Abilities granted:**
+
+- **Levy in Kind** — Declare a faculty before striking; on a critical hit, the target loses it until your contract expires.
+- **Anaesthete's Grace** — Your subtractions cause no pain and no waking; victims sleep through the procedure and heal clean by morning.
+- **The Itemized Man** — Appraise a creature to learn which single capacity, removed, would most diminish it.
+- **Return of Levy** — Restore any faculty you removed; the order's power to give back is why its terms are met.
+
+### Housefriend
+
+**Role:** Covert saboteur — insertion, planting, unseen presence · **Advances from:** Nightlatch
+
+*Country folk blame a hearth-spirit when objects appear where none were left; the trade knows better. Housefriends hold that carrying things out is porterage — any porter can subtract. Mastery is addition: the letter in the dead man's desk, the knife on the sleeping king's pillow, sheathed, as instructed.*
+
+**Playstyle.** Enter anywhere, take nothing. Seed rooms with evidence, gifts, and dread; shape what enemies discover and when. The knife on the pillow wins wars the knife in the chest cannot.
+
+**The road to Housefriend:**
+
+1. Reach level 40, then spend a month's nights in a paranoid spymaster's home, leaving one white pebble weekly, until he confesses publicly to crimes no one suspected.
+2. Place a forged codicil in a sealed strongbox the night before probate, and stand among the mourners while it is read aloud.
+3. Return the Keyless order's admission test in reverse: enter their motherhouse and leave your own letter of refusal on the master's pillow.
+4. Arm a coward: leave a loaded crossbow beside a clerk who witnessed too much, and read in the gazettes what courage you installed.
+
+**Abilities granted:**
+
+- **The Sheathed Knife** — Leave a token by a sleeping mark; on waking, they cannot believe themselves safe anywhere for a month.
+- **Settled Dust** — Objects you place acquire the room's dust, wear, and history; investigation dates them as always having been there.
+- **Nobody's Footprints** — While inside another's property you leave no scent, print, or magical residue of entry — only what you choose to leave.
+- **Housewarming** — Spend an unseen hour in a dwelling to learn its household: names, quarrels, hiding places, and who checks the locks.
+
+### Tocsin
+
+**Role:** Disruption controller — weaponized disclosure and panic · **Advances from:** Intelligencer
+
+*Where the Undercrown hoards leverage to govern quietly, the Tocsins hold that a kept secret only protects the strong. They are the bell no one admits installing: archives cracked open at the useful hour, confessions nailed to church doors, ministries emptied by morning. Cities fear the peal more than the fire.*
+
+**Playstyle.** Gather what the powerful buried and detonate it on schedule. Enemies collapse into scandal, mutiny, and resignation before the first blade clears leather.
+
+**The road to Tocsin:**
+
+1. Reach level 40, then break a conspiracy of thirty with three pages, posted where each conspirator's wife, banker, and bishop would read them first.
+2. Refuse to sell a secret at any price once, loudly, so the trade learns you are not a market.
+3. Empty a ministry without a single death: publish its own ledgers and let the arithmetic do the shouting.
+4. Survive the Undercrown's counteroffer — the last three Tocsins who took it are remembered as reliable, wealthy, and silent.
+
+**Abilities granted:**
+
+- **Nailed to the Door** — Publish a target's worst secret across a settlement overnight; their allies, retainers, and creditors act on it at dawn.
+- **Dead Man's Bell** — Delay a disclosure to trigger on conditions you set: a signature, a coronation, your own death.
+- **Mutineer's Proof** — Show a hireling documented proof of their employer's betrayal mid-combat; they stand down or turn.
+- **Unsilenced** — Attempts to gag, censor, buy, or magically hush you fail; your words arrive somewhere, even from a cell.
+
 ## Tier V — Mythic (Level 60)
 
 ### Mithridate
@@ -357,3 +453,268 @@ Rogue (Lv 1)
 - **The Standing Favor** — Once per month, anything mortal hands could plausibly have arranged simply has been.
 - **Author of Coincidence** — Script an accident up to a day ahead: a slipped axle, a misdelivered letter, a guard's fever.
 - **Blank Signature** — Contracts, curses, and prophecies cannot bind you; your name-space in them stays empty.
+
+### Kingsbane
+
+**Role:** Mythic terror — dread that precedes the dose · **Advances from:** Wormwood Herald
+
+*Herbalists list kingsbane as a flower that grows where tyrants are buried; historians list it as a poisoner active across four centuries; both indexes are correct in the ways that matter. When the token arrives — one dried petal, no note — dynasties have abdicated by supper, uneaten.*
+
+**Playstyle.** You rarely poison anyone anymore; the belief that you might is toxin enough. Send petals, empty thrones, and reserve the true dose for those who call the legend a bluff.
+
+**The road to Kingsbane:**
+
+1. Reach level 60, then empty a throne with a single dried petal and no poison at all.
+2. Let a botanist prove kingsbane the flower cannot exist, then send him a pressed specimen with your compliments.
+3. Kill one disbelieving emperor thoroughly enough that the next four require no killing.
+4. Attend a symposium convened to determine whether you are a person, a plant, or a policy, and vote.
+
+**Abilities granted:**
+
+- **One Dried Petal** — Deliver your token to any named ruler regardless of distance or wards; they know its meaning and its sender.
+- **Uneaten Supper** — Every meal in a chosen court reads as poisoned to every test; none of it is, probably.
+- **Where Tyrants Grow** — Learn the crimes of anyone whose death you are considering; the flower does not bloom for the innocent.
+- **The Honest Dose** — Once a season, one victim who dismissed your legend dies of it; no vigilance, taster, or miracle intervenes.
+
+### Clemency
+
+**Role:** Mythic subtractor — disarming the dangerous alive · **Advances from:** Exciseman
+
+*No one Clemency has visited has ever died of the visit, which is why the name is spoken with such fear. Generals wake unable to hold a sword; inquisitors, unable to enjoy cruelty; a conqueror once knelt at his own border, having mislaid the wanting of it. Histories file these as conversions.*
+
+**Playstyle.** End threats by removing what makes them threatening — the hand, the appetite, the nerve. You take nothing away with you; the loss simply stays with them.
+
+**The road to Clemency:**
+
+1. Reach level 60, then end a war by visiting one man: the side that woke to find its genius for siegecraft gone sued for peace by noon.
+2. Visit a tyrant three nights running, taking one appetite each night, and leave a mild administrator ruling competently by Friday.
+3. Stand trial once, voluntarily, and walk free when no court can name a law against making men gentler.
+4. Refuse to visit someone the guild wants unmade, because what makes them dangerous is also what makes them kind.
+
+**Abilities granted:**
+
+- **The Visit** — Reach any warded, guarded, or hidden target while they sleep; your work wakes no one, including them.
+- **Kinder Arithmetic** — Choose what a defeated enemy loses instead of their life: a skill, a hunger, a hatred, a war.
+- **Nothing Fatal** — Your strikes can no longer kill; in exchange no guard, armor, or oath may forbid them.
+- **Counsel of the Lessened** — Enemies who parley with one of your survivors lose their stomach for the field; whole companies have resigned.
+
+### The Bequest
+
+**Role:** Mythic orchestrator — the placed and the found · **Advances from:** Housefriend
+
+*Scholars trace certain dynasties to a will no one wrote, a sword no one lost, a foundling no one abandoned. The Bequest is the name given, carefully, to whoever keeps arranging what posterity finds. Three royal houses rest on documents that entered locked archives overnight; all three know better than to check.*
+
+**Playstyle.** Fight tomorrow's battles by furnishing them tonight. Cache weapons where heroes will stumble, plant proofs where judges will look, and let the finders believe in providence.
+
+**The road to The Bequest:**
+
+1. Reach level 60, then found a dynasty with a birth certificate, a locket, and twenty years of patience.
+2. Leave the right sword in the right lake for the right orphan, and decline all credit for the age that follows.
+3. Let two archivists catalogue your insertions as genuine for thirty years, then leave both their pensions where they will find them.
+4. Attend the coronation your paperwork caused, as nobody in particular, and leave before the toasts.
+
+**Abilities granted:**
+
+- **Left for You** — Objects you place are found only by the finder you name, at the hour you choose, however improbable the path.
+- **Heirloom's Memory** — What you plant acquires generations of provenance: wear, records, and witnesses who honestly remember it.
+- **The Furnished Future** — Once per month, declare you left something useful here weeks ago; it has, in fact, been waiting.
+- **Anonymous Donor** — Nothing you place can be traced to you by craft, court, or divination; the trail ends politely elsewhere.
+
+### The Telling
+
+**Role:** Mythic discloser — truths that end regimes · **Advances from:** Tocsin
+
+*Some centuries end at a battle; the last one ended at a reading. The Telling is what the trade calls the one to whom buried truths travel of their own accord — and the event historians use the word for, when an empire's every secret stood up one morning and testified.*
+
+**Playstyle.** Secrets come to you now; the craft is sequencing. Release one truth and a minister falls; release the docket in order, and the age does.
+
+**The road to The Telling:**
+
+1. Reach level 60 holding proof against every throne on the continent, and let each learn you hold it, and nothing else.
+2. End an empire with a morning's reading in its own great square, and walk out through a crowd too quiet to stop you.
+3. Keep one perfect secret forever, so the world knows your tellings are choices.
+4. Decline to publish the truth that would have won your own pardon; the peal must never ring for the ringer.
+
+**Abilities granted:**
+
+- **Pilgrim Secrets** — Buried truths seek you out: each dawn, learn one secret someone within a day's ride would kill to keep.
+- **The Docket** — Schedule up to seven disclosures across a season; each lands with proof no tribunal can dismiss.
+- **No Grave Deep Enough** — Learn any secret that every living keeper has died holding; the dead's paperwork survives them.
+- **The Hushed Bell** — You cannot be made to reveal what you choose to keep; torture, magic, and bargains return empty.
+
+## Tier VI — Apotheosis (Level 85)
+
+### The Theriac
+
+**Role:** Apotheosis — living cure and living plague · **Advances from:** Mithridate
+
+*Apothecaries in every kingdom sell theriac, the universal antidote, and freely admit the shelf stock is imitation. The original is walking. Where a Theriac lingers, plagues sputter and poisoners retire unpaid; when one dies, the office finds a new body, the way a cure finds its way into a cup.*
+
+**Playstyle.** You are the dose the world takes against itself. Walk into afflictions and end them, or into courts and become one; both are the same errand now.
+
+**The road to The Theriac:**
+
+1. Reach level 85, then walk unarmed into a plague city no god would enter, and walk out at the head of its survivors.
+2. Let the apothecaries' colleges declare you a substance, taxable by weight, and pay the tax in cures.
+3. Bury the previous Theriac with your own hands, and taste what the office leaves in the cup by the grave.
+4. Be prescribed. Somewhere tonight a physician writes your name against a dying child, and you arrive because the dose must.
+
+**Abilities granted:**
+
+- **The Original Recipe** — Your touch ends any poison, plague, venom, or blight, natural or divine, in bodies, wells, or kingdoms.
+- **Walking Dose** — Your presence in a region suppresses all disease and toxin for as long as you remain, and a season after.
+- **Communion of Banes** — Every poison that has ever existed is remembered in your blood; distill any of them from a single drop.
+- **The Refused Pension** — Kings who try to own you sicken of the attempt; no crown, chain, or contract holds the cure.
+
+### The Interregnum
+
+**Role:** Apotheosis — the ending written into thrones · **Advances from:** Hush of Crowns
+
+*Constitutional scholars note that every crown, however absolute, behaves as though subject to review. The Interregnum is the review. No longer a person who ends kings so much as the standing possibility of it, given hands: the pause between reigns has a tenant, and coronation oaths are addressed to it.*
+
+**Playstyle.** You no longer hunt tyrants; tyranny schedules its own appointment with you. Hold the silence between reigns, and end only where every other remedy has failed.
+
+**The road to The Interregnum:**
+
+1. Reach level 85, then govern nothing for a year between two reigns, and hand back a kingdom improved and unsigned.
+2. Spare a tyrant because his people, polled in secret, preferred him; the review must sometimes find for the crown.
+3. Attend your own coronation, decline it, and leave the throne vacant in your honor; that vacancy is your seat.
+4. Be cited in constitutional law as a natural hazard, between flood and lightning, and never once correct the classification.
+
+**Abilities granted:**
+
+- **Subject to Review** — Any ruler you judge has, from that moment, a reign with an ending; you always know the shortest path to it.
+- **Rights of Vacancy** — While a throne stands vacant you cannot be barred, watched, or slowed anywhere its writ once ran.
+- **Addressed in Oaths** — Every coronation oath sworn anywhere binds its swearer to you; break it, and you hear.
+- **One Word, Once** — When the word is spoken into the dark, you may answer it anywhere in the world that night.
+
+### The Dark of the Moon
+
+**Role:** Apotheosis — theft as celestial constant · **Advances from:** Moontaker
+
+*Three nights a month, the moon is nowhere, and no honest record explains where it goes. Astronomers call the interval the dark of the moon; the trade capitalizes it. The office collects the sky's rent and everything else briefly unwatched — and the world, having audited the arrangement, renews it monthly.*
+
+**Playstyle.** Work inside the three unwatched nights, when nothing kept can prove it was ever kept. What you take then was never had; what you return was never missed.
+
+**The road to The Dark of the Moon:**
+
+1. Reach level 85, then spend the three dark nights holding the moon, and return it unpawned; the office is custody, not appetite.
+2. Steal a war: remove its cause from both capitals in the same dark, and let the historians call it exhaustion.
+3. Train the tides to keep your schedule, since the moon already does.
+4. Leave the title's proof where the next Moontaker will find it, three nights before you are anything at all.
+
+**Abilities granted:**
+
+- **Three Nights' Tenure** — During the dark of the moon, take anything unattended by a god's own gaze; ownership updates itself.
+- **The Moon's Alibi** — You were provably elsewhere for any act committed at night; the moon, when asked, corroborates.
+- **Kept Nowhere** — Store what you steal in the same nowhere the moon goes; no divination has found the place, or the moon.
+
+### The Unclaimed
+
+**Role:** Apotheosis — unattributable causation at world scale · **Advances from:** The Rumor
+
+*Every age has victories no one won, fortunes no one made, wars that ended for no recorded reason. Archivists shelve these under events, causes unclaimed, and the shelf is the office. Whoever holds it authors outcomes the way weather does — undeniably, and beyond the reach of any court's subpoena.*
+
+**Playstyle.** Act at the scale of history and be filed as circumstance. Your designs read as harvests, panics, and winds; nothing traces, because there is no longer a you to trace.
+
+**The road to The Unclaimed:**
+
+1. Reach level 85, then end a century-old war so smoothly that both nations celebrate different holidays for different reasons, neither yours.
+2. Become the explanation of last resort: when three universities blame an unclaimed cause, decline, anonymously, to confirm.
+3. Author one kindness per kingdom per year, unclaimed, until the phrase 'it simply worked out' acquires a feast day.
+4. Leave history exactly one proof you existed, misfiled, so the office is a rumor even to its next holder.
+
+**Abilities granted:**
+
+- **Filed Under Weather** — Your operations register to all observation, memory, and prophecy as natural phenomena; insurers pay out accordingly.
+- **The Authorless Act** — Once per season, cause any outcome mortal coordination could theoretically achieve; history supplies a plausible, boring explanation.
+- **Beyond Subpoena** — You cannot be compelled, prophesied, named, or believed in; reports of you die politely in committee.
+- **The Reserved Seat** — Any conspiracy you observe reserves you a seat it cannot see; attend, vote, and depart unminuted.
+
+### The Bitter Season
+
+**Role:** Apotheosis — dread made climate for crowns · **Advances from:** Kingsbane
+
+*Some years, without a single recorded death, every court on the continent eats carefully. Chroniclers call it a bitter season and note the symptoms: taxes soften, amnesties multiply, tyrants take up gardening. The office is a weather now, and somewhere inside it walks the reason, declining every invitation to dine.*
+
+**Playstyle.** Rule by climate. Settle over a realm and let the fear of the cup govern it gently; strike only often enough to keep the forecast honest.
+
+**The road to The Bitter Season:**
+
+1. Reach level 85, then hang your dried petal over a continent for a year in which nobody dies of you at all.
+2. Let three chroniclers date their annals by your seasons, and outlive all three calendars.
+3. Retire a tyrant to his garden without a dose, a petal, or a word; the weather alone should suffice by now.
+4. Break your own season once, for a wedding, and let the courts taste their wine freely for one night; mercy is also a forecast.
+
+**Abilities granted:**
+
+- **Forecast of Petals** — Declare a bitter season over a realm; its rulers govern cautiously, as men who have been warned, because they have.
+- **The Gardener's Year** — While your season stands, no poisoning but yours succeeds anywhere within it; the weather is jealous.
+- **Taster Emeritus** — Any attempt to poison you, ever, anywhere, fails and is reported to you with the sender's name.
+- **Season's End** — Lift your season from a realm that has earned it; the relief that follows is negotiable, and kingdoms know it.
+
+### The Shortfall
+
+**Role:** Apotheosis — the arithmetic of what survives · **Advances from:** Clemency
+
+*The trade's oldest arithmetic — what you may keep is what the knife declines — has acquired an accountant. Theologians dispute whether the Remainder subtracts calamity's worst term or merely counts it; survivors only report that ruin arrives short. Every 'it could have been worse' is, in the office's ledgers, a receipt.*
+
+**Playstyle.** Meet every catastrophe and take something from it before it lands: the plague's worst week, the war's last battle. What remains after you is what survives.
+
+**The road to The Shortfall:**
+
+1. Reach level 85, then meet a famine on the road and take its second year, so the histories record hunger, and no dying.
+2. Meet a prophecy of doom and subtract until the end of the world arrives as a bad decade.
+3. Be worshipped by survivors under a dozen names, and take, from the worship, only the arithmetic.
+4. On your last day, leave the world lighter by exactly what it could not carry, and take nothing with you.
+
+**Abilities granted:**
+
+- **Subtract the Worst Term** — Remove one term from any impending calamity: a battle from a war, a winter from a famine, a name from a list.
+- **What the Knife Declines** — Anyone you have ever diminished is proof against all harm you did not choose; your subtraction is their warranty.
+- **Closing Entry** — Touch a dying creature to decide what of theirs outlives them: a craft, a kindness, a grudge withdrawn.
+- **The Lesser Evil** — When two harms approach, you may make the smaller one certain; the larger, thereby, impossible.
+
+### The Windfall
+
+**Role:** Apotheosis — providence as placed inventory · **Advances from:** The Bequest
+
+*Economists observe that fortune favors the prepared with suspicious consistency: the rope is always long enough, the evidence always surfaces, the orphan always finds the sword. The Windfall is the office that stocks the world's luck — a providence with pockets, paid in outcomes, worshipped accidentally every time someone thanks their stars.*
+
+**Playstyle.** Provision destiny in advance. Salt the world with what its heroes, verdicts, and revolutions will need, then collect your fee in the way things turn out.
+
+**The road to The Windfall:**
+
+1. Reach level 85, then stock a century: cache the swords, wills, and witnesses that three unborn generations will find precisely when the songs say.
+2. Be prayed to by name in a fishing village that thinks you a small god of found things, and leave the nets full.
+3. Let one hero refuse the sword you placed and win anyway, so the office remembers it serves the finding, not the finder.
+4. File the paperwork that makes luck a heresy in one strict kingdom, then flood it with good fortune until the doctrine drowns.
+
+**Abilities granted:**
+
+- **Stocked Providence** — Anywhere you have ever walked, declare you cached exactly what this moment requires; you did.
+- **Thank Your Stars** — Each act of gratitude for good luck within your reach is a prayer you may answer, or invoice.
+- **The Long Rope** — Whatever an ally desperately needs is, once per day each, discovered within arm's reach, slightly used.
+- **Deniable Miracle** — Your interventions withstand divine scrutiny as coincidence; gods reviewing their own miracles find your work indistinguishable and, privately, enviable.
+
+### The Audit
+
+**Role:** Apotheosis — disclosure as natural law · **Advances from:** The Telling
+
+*Seals age, ciphers rot, and every buried thing works slowly toward light: scholars once called this decay. It is a schedule. The Audit is the office that keeps it — the reason 'the truth will out' is a law and not a hope — and empires now fall on dates their founders could have calculated.*
+
+**Playstyle.** Preside over the world's disclosures. Advance them, defer them, or arrive in person as the reckoning; every hidden thing is merely early in your queue.
+
+**The road to The Audit:**
+
+1. Reach level 85, then preside over the scheduled fall of an empire you exposed decades ago, arriving neither early nor armed.
+2. Grant one dying liar a century's grace, because the truth, told then, would have cost more than it paid.
+3. Publish, at last, the one perfect secret you kept as the Telling, and stand in the square while it is read.
+4. Be entered in the ledgers of heaven as an auditor, not an entry, and decline, politely, to reveal your own accounts.
+
+**Abilities granted:**
+
+- **The Schedule of Light** — Know the date any secret will surface unaided; spend your attention to move it, either direction, by years.
+- **Called to Account** — Summon a creature's hidden acts into evidence around them — documents, witnesses, and consequences convene within a day.
+- **Grace Period** — Seal one truth beyond all discovery, including yours, for a mortal lifetime; the office grants extensions rarely and remembers them always.
+- **Opening of the Books** — Once a generation, audit an institution utterly: every secret it keeps becomes known to everyone it governs, simultaneously.

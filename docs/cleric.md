@@ -11,11 +11,19 @@ A Cleric is what happens when a god needs hands. Sworn at a shrine, trained in s
 ```text
 Cleric (Lv 1)
 ├── Warpriest (Lv 10)
-│   ├── Judicar (Lv 25) → Absolver (Lv 40) → Ashen Saint (Lv 60)
-│   └── Consecrant (Lv 25) → Hierophant of the Breach (Lv 40) → Living Reliquary (Lv 60)
+│   ├── Judicar (Lv 25)
+│   │   ├── Absolver (Lv 40) → Ashen Saint (Lv 60) → The Ashfall (Lv 85)
+│   │   └── Ordalist (Lv 40) → The Proving (Lv 60) → The Touchstone (Lv 85)
+│   └── Consecrant (Lv 25)
+│       ├── Hierophant of the Breach (Lv 40) → Living Reliquary (Lv 60) → The Basilica (Lv 85)
+│       └── Crucifer (Lv 40) → Hallowtide (Lv 60) → The Procession (Lv 85)
 └── Vessel (Lv 10)
-    ├── Lazarene (Lv 25) → Threshold Warden (Lv 40) → Wellspring Incarnate (Lv 60)
-    └── Godspeaker (Lv 25) → Anathemist (Lv 40) → The Final Word (Lv 60)
+    ├── Lazarene (Lv 25)
+    │   ├── Threshold Warden (Lv 40) → Wellspring Incarnate (Lv 60) → The Watershed (Lv 85)
+    │   └── Flagellant (Lv 40) → The Stigmatic (Lv 60) → The Passion (Lv 85)
+    └── Godspeaker (Lv 25)
+        ├── Anathemist (Lv 40) → The Final Word (Lv 60) → The Amen (Lv 85)
+        └── Gospeller (Lv 40) → The Evangel (Lv 60) → The Covenant (Lv 85)
 ```
 
 ## Tier I — Initiate (Level 1)
@@ -268,6 +276,94 @@ Cleric (Lv 1)
 - **The God's No** — Countermand one enemy spell or miracle as it happens; its wielder is struck mute for a breath.
 - **Written Doom** — Ink a sentence and seal it; whoever breaks the seal inherits the doom inside.
 
+### Ordalist
+
+**Role:** Elite duelist — shared trials and divine verdicts · **Advances from:** Judicar
+
+*Absolvers sentence; Ordalists object. Their order holds that no conclave may judge what the god can be asked directly, so they administer the asking — iron, water, fire, single combat. The accused who survives an Ordalist's trial walks free, whatever bishops wanted. The two orders share a corridor at the mother-temple and have not shared a word in a century.*
+
+**Playstyle.** Bind yourself and one enemy into the same trial: shared flames, shared iron, shared terms. You train to survive what you inflict, and the god keeps score.
+
+**The road to Ordalist:**
+
+1. Reach level 40 and undergo all four ordeals yourself — iron, water, fire, and combat — so you know exactly what you will be asking.
+2. Interrupt a lawful execution because the accused demanded trial, and stand as the ordeal's second against the Absolver who came to finish it.
+3. Administer the trial of someone you are certain is guilty, and open the gate yourself when the god acquits.
+4. Refuse to learn the outcome the conclave prefers; burn the letter unread and enter that, too, in the record.
+
+**Abilities granted:**
+
+- **Trial by Iron** — Grip a bar of white-hot iron and offer the other end; whoever lets go first is judged, and marked accordingly.
+- **Shared Ordeal** — Yoke yourself to one enemy; all damage either of you takes is dealt to both until one yields or falls.
+- **The Finding** — Close a trial; the party the god finds false takes radiant damage for every wound endured during it.
+- **Unscalded Hand** — While a trial stands open, fire does not burn you and drowning does not take you; the verdict must find you living.
+
+### Crucifer
+
+**Role:** Elite vanguard — advancing consecration and column blessing · **Advances from:** Consecrant
+
+*Hierophants hold ground; Crucifers hold that ground unclaimed is ground surrendered. Bearing the god's standard at the head of a marching column, they consecrate by advance — every stride sworn in, every halt a small apostasy. The two orders cite the same scripture at each other, verse for verse, and both are certain.*
+
+**Playstyle.** Never stop moving forward. Your blessings live in the advance — allies who keep pace fight on holy ground, and every foot gained stays gained.
+
+**The road to Crucifer:**
+
+1. Reach level 40 and carry the great standard from the mother-temple to the frontier without once setting it down, sleeping upright against its haft.
+2. Lead a column across ground three armies died failing to cross, and deliver it consecrated.
+3. Argue the Doctrine of the Standing Wall with a Hierophant of the Breach before the conclave, lose on points, and march out unconvinced.
+4. Consecrate a road the church abandoned, shrine to shrine, and walk it back to prove it holds.
+
+**Abilities granted:**
+
+- **Raised Rood** — March beneath the raised rood; allies advancing with you gain armor and cannot be slowed while moving toward the enemy.
+- **Ground Gained** — Earth you cross while advancing is consecrated behind you and cannot be desecrated this battle; retreat across it and it fades.
+- **Unresting Rite** — While you moved this round, your prayers cost less and your column shrugs off fear; stand still and both lapse.
+- **First Across** — Be first through a breach, gate, or ford; the crossing is hallowed at your heel, mending allies who follow and burning the profane.
+
+### Flagellant
+
+**Role:** Elite martyr-healer — pain absorbed and repaid · **Advances from:** Lazarene
+
+*Threshold Wardens bargain at the door; Flagellants find the whole negotiation obscene. Their doctrine is arithmetic: the world holds a fixed sum of suffering, and every lash a Flagellant takes is one that lands nowhere else. Wardens call them mad. They call Wardens clerks, and go on carrying strangers' agonies the way porters carry parcels.*
+
+**Playstyle.** Stand where it hurts most. Draw every wound in reach into your own body, convert the pain to power, and outlast what should have killed you twice.
+
+**The road to Flagellant:**
+
+1. Reach level 40 and take the Scourging Vow: one year in a plague-province, taking every pain you can carry and passing none of it back.
+2. Carry a dying stranger's agony for a full day so they can say their goodbyes in comfort, and ask nothing after.
+3. Tell a Threshold Warden, to their face, that their door is a counting-house, and hold their gaze while your scars argue for you.
+4. Be flogged in a condemned stranger's place at the public post, and thank the magistrate for the exchange.
+
+**Abilities granted:**
+
+- **Whole Weight** — Take an ally's wound at its full weight instead of half; taken whole, it heals them entirely and feeds your fervor.
+- **Mortification** — Scourge yourself before battle; every stripe banked becomes a wound an ally will not take today.
+- **Fervor of Stripes** — Your prayers heal harder for every wound currently on your body; unbroken skin is wasted scripture.
+- **Not One More** — While you stand, allies below half health cannot be struck; every blow meant for them finds your body, which has learned patience.
+
+### Gospeller
+
+**Role:** Elite support — binding blessings and pronounced destinies · **Advances from:** Godspeaker
+
+*Anathemists carry the god's no; Gospellers are trusted with its yes, which the order insists is the heavier word. Their pronounced blessings bind like law — the farmer promised a harvest must plant, the soldier promised survival must charge. An Anathemist's doom can be fled. A Gospeller's blessing must be lived up to, daily, forever.*
+
+**Playstyle.** Speak fortunes and make them true: promise allies outcomes they must then earn, lay glad fates on enemies they cannot afford, and never promise idly.
+
+**The road to Gospeller:**
+
+1. Reach level 40 and copy the Register of Fortunes beside the Register of Dooms, learning what each granted blessing cost the one it graced.
+2. Pronounce your first binding blessing before the conclave, and stand present, years later, when its keeper finally earns it.
+3. Bless an enemy of the church sincerely, in public, and watch the blessing do what no anathema could.
+4. Refuse to bless a king who demanded it; explain, once, that the god's yes is not for sale, and survive the explanation.
+
+**Abilities granted:**
+
+- **Glad Tidings** — Promise an ally they will not fall this battle; while they fight toward the enemy, the promise holds.
+- **Promised Harvest** — Bless an ally's next act; whatever it attempts succeeds beyond intention, and the excess spills to those beside them.
+- **Unbearable Blessing** — Pronounce a long and prosperous life over an enemy; fate begins removing them from the battle to keep the appointment.
+- **The God's Yes** — Affirm one ally's spell or miracle as it happens; it cannot fail, be countered, or be regretted.
+
 ## Tier V — Mythic (Level 60)
 
 ### Ashen Saint
@@ -357,3 +453,269 @@ Cleric (Lv 1)
 - **The Kept Silence** — While you have not spoken, allies act as though forewarned and enemies as though accused.
 - **Unwriting** — Declare one recent event untrue; the world keeps the scar but not the wound.
 - **Witnessed** — Anything sworn in your hearing binds; oathbreakers learn what your attention costs.
+
+### The Proving
+
+**Role:** Mythic duelist — the living trial · **Advances from:** Ordalist
+
+*At the end of the ordeal line stands one who no longer administers trials but is one. To cross The Proving's shadow is to be weighed; guilt rises in the guilty like fever, and armies have unraveled at the border of their attention. Kings send disputed crowns to them by courier. Some crowns return.*
+
+**Playstyle.** You are the trial. Everything that engages you is being judged as it fights; the innocent find you almost gentle, and the guilty find nothing gentle at all.
+
+**The road to The Proving:**
+
+1. Reach level 60 and submit yourself to the Ordeal of Ordeals: all four trials at once, unwitnessed, with the god alone keeping score.
+2. Try a war: summon both armies' captains to a ford, weigh their causes aloud, and send home the side the god finds wanting.
+3. Acquit someone the whole church condemned, publicly, and bear the interdicts they nail to your door without breaking one.
+4. Stand trial yourself before the meanest village hedge-court, answer every charge honestly, and abide the sentence of people with no idea who you are.
+
+**Abilities granted:**
+
+- **Weight of Guilt** — Enemies engaging you are weighed each round; the guiltier they are, the slower, heavier, and more flammable they become.
+- **The Standing Trial** — Declare a battlefield a courtroom; no one leaves, lies fail aloud, and every death within is entered as a verdict.
+- **Acquittal** — Find one creature innocent per day; it is healed whole, freed of curses, and cannot be lawfully harmed until dawn.
+- **Ordeal Unending** — You cannot be slain by anything with a verdict pending against it; most things, examined closely, have one.
+
+### Hallowtide
+
+**Role:** Mythic vanguard — consecration as advancing tide · **Advances from:** Crucifer
+
+*The march stops being a rite and becomes a tide. A Hallowtide has not halted in years — pilgrims join and drop away, wars pause to let the column through, and the ground does not unconsecrate behind them. Cartographers redraw the sacred borders annually and have petitioned, twice, for them to walk somewhere convenient.*
+
+**Playstyle.** Perpetual advance. Your column is a moving sanctuary that nothing profane can stand in front of; the only tactical question is the route.
+
+**The road to Hallowtide:**
+
+1. Reach level 60, then walk a border of the faith for a year and a day without halting; eat, sleep, and pray at the march.
+2. Lead the column through the gates of a city under interdict, and leave it, block by block, reconsecrated behind you.
+3. Let an army form across your road, and walk on; be remembered by the survivors as weather rather than war.
+4. Pass the great standard to the pilgrim behind you and keep walking; learn that the column no longer needs it, or you.
+
+**Abilities granted:**
+
+- **The Tide Comes In** — Advance each round without fail; everything unhallowed in your path is pushed back, burned, or converted to paving.
+- **Wake of Sanctity** — Ground you have crossed remains permanently consecrated; allies fighting anywhere along your wake share your blessings at full strength.
+- **Joined Procession** — Any willing soul may fall in behind you; while they keep the column's pace, they cannot rout, tire, or stray.
+- **No Ebb** — You cannot be stopped, rooted, or turned; effects that would halt you instead grant the column a surge of speed.
+
+### The Stigmatic
+
+**Role:** Mythic martyr — the world's wounds, one body · **Advances from:** Flagellant
+
+*The scourge becomes unnecessary; the wounds arrive on their own. A Stigmatic bleeds when a village burns three provinces away, and the village, inexplicably, does not. Physicians who examine them retire. The church keeps their itinerary secret, because wherever they lodge, the surrounding country enjoys a health nobody local has earned.*
+
+**Playstyle.** Absorb everything, everywhere, always. Your health is a public utility; manage the intake, spend the accumulated pain as radiance, and do not die of generosity.
+
+**The road to The Stigmatic:**
+
+1. Reach level 60 and receive the first unbidden wound — a hurt from a place you have never been — and thank the god for the delivery.
+2. Take a famine: hunger for a starving town through the winter while its granaries inexplicably stretch, and never tell them how.
+3. Bear a massacre's every wound in a single night, alone in your cell, and be found at matins, ruined and at prayer.
+4. Refuse healing for yourself, once and forever; your scars are the office now, and closing them would be resignation.
+
+**Abilities granted:**
+
+- **Wounds Arriving** — All damage dealt to allies within the field arrives on your body instead, reduced by your accumulated scars.
+- **Radiant Hemorrhage** — Open your oldest wound deliberately; its stored pain erupts as searing light that heals the faithful and blinds the profane.
+- **Suffered Elsewhere** — Suffer a catastrophe's wounds from anywhere within the province; those who should have died wake bruised and owing nothing.
+- **Scar Scripture** — Your scars are legible as scripture; allies who read them fight free of fear, doubt, and their own old pains.
+
+### The Evangel
+
+**Role:** Mythic support — the promise made present · **Advances from:** Gospeller
+
+*Somewhere past pronouncement, the messenger and the message merge. An Evangel no longer delivers the god's yes; they are it, walking. Crops commit to ripening a valley ahead of them. The dying hold on until they arrive, then generally decline to die. Chroniclers note that history goes suspiciously well wherever they winter.*
+
+**Playstyle.** Aura of ordained fortune: allies around you succeed slightly before they act, and the day's one great promise can bend a battle's whole shape.
+
+**The road to The Evangel:**
+
+1. Reach level 60 and outlive the Register of Fortunes: every blessing you ever pronounced fulfilled, witnessed, and ruled complete by the conclave.
+2. Enter a city under siege carrying nothing, promise it spring, and be somewhere else, unthanked, when spring arrives early.
+3. Bless your god's bitterest enemy with a whole heart, and make the blessing so good it converts where conquest failed.
+4. Stop speaking blessings and notice they continue; learn what you have become, and go on becoming it.
+
+**Abilities granted:**
+
+- **Already Answered** — Prayers spoken near you are granted before they finish; allies' abilities resolve as though blessed in advance.
+- **The Great Promise** — Once daily, promise an outcome for the battle aloud; the world begins arranging it, and every ally's action counts double toward it.
+- **Good News Travels** — Word of your presence heals; allies who merely learn you are near mend wounds and shed despair at any distance.
+- **No Ill Ending** — Allies cannot die badly in your presence; any death near you completes something, and the completed dead do not haunt, rot, or rise.
+
+## Tier VI — Apotheosis (Level 85)
+
+### The Ashfall
+
+**Role:** Apotheosis — judgment as weather · **Advances from:** Ashen Saint
+
+*When an Ashen Saint carries out their last sentence, the judging does not stop; it precipitates. Ash falls from clear skies on perjured courts and unrepentant cities, and the world calls it The Ashfall. One mortal at a time bears the name and walks beneath the weather, deciding nothing, delivering all of it.*
+
+**Playstyle.** Battlefield-wide, impersonal judgment. You no longer choose targets; you set the weather, and everything under it is sentenced by what it has done.
+
+**The road to The Ashfall:**
+
+1. Reach level 85, carry out your own sentence as the Ashen Saint's rite requires, and be the first thing the falling ash refuses to bury.
+2. Let the church strike your name from the canon of living saints and enter it in the almanac instead.
+3. Stand in the ashfall over a city you once loved and let it fall; the weather does not recuse itself, and neither may you.
+4. Bear the weather for a full year without once wishing it on anyone, and it is yours.
+
+**Abilities granted:**
+
+- **Grey Verdict** — Ash falls across the field; every creature beneath it takes radiant damage proportional to its unanswered sins, allies included.
+- **The Weather Decides** — You cannot be commanded, bribed, or appealed to; effects that would sway you dissipate like smoke, sentencing their casters.
+- **Ashen Interval** — Where your ash has settled, no new sin can be committed until it is disturbed; most battles end there.
+- **Judgment Unattended** — Once per day, sentence a place you cannot see; somewhere, ash begins to fall, and the guilty feel the change of season.
+
+### The Basilica
+
+**Role:** Apotheosis — the living cathedral · **Advances from:** Living Reliquary
+
+*In the end the shrine finishes assembling. A Living Reliquary who stands long enough is redesignated: pilgrims stop asking their blessing and start attending them, masses are said within earshot as within walls, and cartography marks them with a cross. The person is still in there. The church finds it simpler not to say so.*
+
+**Playstyle.** You are the fortress objective. Allies garrison you like a citadel, entire battles happen inside your sanctuary law, and sieges against you have canonical rules.
+
+**The road to The Basilica:**
+
+1. Reach level 85 and let the Enshrinement complete: the last relic sealed, the last wall risen, your heartbeat rescheduled as a service.
+2. Hold a coronation, a heresy trial, and a pauper's funeral within yourself in the same week, and show no preference.
+3. Withstand a siege as the thing besieged, and when the engines break, ring matins on time.
+4. Answer, when the seven cathedrals present their deeds to your bones, that the property has appreciated and is no longer for sale.
+
+**Abilities granted:**
+
+- **Nave and Transept** — Your sanctuary extends as halls of force; allies fight within your architecture, gaining walls, cover, and consecrated footing everywhere.
+- **Right of Sanctuary** — Any creature that reaches you and yields is inviolate; violating this marks the violator before the god and every court besides.
+- **Bells Above** — Your bells toll of themselves at need — alarm, rally, requiem — each peal a mass blessing or a mass dread.
+- **Founded Forever** — You cannot be moved, and you cannot fall while one true believer stands inside your walls; someone always does.
+
+### The Watershed
+
+**Role:** Apotheosis — mercy as geography · **Advances from:** Wellspring Incarnate
+
+*The Springhead promise was true. Where the Wellspring finally poured out, water rose, and kept rising, and did not stop at one spring: every healing well in the world now runs from the same source, and the source has a face. Pilgrims drink The Watershed daily on three continents. It does not diminish them.*
+
+**Playstyle.** Continental-scale mending on a local body. Heal through every well and rainfall at once, flood the field with living water, and remember that droughts are also yours.
+
+**The road to The Watershed:**
+
+1. Reach level 85 and test the Springhead promise at last: pour out entirely, die where the ground is thirsty, and rise as what rises.
+2. Feel every well in the world as a fingertip, and learn not to flinch when one is poisoned.
+3. Refuse a tyrant's reservoir and water his fleeing serfs, and let the histories argue about which was the miracle.
+4. Keep one memory of being a person — the god allows one — and choose it carefully; the water keeps nothing it is not given.
+
+**Abilities granted:**
+
+- **Every Well at Once** — Heal any creature anywhere that has ever drunk from a blessed spring; distance stopped being an argument some time ago.
+- **Living Water** — The ground around you runs with shallow, luminous water; allies standing in it mend continuously and cannot bleed.
+- **Denied the Well** — Deny your waters to one creature; wounds it deals stop healing anywhere in the world until it repents or falls.
+- **The Source Endures** — Destroying your body diverts you into the nearest spring; you resurface within a day, unhurried and entirely whole.
+
+### The Amen
+
+**Role:** Apotheosis — the word after the last word · **Advances from:** The Final Word
+
+*Every Final Word eventually speaks the ending they promised, and the histories hold their breath. What follows is The Amen: the assent that seals all speech, worn by one mortal at a time. They say nothing at all now. They are what happens to sentences when they are finished — treaties set, oaths cure, lies curdle.*
+
+**Playstyle.** Perfect silence, absolute ratification. You act last in every exchange, make whatever has happened permanent or void, and win by ending things correctly.
+
+**The road to The Amen:**
+
+1. Reach level 85, meet the ending you once spoke for yourself at the promised place and hour, and be what remains standing in the hush after.
+2. Surrender your remaining words to the order's archive, counted and certified, and go forth with none.
+3. Attend the signing of a peace between empires, say nothing, and be the clause neither side dares test.
+4. Seal, at the end, the god's own promise to the world, and hold your peace forever regarding what it said.
+
+**Abilities granted:**
+
+- **So Be It** — Ratify the round as it ends: everything that went well for your allies becomes permanent until dawn.
+- **Withheld Assent** — Decline to seal an enemy's action; unratified, it comes quietly apart, as though it had merely been rehearsed.
+- **The Setting Silence** — Your silence hardens the air; within it, nothing new can be begun, and everything already begun concludes.
+- **Last of All** — You always act last, and cannot be preempted; anything that would kill you must first finish everything else it started.
+
+### The Touchstone
+
+**Role:** Apotheosis — the standard all truth strikes · **Advances from:** The Proving
+
+*When The Proving finally stands trial and is acquitted by strangers, something fixes. The world gains a Touchstone: a still point against which everything is assayed. Oaths are sworn 'against the stone' in courts that have never seen it. False things ring false within a day's ride. The office moves; the fixity does not.*
+
+**Playstyle.** A fixed point in every sense: immovable, incorruptible, revelatory. Enemies break themselves against you and learn, in breaking, exactly what they were.
+
+**The road to The Touchstone:**
+
+1. Reach level 85 and be assayed by the god directly, alone, with no rite between you; return bearing the mark of what was found.
+2. Let every court on the continent swear its oaths against you for a year, and feel each false one land.
+3. Ring true when an empire's founding myth is struck against you, and stand in the wreckage of the archives afterward, unmoved.
+4. Accept that you will never again be surprised, flattered, or deceived, and grieve it once, briefly, as the stone requires.
+
+**Abilities granted:**
+
+- **Struck True** — Any attack against you reveals its wielder's nature aloud; concealments, disguises, and borrowed shapes shatter on contact.
+- **Assay the Field** — Test every creature on the field at once; the false-hearted ring hollow, falter, and know that everyone heard.
+- **Fixed Point** — You cannot be moved, transformed, aged, or unmade; the world may end, but it will be measured against you first.
+- **Proof Against** — Choose a lie the world tells itself; while you stand, it stops working, everywhere, for everyone.
+
+### The Procession
+
+**Role:** Apotheosis — the rite that walks the world · **Advances from:** Hallowtide
+
+*The column has walked long enough that walking is now what it is made of. The Procession appears in liturgical calendars, in border treaties, in the night sky — a slow wheel of stars the church swears was not there before. One mortal at a time holds the head of the column, and the world's maps politely keep up.*
+
+**Playstyle.** March at the head of something older than armies. The battlefield reorganizes around your route; whatever refuses to make way becomes, briefly, historical.
+
+**The road to The Procession:**
+
+1. Reach level 85 and find the column waiting at your door on an unremarkable morning, patient, with your place at its head left open.
+2. Lead the Procession once around the whole of the world, and deliver it back to the door it left by, on the day foretold.
+3. Walk it through the capital of every faith that denies your god, harming no one, converting no one, and be argued about for a century.
+4. Halt, at last, of your own will, for one full night; if the column stays, it is yours; if it walks on, follow.
+
+**Abilities granted:**
+
+- **Make Way** — Declare your route aloud; terrain levels, gates unbar, and whatever stands upon it is moved or milled under.
+- **Feast Day** — Wherever you halt — you may now halt — the day becomes holy; allies feast, mend, and shed all lingering harms.
+- **Stars in Train** — The Procession's constellation marches with you; by night, its light is consecrated ground wherever it falls.
+- **Always Arriving** — You are never ambushed, cut off, or too late; the Procession has already been wherever you are needed.
+
+### The Passion
+
+**Role:** Apotheosis — suffering kept as a season · **Advances from:** The Stigmatic
+
+*A Stigmatic who does not die of the office becomes it. The Passion is kept now like a season: a fixed span in the world's year when all pain everywhere travels to one body and is honored there. Farmers plant by it. Torturers find their trade briefly impossible. One mortal keeps the season, and is kept by it.*
+
+**Playstyle.** Cosmic-scale absorption on a schedule you control. Declare the season, take the world's harm into one body, and return it as light.
+
+**The road to The Passion:**
+
+1. Reach level 85 and survive a year in which every day is yours: all the world's pain, unscheduled, arriving as it pleases.
+2. Petition the god to give the world's pain a season with borders, and offer your body as the border.
+3. Keep the first Passion without dying, from its opening bell to its closing, and hear the world exhale when it closes.
+4. Forgive the world for needing you; do it annually; mean it more each year.
+
+**Abilities granted:**
+
+- **Season of Sorrows** — Declare the Passion open; while it lasts, no creature you can see may suffer — all of it comes to you.
+- **Alms of Light** — Convert your carried pain to radiance and distribute it; the more you hold, the more the field is healed.
+- **The Honored Hurt** — Wounds on your body cannot be used against you; each one is a holy day, and holy days do not bleed.
+- **Kept by the Keeping** — You cannot die during the Passion; the season requires its keeper, and the world has agreed to the terms.
+
+### The Covenant
+
+**Role:** Apotheosis — the standing promise between god and world · **Advances from:** The Evangel
+
+*An Evangel's promises eventually outnumber their heartbeats, and the arithmetic resolves into law. The Covenant is the settled terms between the god and everything else, kept in a living body: while its bearer walks, spring is enforceable, harvests are precedent, and the sun's rising can be cited. Heresy continues, of course. It just stops working.*
+
+**Playstyle.** Living-law support: invoke the world's standing promises as instant miracles, hold enemies to terms older than their gods, and never break your own.
+
+**The road to The Covenant:**
+
+1. Reach level 85 and hear the god offer the world settled terms with your name in them; read every line before you agree.
+2. Carry the terms to every people under the sun, and let each mark the margin; the Covenant binds only what it has met.
+3. Hold the god to its side of the terms once, publicly, and survive being right.
+4. Become the copy of record: when every written version burns, the terms must still be legible in how you live.
+
+**Abilities granted:**
+
+- **Cite the Dawn** — Invoke a standing term of the world — dawn, spring, harvest — and it occurs here, now, in miniature, on your side.
+- **The Offered Mercy** — Offer an enemy the Covenant's mercy once; refused, every blessing they have ever received is withdrawn on the spot.
+- **Sign After Storm** — Set a sign over the field after every storm you outlast; allies beneath it cannot despair or rout for a season.
+- **Unbreakable Because Kept** — You cannot be harmed by any creature currently benefiting from the world's terms; sunlight, breath, and gravity all count.

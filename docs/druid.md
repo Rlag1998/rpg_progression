@@ -11,11 +11,19 @@ Before the first wall there was an accord: the people would take only what the g
 ```text
 Druid (Lv 1)
 ├── Skinshifter (Lv 10)
-│   ├── Clawsworn (Lv 25) → Bloodpelt (Lv 40) → First Predator (Lv 60)
-│   └── Elderform (Lv 25) → Thousandskin (Lv 40) → The Unshaped (Lv 60)
+│   ├── Clawsworn (Lv 25)
+│   │   ├── Bloodpelt (Lv 40) → First Predator (Lv 60) → The Downwind (Lv 85)
+│   │   └── Winterjaw (Lv 40) → The Quell (Lv 60) → The Surcease (Lv 85)
+│   └── Elderform (Lv 25)
+│       ├── Thousandskin (Lv 40) → The Unshaped (Lv 60) → The Loam (Lv 85)
+│       └── Arkhide (Lv 40) → The Relict (Lv 60) → The Refugium (Lv 85)
 └── Grovespeaker (Lv 10)
-    ├── Thorn Shepherd (Lv 25) → Heartwood Regent (Lv 40) → Worldroot (Lv 60)
-    └── Rotwright (Lv 25) → Carrion Gardener (Lv 40) → The Last Autumn (Lv 60)
+    ├── Thorn Shepherd (Lv 25)
+    │   ├── Heartwood Regent (Lv 40) → Worldroot (Lv 60) → The Understory (Lv 85)
+    │   └── Wildgrave (Lv 40) → The Greenfall (Lv 60) → The Sufferance (Lv 85)
+    └── Rotwright (Lv 25)
+        ├── Carrion Gardener (Lv 40) → The Last Autumn (Lv 60) → The Fourth Season (Lv 85)
+        └── Bitter Physic (Lv 40) → Feverbreak (Lv 60) → The Convalescence (Lv 85)
 ```
 
 ## Tier I — Initiate (Level 1)
@@ -268,6 +276,94 @@ Druid (Lv 1)
 - **Patient Cloud** — Loose a drifting spore-fog: enemies inside weaken steadily and cannot regain health.
 - **Terrible Courtesy** — Offer one enemy a painless withering; refusal makes every decay effect on them permanent.
 
+### Winterjaw
+
+**Role:** Ambush striker — banked one-strike burst · **Advances from:** Clawsworn
+
+*Winterjaw call the Bloodpelt's frenzy what it is: the shape holding the leash. Their answer is the fast — fur worn hungry, one strike to a hunt, the meal taken afterward in their own skin. Circles loose a Bloodpelt to run a monster down; they send a Winterjaw when it must die in its bed.*
+
+**Playstyle.** Coiled ambush: fast to bank the Held Hunger, strike once from stillness for immense damage, and end fights before they earn the name. A missed stroke costs you the meal.
+
+**The road to Winterjaw:**
+
+1. Reach level 40 and fast from first snow to thaw while hunting for others, tasting nothing; let the hunger learn who owns it.
+2. Make one kill this year in fur: a single stroke, unwitnessed, unpursued. If it takes two strokes, fast another year.
+3. Sit within arm's reach of a Bloodpelt's frenzy and neither join nor judge it; carry your rival home after.
+4. Swear the winter-vow at the moot of three groves: the shape eats only what the accord serves, and never first.
+
+**Abilities granted:**
+
+- **Held Hunger** — Every second spent still and every day spent fasting banks damage into your next strike; there is no ceiling.
+- **Snow's Counsel** — Until you strike, nothing finds you by scent, sound, or divination; winter keeps your secrets.
+- **No Second Bite** — An opening strike that kills refunds Held Hunger and leaves your stillness unbroken; the hunt simply continues.
+- **Honest Fang** — Against prey you do not mean to eat, your claws refuse to cut; against prey you do, they cannot be turned.
+
+### Arkhide
+
+**Role:** Devoted juggernaut — one perfected elder form · **Advances from:** Elderform
+
+*Thousandskin bank shapes the way misers bank coin; an Arkhide spends the whole purse once. Each chooses a single kind from the bone-ledger and wears it so faithfully the earth stops listing it among the dead. They keep its gait at market and its temper at moots. Circles call this devotion. Thousandskin call it drowning.*
+
+**Playstyle.** Committed transformation: one elder shape, held long and deep, growing stronger for every unbroken hour worn. You have one answer to everything, and it is usually enough.
+
+**The road to Arkhide:**
+
+1. Reach level 40 and choose from your bone-ledger the one kind you will answer for; let the circle watch you close the other pages forever.
+2. Wear the sworn shape a year entire — moots, winters, grief — shifting out only for the accord, never for comfort.
+3. Walk it through the country where the kind last lived, and stay until the land adjusts: new trails, old fears, a niche reopening.
+4. Answer to its name in your dreams before your own, and tell no one how long that took.
+
+**Abilities granted:**
+
+- **Sworn Shape** — Your chosen elder form costs nothing to hold and grows one inherited trait for every year it is worn.
+- **True to the Bone** — Each unbroken hour in the sworn shape thickens hide and deepens instinct; shifting out forfeits all of it.
+- **Extinct Appetites** — Nothing alive remembers how to fight your kind; enemies suffer misjudged reach, wrong instincts, and honest panic.
+- **Carry the Kind** — Allies sheltering against your flank share your hide and your calm, and cannot be driven from the field.
+
+### Wildgrave
+
+**Role:** Aggressive terrain — advancing green, reclaimed ground · **Advances from:** Thorn Shepherd
+
+*A Wildgrave remembers what the ground was before the survey. They hold the green's marches — every fallow field, every abandoned garrison — and advance them. No moot vote, no parley: the accord, they argue, was broken at the first wall, and everything since is occupation. Regents find them useful, dangerous, and impossible to seat at a treaty table.*
+
+**Playstyle.** Territorial aggression: claim ground, green it, and fight from it with growing advantage. Every yard the wild takes back is a yard your enemies fight uphill.
+
+**The road to Wildgrave:**
+
+1. Reach level 40 and take back one abandoned holding — keep, field, and road — until no stone shows and no map bothers.
+2. Serve a season under a Heartwood Regent, obeying every ruling; leave politely, unconverted, knowing exactly what you are refusing.
+3. Advance a treeline one full league in a year, killing no one who did not first swing steel at the green.
+4. Bury a marker stone of your own — not where the border is, but where it will be.
+
+**Abilities granted:**
+
+- **Claim the March** — Declare terrain reclaimed; it greens over a minute, and while you hold it your powers cost less and hit harder there.
+- **Fallow Rising** — Cleared or tilled ground counts as forest for your spells; the seed-bank sleeping under every field answers you.
+- **Siege of Ivy** — Set ivy on a fortification; it climbs a season's worth each second and pulls stone with it when commanded.
+- **Greenshod** — You and allies move unhindered through claimed ground, while enemies find every root a curb and every hedge a wall.
+
+### Bitter Physic
+
+**Role:** Support controller — measured plagues, rationed cures · **Advances from:** Rotwright
+
+*Carrion Gardeners swear nothing raised; Bitter Physics never signed. Their craft is the dose — the small sickness sown early so the great one starves, a fever set to burn out a worse fever. Healers consult them by night and denounce them at breakfast. Villages that drink the bitter spring draught bury no one come autumn, and thank no one.*
+
+**Playstyle.** Clinical attrition: diagnose the fight, dose enemies with tailored sicknesses, and ration every cure to the moment it buys most. Prevention is your damage; triage is your art.
+
+**The road to Bitter Physic:**
+
+1. Reach level 40 and stop a spreading blight by sowing a smaller one ahead of it; then answer to the moot for the fields you sickened.
+2. Apprentice a year to a village healer without revealing your rank; be denounced, be indispensable, be missed when you go.
+3. Keep the kennel: culture your sicknesses as a kennelman keeps hounds — each named, each leashed, none ever slipped for spite.
+4. Refuse the Gardeners' charter to their faces, courteously, and state your own: the small death, honestly dosed, against the great one.
+
+**Abilities granted:**
+
+- **The Measured Dose** — Afflict an enemy with a sickness sized exactly to them; stronger targets receive proportionally crueler symptoms.
+- **Kindled Fever** — Set a small fever on an ally that burns away poisons, curses, and infections before they can take hold.
+- **Bitter Draught** — An ally who drinks loses a tenth of their health and gains immunity to the next effect that would have dropped them.
+- **Pale Cordon** — Ring an area in pale mold; sickness, enemies, and bad news cross it in neither direction.
+
 ## Tier V — Mythic (Level 60)
 
 ### First Predator
@@ -357,3 +453,269 @@ Druid (Lv 1)
 - **Kingdom Compost** — Declare a structure finished: it settles into fertile loam over one minute, regardless of stone or ward.
 - **The Long Fall** — Leaves fall out of season across a chosen army; morale, armor, and certainty fall with them.
 - **Mercy of Mulch** — A fallen ally is taken into the soil and returned at dusk, alive, smelling of rain.
+
+### The Quell
+
+**Role:** Apex execution — single sanctioned endings · **Advances from:** Winterjaw
+
+*Every age, something vast forgets how to die: a god-beast gone rabid, the last of a kind in agony, a wood-king rotting alive at the heart of his forest. The Quell is what the green sends. It comes fasting, grieves first, strikes once. Histories dispute whether it is one druid or a succession; the dying have never complained.*
+
+**Playstyle.** Ultimate execution: study the quarry until its ending becomes obvious, then deliver that ending in one strike. Everything before the stroke is preparation; everything after is mourning.
+
+**The road to The Quell:**
+
+1. At level 60, answer a summons no druid requests: the moot of three groves has agreed that something great must be helped to die.
+2. Give the mad god-beast of the fens its ending in one stroke, after three years spent learning what it loved.
+3. Keep the novice's vigil again: sit with a dying thing to the finish, and understand at last why the circle watched you.
+4. Eat of every quarry still. Weep every time. The day either stops, set down the fang and go home.
+
+**Abilities granted:**
+
+- **The Owed Ending** — Mark a quarry the moot has sanctioned; against it your Held Hunger has no cap and cannot be dispelled, dodged, or outlived.
+- **Grief Before** — Mourn the quarry before the fight; for its first minute nothing it does can harm you, since you are already at the funeral.
+- **The Perfect Fang** — Your first strike against a marked quarry ends it outright if you have never struck it before; greatness is no defense.
+- **Nothing Suffers** — Anything that dies within your sight dies at once of its wounds rather than slowly; this includes your allies' work.
+
+### The Relict
+
+**Role:** Living monument — ecosystem ally, unbanishable bulk · **Advances from:** Arkhide
+
+*Histories keep the Relict in footnotes: a kind declared lost an age ago, reported again by reliable liars. The truth is a druid on the far side of devotion. Where a Relict dens, the old world resumes — companion birds return, parasites nobody mourned, prey remembering fear. Scholars dispute the sightings. The land does not read scholarship.*
+
+**Playstyle.** Living restoration: fight as a shape the world has re-accepted — immense, unhurried, unbanishable — while the returning ecosystem of birds, swarms, and old fear fights alongside you.
+
+**The road to The Relict:**
+
+1. At level 60, stop performing the shape and be it: seven years without your born skin, until the moot forgets to send for the druid.
+2. Let hunters hunt you and fail so honestly that the ballads make your kind cunning again.
+3. Fill the niche your kind left empty and hold it until the wood readjusts: streams re-braiding, old seeds finally germinating.
+4. When a true survivor of the kind is found at last, decide alone what that means, and tell no one what you decided.
+
+**Abilities granted:**
+
+- **No Seeming** — The sworn shape is your true form now; magic that forces, reads, or unravels shapeshifting finds nothing to take hold of.
+- **The Old Company** — Your kind's lost retinue attends you — cleaner-birds, burrowers, following swarms — harrying enemies and tending your wounds unasked.
+- **Grazing Rights** — Where you feed, the land yields double to allies and goes lean for enemies; the old tenancy resumes.
+- **Not the Last** — When you fall you do not die; within the year, somewhere distant, there is a verified sighting of your kind.
+
+### The Greenfall
+
+**Role:** Mass reclamation — cities into forest overnight · **Advances from:** Wildgrave
+
+*The histories blame plague or fire for the emptying of the inland capital; druids let them. What happened is called the Greenfall, and it walked in on two feet. Where it passes, reconquest stops being gradual: canopy comes down like nightfall, and by morning the survey does not apply. There have been two. The marches wait on the third.*
+
+**Playstyle.** Overwhelming reclamation: convert the battlefield wholesale — streets to loam, walls to trellis — and command what grows there. Cities are a terrain type you retire.
+
+**The road to The Greenfall:**
+
+1. At level 60, answer a burned march with a night the maps still argue about: let one whole town wake to forest, unharmed and evicted.
+2. Carry every evicted family's roof-beam to their new door yourself; a conquest that cannot carry beams is only fire.
+3. Stand before the moot of three groves and answer for the Greenfall; accept the censure, and decline to promise otherwise.
+4. Plant the marker stone you buried as a Wildgrave, watch the border arrive at it, and bury the next one farther on.
+
+**Abilities granted:**
+
+- **Nightfall Canopy** — Bring the canopy down across a district; within it there is forest, there is dusk, and there is you.
+- **Rootswell** — Worked stone across an area settles back into ground that has never heard of it — walls, roads, wards, all.
+- **Root and Branch** — Every enemy structure you fell stands back up as an allied tree with the structure's height and a grudge.
+- **No Second Survey** — Ground you have greened cannot be cleared, burned, or built upon while you live; each attempt feeds it.
+
+### Feverbreak
+
+**Role:** Counter-contagion — plagues leashed against plagues · **Advances from:** Bitter Physic
+
+*Every plague ends the same way: one night the fever breaks everywhere at once, and the chroniclers credit frost, or prayer. The order knows better. Feverbreak walks the sick-camps with the kennel of every plague it ever leashed, and sets the tamed sickness on the wild one. Whether it survives each cure is disputed. There is always another.*
+
+**Playstyle.** Mythic counter-contagion: unkennel tailored plagues against enemy hosts, cure by contagion, and answer every affliction on the field with a better-trained one.
+
+**The road to Feverbreak:**
+
+1. At level 60, walk into the century's worst plague-camp alone, unkennel everything you own, and walk out behind the last recovered child.
+2. Break a fever the priests declared a punishment, and let the priests keep the credit; the order keeps the notes.
+3. Catch, tame, and name the plague that killed your teacher, and never once set it loose.
+4. Be reported dead in three chronicles while at work in four provinces, and correct neither.
+
+**Abilities granted:**
+
+- **Unkennel** — Loose a leashed plague at an enemy army; it spreads by their formation's own discipline and answers your whistle.
+- **Like Cures Like** — Cure any affliction on the field by inflicting a lesser, obedient copy of it on the sufferer.
+- **The Breaking Hour** — Declare the fever's crisis: every disease, poison, and decay in sight resolves within ten seconds — kill or cure, your call, each one.
+- **Old Acquaintance** — Every sickness that ever touched you knows you now; diseases, blights, and miasmas decline to harm you, professionally.
+
+## Tier VI — Apotheosis (Level 85)
+
+### The Downwind
+
+**Role:** Omnipresent hunter — predation as natural law · **Advances from:** First Predator
+
+*The wild renamed the First Predator once; the world finished the job. The Downwind is not seen, it is deduced: the reason herds circle at night, the reason nothing hunts the world entire anymore, the hush that moves through a forest ahead of no visible cause. Every prey animal is born knowing it. Now, so is everything else.*
+
+**Playstyle.** Absolute predation: you occupy the blind spot of everything alive — always behind, always downwind. Fights are hunts already won; play decides how the quarry learns it.
+
+**The road to The Downwind:**
+
+1. At level 85, let even the wild's name for you fall away; what stalks the stalkers of the world needs no answering sound.
+2. Go unglimpsed for a generation while every fireside tale gets you wrong; accuracy is for prey.
+3. Cull the thing that learned to hunt First Predators, and leave no account of how.
+4. Keep the wind's rounds: cross every wild border once a year so the born fear stays fresh; the world sets your calendar now.
+
+**Abilities granted:**
+
+- **Always Downwind** — You are permanently undetectable until you choose otherwise; no sense, spell, or paranoia finds you first.
+- **Born Knowing** — All creatures inherit fear of you at birth; enemies begin every fight already shaken, and no animal will serve against you.
+- **The Hush Ahead** — Silence precedes you as terrain; within it, enemies cannot rally, signal, or hear their orders.
+- **The Shortened Chase** — The distance between you and a marked quarry only ever decreases, whatever either of you does.
+
+### The Loam
+
+**Role:** Form sovereignty — every shape on loan · **Advances from:** The Unshaped
+
+*The Unshaped gave a shape to the earth; the Loam is what the earth made of the gift. It is the stuff shapes are cut from and, in some binding sense, still a druid. Every skinshifter's borrowed wolf is borrowed from somewhere. Circles no longer keep the empty chair; they keep a bowl of loam, damp, just in case.*
+
+**Playstyle.** Total form authority: assume anything, lend shapes to allies, revoke them from enemies. Bodies are borrowings, and you are what they are borrowed from.
+
+**The road to The Loam:**
+
+1. At level 85, become the lending itself: when any skinshifter takes wolf-shape, be faintly, verifiably present in it.
+2. Let the moot of three groves vote on whether you still hold rank, and attend the vote as the table.
+3. Walk every shape you ever wore back to the country it was native to, and return each one home.
+4. When the earth next takes a birth-shape at the moot of three groves, be the taking.
+
+**Abilities granted:**
+
+- **Lent Shape** — Grant any ally any shape you have ever worn; recall it whenever you please, including mid-leap.
+- **Returned to Loam** — Revoke a borrowed form anywhere in sight; shapeshifters, glamours, and disguises return to their originals mid-sentence.
+- **The Bowl of Loam** — Wherever a circle keeps the bowl, you may step out of it, at whatever size the room allows.
+- **Nothing to Hit** — You keep no fixed anatomy; critical strikes, curses on flesh, and spells that name a body fail against you.
+
+### The Understory
+
+**Role:** World anchor — the green's foundation fights · **Advances from:** Worldroot
+
+*The Worldroot's death was deferred to the end of its century. The century ended, and every forest on three coasts put out leaves in midwinter. What remains is called the Understory: the layer beneath every wood, the part of the green no axe reaches because it is not, strictly, anywhere. Druids swear the accord touching soil; the soil countersigns.*
+
+**Playstyle.** Foundational presence: fight from beneath everything rooted, everywhere at once. Enemies contend with the ground's own opinion of them; allies stand on ground that is actively their friend.
+
+**The road to The Understory:**
+
+1. At level 85, let the century end without deferring again, and learn with the rest of the green what you are next.
+2. Carry three coasts' forests through a burning year without surfacing once; let kingdoms wonder why the fires kept going out.
+3. Answer to no name at the grove-moot; be the floor it stands on, and adjourn it once, gently, to prove the point.
+4. Keep one leaf's worth of yourself unplanted, so that a person can still step out when the green needs hands.
+
+**Abilities granted:**
+
+- **Beneath Everything** — Act through any rooted thing in the world simultaneously; distance is no longer among your limitations.
+- **The Slow Yes** — Terrain grants allied requests — bridges of root, walls of trunk, doors in thickets — a moment after they are wished.
+- **Midwinter Leaves** — Declare high summer for allies in any season or ruin: full regeneration, as though sleeping safe at home.
+- **No Axe Reaches** — You cannot be targeted while any forest stands; damage meant for you is absorbed by acreage instead.
+
+### The Fourth Season
+
+**Role:** Seasonal aura — the year's closing made law · **Advances from:** The Last Autumn
+
+*The histories record three Last Autumns. What they cannot settle is when the third stopped being a person. Autumn now arrives on its own authority — harvests hurry, iron blushes, long summers concede — and somewhere in every autumn there is a figure walking unharvested lanes, making sure. The office cannot be refused; the year, it turns out, does not skip seasons.*
+
+**Playstyle.** Cosmic inevitability: everything in the fight is somewhere in its autumn, and you set the date of every harvest. Mercy remains available, by appointment.
+
+**The road to The Fourth Season:**
+
+1. At level 85, stop carrying the season and preside over it: autumn now happens because you are somewhere inside it, doing rounds.
+2. Bring an age to harvest: let one long era end so gently that its people call the ending a festival.
+3. Keep the customs: spare the gleaners, fill the poor's baskets first, and leave every hundredth field standing for the winter birds.
+4. Refuse winter, still. When the year one day ends entire, be the season it trusts to close the house.
+
+**Abilities granted:**
+
+- **Harvest Date** — Assign each enemy a moment of harvest; at it, all their accumulated wounds, ages, and errors arrive together.
+- **Iron Blush** — All enemy metal within your season rusts at the pace of your choosing, from patina to powder.
+- **Gleaning** — Whatever falls in your season — lives, banners, walls — yields; allies harvest health and vigor from each ending.
+- **The Year Keeps It** — Struck down, you are deferred, not killed; you resume with the first falling leaf, and the fight has aged badly meanwhile.
+
+### The Surcease
+
+**Role:** Execution absolute — clean endings guaranteed · **Advances from:** The Quell
+
+*Who the Quell was is disputed; the Surcease is not. It is the law under the accord's floor: everything that lives is owed one clean ending, and the green keeps a keeper for it. Kings write it into their successions. Old beasts walk toward it smiling, insofar as beasts smile. Somebody, always, is wearing the office.*
+
+**Playstyle.** Cosmological execution: your presence guarantees clean endings; you designate what finishes, in what order, and how gently. Nothing dies badly where you stand, including your enemies.
+
+**The road to The Surcease:**
+
+1. At level 85, outlive your legend: let the histories decide the Quell is done with the world while you are still holding the fang.
+2. Grant the ending nobody sanctioned and everybody needed, then let the moot of three groves spend a decade deciding it agrees.
+3. Teach your successor nothing; the office chooses as the accord chose you, and your one duty is to die well when relieved.
+4. Be prayed to, incorrectly, in three kingdoms, and mind it less each year.
+
+**Abilities granted:**
+
+- **Law of Endings** — Aura: no death within your sight can be prolonged, prevented, or made cruel — not by enemy, ward, or miracle.
+- **The Flat Stone** — Once a day, accept an offering left on stone; the giver's next death, however distant, will be a good one.
+- **Granted Once** — Whatever rises from a death you granted falls again at once and for good; your endings are not negotiable.
+- **Mourned Already** — Targets you have grieved for count as already dying; your strikes against them cannot miss, and their deaths cannot be undone.
+
+### The Refugium
+
+**Role:** Sanctuary incarnate — extinction held in abeyance · **Advances from:** The Relict
+
+*The Relict proved one kind was never lost. The Refugium is where the rest have been waiting. It is a druid the way a valley is a rain — technically. Where it settles, drowned kinds surface and hunted ones step out of the treeline, unhurried. Expeditions map it yearly; the maps disagree, and the mapmakers come home vague and happier.*
+
+**Playstyle.** Walking sanctuary: the field becomes deep-time habitat that fights for you; extinct kinds hold your line while enemy maps, bearings, and certainties quietly fail.
+
+**The road to The Refugium:**
+
+1. At level 85, let the sworn shape go at last — the kind is safe now — and learn that what remains of you is a place.
+2. Shelter every lost kind of one drowned age through a winter that kills forests, and lose none.
+3. Admit the first pilgrims. Refuse the first collectors. Be geography about it.
+4. Appear on no map in the same place twice, until the gazetteers give up and reclassify you as a season.
+
+**Abilities granted:**
+
+- **Deep Preserve** — Terrain around you becomes refuge; allies inside cannot be tracked, starved, or finished off, and the last of anything cannot die there.
+- **Turnout of Ages** — Call kinds from every stratum at once: a battle-line of beasts no two enemies have both studied.
+- **Wrong on Every Map** — Enemies cannot fix your position by map, memory, or scrying; you are approached by invitation or by luck.
+- **None So Lost** — While you stand, nothing present — kind, oath, or ally — can be reduced to none; one always remains.
+
+### The Sufferance
+
+**Role:** Territorial law — ground held by permission · **Advances from:** The Greenfall
+
+*After the Greenfalls, kingdoms stopped asking whether the green could take their cities and began asking why it had not. The Sufferance is that answer, seated. Every wall now stands by permission, and the permission walks, hearing petitions at boundary stones. Farmers understand the office best: everything grows where it is suffered to, and nowhere else.*
+
+**Playstyle.** Jurisdictional dominance: grant and revoke the ground itself. Enemy fortifications, footing, and supply exist at your pleasure; allies fight on land that wants them there.
+
+**The road to The Sufferance:**
+
+1. At level 85, become less a druid than a condition: when children ask why the forest spared their town, their grandmothers name you.
+2. Hold court at boundary stones for a generation; evict three empires' worth of ambition and not one farmer.
+3. Refuse worship; accept the field-edge left wild, which is all you ever asked for.
+4. When the third Greenfall gathers, decide whether it falls. The histories record nothing of your choice — only that some walls still stand.
+
+**Abilities granted:**
+
+- **Revoked Ground** — Withdraw permission from terrain an enemy holds; structures subside, crops refuse, wells silt, and morale reads the signs.
+- **Boundary Petition** — Once a day an enemy force may parley at a marker stone; those who deal honestly leave alive, and bound to it.
+- **Standing Permission** — Allies on ground you have granted cannot be starved, mired, or unhorsed; the land carries its guests.
+- **The First Wall** — Raise the accord's memory as a rampart of living wood anywhere; it predates every siegecraft and remembers each.
+
+### The Convalescence
+
+**Role:** Cosmic support — recovery made inevitable · **Advances from:** Feverbreak
+
+*Feverbreak ended plagues one at a time. The Convalescence is what the green learned from watching: recovery itself, kept as an office. Where its holder passes, blighted fields remember appetite, burned soil takes seed, and the sick sleep through the night for the first time in years. Three medical colleges deny it exists. Their infirmaries face its road anyway.*
+
+**Playstyle.** Cosmological recovery: everything you protect heals past where it began; battles bend toward mending, and attrition runs backward for your side.
+
+**The road to The Convalescence:**
+
+1. At level 85, outlast your own kennel: free every leashed plague into extinction, and stand hostage for the world's health yourself.
+2. Mend one province so thoroughly that war becomes impractical there, and watch armies desert into its farms for a generation.
+3. Sit at the deathbeds the office cannot mend, as a Rotwright would, and keep that half of the accord too.
+4. Let the histories argue whether the age's long peace was policy or convalescence, and water the question.
+
+**Abilities granted:**
+
+- **Backward Attrition** — Aura: allied wounds, exhaustion, broken gear, and spent courage all regenerate; the longer the fight, the more whole your side.
+- **Prescribed Rest** — Put one enemy into restorative sleep for a minute; it wakes healed, disarmed, and profoundly unwilling to continue.
+- **Land's Appetite** — Ground you cross yields double for a season; in battle it feeds allies standing on it as a meal would.
+- **The Long Mend** — Once a year, declare a wound of the world healing — a blight, a curse, a battlefield — and its recovery becomes certain.

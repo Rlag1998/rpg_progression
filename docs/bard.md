@@ -11,11 +11,19 @@ The Bard collects what others overlook — songs, secrets, debts of gratitude, t
 ```text
 Bard (Lv 1)
 ├── War-Skald (Lv 10)
-│   ├── Shieldsinger (Lv 25) → Anthemwright (Lv 40) → Voice of Legions (Lv 60)
-│   └── Dirgecaller (Lv 25) → Threnodist (Lv 40) → Knell of Empires (Lv 60)
+│   ├── Shieldsinger (Lv 25)
+│   │   ├── Anthemwright (Lv 40) → Voice of Legions (Lv 60) → The Chorus (Lv 85)
+│   │   └── Undersong (Lv 40) → The Fermata (Lv 60) → The Stay (Lv 85)
+│   └── Dirgecaller (Lv 25)
+│       ├── Threnodist (Lv 40) → Knell of Empires (Lv 60) → The Passing Bell (Lv 85)
+│       └── Elegist (Lv 40) → The Perfect Grief (Lv 60) → The Epitaph (Lv 85)
 └── Veiled Chronicler (Lv 10)
-    ├── Namebinder (Lv 25) → Redactor (Lv 40) → The Unwritten (Lv 60)
-    └── Silvertongue (Lv 25) → Kingmaker (Lv 40) → Author of Ages (Lv 60)
+    ├── Namebinder (Lv 25)
+    │   ├── Redactor (Lv 40) → The Unwritten (Lv 60) → The Lacuna (Lv 85)
+    │   └── Remembrancer (Lv 40) → The Fair Copy (Lv 60) → The Indelible (Lv 85)
+    └── Silvertongue (Lv 25)
+        ├── Kingmaker (Lv 40) → Author of Ages (Lv 60) → The Canon (Lv 85)
+        └── Demagogue (Lv 40) → The Murmuration (Lv 60) → The Acclamation (Lv 85)
 ```
 
 ## Tier I — Initiate (Level 1)
@@ -268,6 +276,94 @@ Bard (Lv 1)
 - **Diplomatic Poise** — Creatures that understand speech cannot strike you first in an encounter where you have not drawn a weapon.
 - **The Long Toast** — During any shared meal, learn one secret each guest would trade their honor to protect.
 
+### Undersong
+
+**Role:** Defensive support — fear absorption and stored release · **Advances from:** Shieldsinger
+
+*The circle of Anthemwrights builds courage and hands it out; the Undersongs call that scaffolding, and scaffolding falls with the music. They sing beneath the line, low and unheard, drawing every terror into themselves so the wall has nothing left to feel. The order accepts volunteers, explains the cost, then accepts the fewer who remain.*
+
+**Playstyle.** Stand within the formation and drink its dread. Redirect fear, pain, and panic onto yourself, then spend the stored anguish as devastating release notes.
+
+**The road to Undersong:**
+
+1. Reach level 40, then stand your first vigil beneath a shield-wall and take into yourself everything it could not afford to feel.
+2. Hear the order explain the cost twice, and volunteer twice.
+3. Carry a company's whole terror through a night assault, and let them believe, forever, that they were simply brave.
+4. Argue doctrine with an Anthemwright until dawn, lose gracefully, and go on being right.
+
+**Abilities granted:**
+
+- **Swallowed Scream** — Absorb a fear or morale effect targeting any ally in earshot; store it as a verse you may sing back later.
+- **Beneath the Anthem** — While an ally's song or banner effect is active, you may carry its cost — exhaustion, backlash, upkeep — in their place.
+- **Returned in Kind** — Expend every stored terror in one discord; enemies within thirty paces suffer the sum of all fear you have swallowed today.
+- **Unheard Verse** — Your songs grant their benefits silently; enemies cannot locate, silence, or counter what they cannot hear.
+
+### Elegist
+
+**Role:** Precision striker — single-target elegies and endings · **Advances from:** Dirgecaller
+
+*Threnodists grieve at armies, wholesale; the Elegists call that noise. They hold that every living thing owns one song exactly fitted to its ending, and they find it — a listener at a time. Their commissions are spoken, never written, and their fees are ruinous, because the second-worst thing an Elegist can do is sing for free.*
+
+**Playstyle.** Study one target while the fight rages, assembling their elegy phrase by phrase; each verse lands harder than the last, and the finished song ends them.
+
+**The road to Elegist:**
+
+1. Reach level 40 and hear, once, the opening phrase of your own elegy from a senior Elegist, so you know the work is honest.
+2. Compose an elegy across a winter for a tyrant you have never met, and deliver it in eleven words.
+3. Refuse a commission because the grief offered was not the client's to spend.
+4. Break the order's rule once: lay a ghost three priests could not, for no fee, and accept the censure as fair.
+
+**Abilities granted:**
+
+- **The Fitting** — Observe a target for two rounds to learn its griefs; your song abilities against it ignore resistances thereafter.
+- **Elegy in Progress** — Begin a target's elegy; each round you add a verse, your damage against them doubles, to a limit of four.
+- **Dying Fall** — Complete a finished elegy against a target below a quarter of its health; it dies quietly, without wound, sound, or save.
+- **Grief Laid Down** — Sing an ended thing to rest — a ghost, a feud, an oath — and it troubles the living no further.
+
+### Remembrancer
+
+**Role:** Controller — indelible witness and binding record · **Advances from:** Namebinder
+
+*Raised by the Archive of Echoes as its answer to the Redactors, Remembrancers hold that erasure is the only murder that leaves no body to bury. What one of them witnesses cannot afterward be unwritten, and they attend executions, treaties, and massacres uninvited. Their memory is admissible in every court that dares summon them.*
+
+**Playstyle.** Fix the battlefield into record. Pin enemies to their names and deeds, lock conditions in place, and make every advantage you witness permanent.
+
+**The road to Remembrancer:**
+
+1. Reach level 40, then stand in the Archive of Echoes and answer one of its silences aloud, correctly, from memory.
+2. Memorize a condemned library in the nine nights before it burns.
+3. Witness an atrocity powerful men paid to have unhappen, and carry it, uncut, into a courtroom that does not want it.
+4. Meet a Redactor over the same page, and leave with the page.
+
+**Abilities granted:**
+
+- **Entered Into Record** — Declare a deed you witnessed this scene; no magic, erasure, or decree can afterward make it not have happened.
+- **Pinned to the Name** — Speak a target's name and deed together; it cannot disguise, teleport, turn invisible, or deny the deed until dawn.
+- **Mend the Seam** — Restore one erased or redacted thing you can prove once existed; Redactor work resists, but not forever.
+- **Uninvited Witness** — You may attend any proceeding — court, coronation, execution — and no bar, ward, or writ may lawfully remove you.
+
+### Demagogue
+
+**Role:** Mass persuader — crowds, uprisings, public leverage · **Advances from:** Silvertongue
+
+*Kingmakers work successions in anterooms; Demagogues work squares, and hold that no throne was ever owed to anyone. They speak where the many gather, and the many become an argument with hands. Every city ordinance against public assembly is, one way or another, a monument to some Demagogue — the guilds of heralds keep the list.*
+
+**Playstyle.** Raise the crowd and aim it. Convert bystanders into partisans mid-encounter, escalate numbers into power, and vanish into the very many you made.
+
+**The road to Demagogue:**
+
+1. Reach level 40, then empty a tyrant's capital with nothing in your hands but a crate to stand on.
+2. Be outlawed by name in three cities, and enter each one openly, inside a crowd that will not part.
+3. Refuse the crown a grateful mob offers you, twice, because once convinces no one.
+4. Watch a riot you raised burn something you loved, and decide, with open eyes, to keep speaking.
+
+**Abilities granted:**
+
+- **Kindling Speech** — Address a crowd for one minute; a number of listeners equal to your level become your partisans for a day.
+- **Borrowed Hands** — Your partisans within sight lend you their actions; spend up to three of them each round as your own.
+- **One of the Crowd** — While at least ten people stand near you, attacks and divinations cannot single you out of the press.
+- **Emptied Market** — Speak in a settlement at dusk; by morning its labor, markets, and garrisons answer to the crowd's demands, not the crown's.
+
 ## Tier V — Mythic (Level 60)
 
 ### Voice of Legions
@@ -357,3 +453,269 @@ Bard (Lv 1)
 - **Recurring Character** — Any person you have spoken with for an hour can be activated as an ally decades later, unaware they were written.
 - **Foreshadowing** — Declare an event aloud; within a year, circumstances bend until it occurs at a moment of your choosing.
 - **Narrative Weight** — You cannot die in a way history would find meaningless; fatal blows in trivial scenes simply fail.
+
+### The Fermata
+
+**Role:** Mythic absorber — army-scale dread transference · **Advances from:** Undersong
+
+*The histories record armies that should have broken and instead walked home quiet, and they record, sometimes, a figure on the wall singing under the screams. A Fermata carries an entire war's worth of terror and speaks in a level voice. The order's physicians examine each one yearly and write, carefully, nothing at all.*
+
+**Playstyle.** Nothing near you is permitted to despair. Absorb fear at army scale, hold it indefinitely, and release it — once, precisely — as something no enemy line survives.
+
+**The road to The Fermata:**
+
+1. Reach level 60, then carry a whole war home inside you and answer every question about it kindly.
+2. Walk a plague-city's night watch for a season, and leave it a city that remembers grief but not despair.
+3. Release, exactly once, everything you carry, at a place of your choosing, and let the histories argue whether it was mercy.
+4. Teach one student to carry less than you did, and call that the order's first victory.
+
+**Abilities granted:**
+
+- **Level Voice** — Allies within a mile cannot be frightened, demoralized, or driven to rout; you feel each prevented terror personally.
+- **Carried Quiet** — Take a broken ally's condition — madness, despair, mortal fear — into yourself; they wake steady, and you do not say what it cost.
+- **Full Voice** — Loose everything you carry in one measure; every foe in earshot suffers the accumulated terror of your entire career, all at once.
+- **Composure** — Your saves cannot be worsened, your concentration cannot be broken, and your voice cannot be silenced while any ally can hear you.
+
+### The Perfect Grief
+
+**Role:** Mythic executioner — inevitable single-target endings · **Advances from:** Elegist
+
+*Somewhere there is a song that ends each thing, and one living voice is agreed to know them all. Rulers pay the Perfect Grief simply to confirm that theirs exists; it does. The histories dispute only whether the grief is felt or performed, and those who could answer have all, notably, declined.*
+
+**Playstyle.** Choose what ends. Any single foe, however legendary, can be sung to a close; the work of the fight is reaching the final verse intact.
+
+**The road to The Perfect Grief:**
+
+1. Reach level 60 and finish, alone, the elegy of something the world agreed could not end, and attend what follows.
+2. Confirm to a king that his song exists, decline to hum it, and charge him for both.
+3. Withhold the final verse once, for reasons you never explain, and let the histories call it mercy or craft as they please.
+4. Learn your own elegy whole, carry it calmly, and tell no one who holds the other copy.
+
+**Abilities granted:**
+
+- **The True Elegy** — Begin any creature's true elegy without study; it knows, and must choose each round between fleeing your voice and stopping it.
+- **Grief for the Deathless** — Your elegies end what does not die — liches, oaths, institutions — retiring them from the world as concluded things.
+- **Withheld Verse** — Halt an elegy one verse from its close; the target lives, and nothing can conceal from it how close it stood.
+- **Confirmation** — Hear any named creature's elegy in your mind unbidden; learn its manner of ending, though never the day.
+
+### The Fair Copy
+
+**Role:** Mythic witness — reality anchored by memory · **Advances from:** Remembrancer
+
+*When two archives disagree, both send to the Fair Copy, and abide. They are the corrected text of the world walking around in a person: everything witnessed, nothing revised. The Unwritten leave seams where they cut; the Fair Copy is where the missing sentences are still, inconveniently for someone, whole.*
+
+**Playstyle.** Be the record no power can amend. Recall anything that has ever happened near you, impose true versions over lies, and unmake illusions by contradiction.
+
+**The road to The Fair Copy:**
+
+1. Reach level 60, then be summoned by two warring archives, settle their variance from memory, and be believed without oath.
+2. Recite a page an Unwritten cut, word for word, into the silence where it used to be, and make it hold.
+3. Remember, on behalf of a grieving nation, everything it begged you to help it forget, and refuse.
+4. Carry one memory you know to be true and cruel and useless, forever, because accuracy does not bargain.
+
+**Abilities granted:**
+
+- **Sic** — Declare one falsehood in play — an illusion, a forgery, a glamour — formally erroneous; it fails for all observers.
+- **Retained in Full** — Anything you have perceived is permanently retained; no magic, age, or bargain can take a memory from you.
+- **Variance Noted** — When a creature lies within your hearing, you and your allies know, and it takes psychic backlash proportional to the lie.
+- **Recension** — Once per season, fully restore an erased person, place, or event to the world's memory; even Unwritten work yields.
+
+### The Murmuration
+
+**Role:** Mythic crowd-shaper — cities moved as one · **Advances from:** Demagogue
+
+*A Demagogue raises a crowd; the Murmuration is one. Where they walk, the many arrive without being sent for, and think together like weather deciding to break. Three dynasties ended in a fortnight of their passing through, and no chronicler has ever found the speech that did it. There wasn't one.*
+
+**Playstyle.** You no longer address crowds; you conduct populations. Entire districts act as your limbs, and tyrannies discover that arresting you means arresting everyone.
+
+**The road to The Murmuration:**
+
+1. Reach level 60, then enter a capital under total curfew and let the streets fill behind you, window by window, in silence.
+2. End a dynasty without giving a speech, and leave the chroniclers arguing over which words did it.
+3. Stand in front of the crowd you raised when it turns the wrong way, and turn it, alone, with your back to the spears.
+4. Go home to a village too small for history, and be, for one winter, obeyed by no one.
+
+**Abilities granted:**
+
+- **The Turnout** — People within a day's walk feel called and come; a crowd of any size assembles around you by dusk.
+- **Sea of Strangers** — While any crowd holds you, you cannot be seized, struck, or scried; every attempt finds only willing strangers.
+- **One Roar** — Focus a crowd's will into a single act — open the gates, stop the wagons, part for no cavalry — performed as one.
+- **No Speech At All** — Your mere presence in a settlement for a night grants its people immunity to fear, censorship, and compulsion for a season.
+
+## Tier VI — Apotheosis (Level 85)
+
+### The Chorus
+
+**Role:** Apotheosis — every massed voice at once · **Advances from:** Voice of Legions
+
+*The Song at Vessa's Ford still holds the ford; scholars stopped asking how and started asking whom. The Chorus is what a Voice becomes when the singing no longer requires them: an office held by whoever the world's massed voices agree to be next. Armies that have never met them keep their meter anyway.*
+
+**Playstyle.** Sing from every allied mouth at once. Wherever people raise one voice together, you are present, buffing, conducting, and impossible to silence short of silencing the world.
+
+**The road to The Chorus:**
+
+1. Reach level 85, then hear yourself sung at Vessa's Ford on a night you spent asleep three kingdoms away, and understand what you are becoming.
+2. Be kept by the world: let every army that sings, on any side, keep your meter, and make your peace with the ones you would not have chosen.
+3. Attend your own funeral as the music.
+4. When the last veteran of your first company dies, sing at the graveside in ten thousand living voices, none of them yours.
+
+**Abilities granted:**
+
+- **Everywhere Sung** — Manifest wherever ten or more voices sing together, at any distance, and fight from within their song.
+- **The Second Ford** — Consecrate a position permanently; any ally who ever holds it gains your full anthem, singer or none.
+- **Descant Without End** — Add your voice to any allied song, prayer, or warcry anywhere; it gains mythic potency for its duration.
+- **Silence Insufficient** — You cannot be silenced while two allies remain alive anywhere; killing the song now requires killing the singing world.
+
+### The Passing Bell
+
+**Role:** Apotheosis — the toll that ends realms · **Advances from:** Knell of Empires
+
+*Rulers no longer keep the Knell's name in sealed letters; they keep an ear on their own bells. When a realm's time comes, its bells ring notes no founder cast into them, and the Passing Bell is both the ringing and the one who may still walk in afterward, unarmed, to confirm it. Protocol exists. It is short.*
+
+**Playstyle.** Arrive as a verdict already delivered. Realms weaken at your attention; your presence ends sieges, reigns, and appetites for war before your first note sounds.
+
+**The road to The Passing Bell:**
+
+1. Reach level 85, then hear a city you never visited ring your notes, unbidden, on the night its dynasty ends.
+2. Stop being sent for. Arrive only where the bells have already agreed.
+3. Grant one realm its year, for reasons three chancelleries still dispute, and attend, at its end, what the year became.
+4. Compose the toll for the age itself, file it with the guilds of heralds, and decline to say when.
+
+**Abilities granted:**
+
+- **Rung Elsewhere** — Toll through any bell in the world; all who hear it know which realm is being mourned in advance.
+- **The Short Protocol** — Enter any fortification unarmed and unopposed once its bells have rung you; garrisons stand aside by something older than orders.
+- **Generation of Quiet** — A realm that hears your full toll cannot raise armies for thirty years; its people, oddly, prosper.
+- **The Granted Year** — Refrain from ringing for a realm whose time has come; it gains a year, and knows precisely whose year it is.
+
+### The Lacuna
+
+**Role:** Apotheosis — the living gap in every record · **Advances from:** The Unwritten
+
+*The Unwritten stepped through a gap in the record; the Lacuna is the gap, given office. Every archive owns a missing page, every history a sentence that stops — and all of them are the same room, and the room is occupied. Scholars leave offerings of blank paper. Sometimes, terribly, the offerings are accepted.*
+
+**Playstyle.** Fight from inside the world's omissions. Step between any two erasures, remove events as they happen, and remain the one thing no account will ever hold.
+
+**The road to The Lacuna:**
+
+1. Reach level 85, then find the page where your own record stopped, and choose to be the silence rather than the sentence.
+2. Let the other Unwritten forget you, one by one, until even the margins hold no meeting you attended.
+3. Keep the rules you once agreed in the margins, now that no one remains who could catch you breaking them.
+4. Guard the one true, terrible thing you left standing in the record, forever, from every editor who comes after — including yourself.
+
+**Abilities granted:**
+
+- **Every Missing Page** — Travel instantly between any two erasures in the world; all gaps in all records adjoin your position.
+- **As It Never Was** — Erase an event in the instant it occurs — the blow, the death, the order given — before consequence takes hold.
+- **Kept in the Gap** — Swallow a secret whole: person, place, or deed vanishes from record and recall, retrievable only by your consent.
+- **The Stopped Sentence** — End any speech, spell, or command mid-word, permanently; the rest of it never existed to be finished.
+
+### The Canon
+
+**Role:** Apotheosis — the story history must follow · **Advances from:** Author of Ages
+
+*An Author of Ages writes history; the Canon is what history is checked against. They no longer arrange events — events arrange themselves to remain in the telling, because exclusion from the Canon has become a kind of weather no dynasty survives. Historians call certain eras well-written. The eras, by now, are trying.*
+
+**Playstyle.** Rule on what the story is. Admit or exclude deeds from mattering, grant allies narrative weight, and reduce enemies to characters whose arcs you have already closed.
+
+**The road to The Canon:**
+
+1. Reach level 85, then watch the design you sealed come true and notice that the age now consults you before happening.
+2. Outgrow authorship: let a century you did not plan argue its way into your approval, and grant it.
+3. Refuse the Fair Copy's correction once, be wrong, and enter the error into the Canon under your own name.
+4. Decide what the world's story is for, and do not tell it; a Canon that explains itself is merely a book.
+
+**Abilities granted:**
+
+- **Outside the Story** — Rule a deed outside the Canon; it still occurred, but no consequence, glory, or precedent may flow from it.
+- **Protagonism** — Name an ally this era's protagonist for a season; fortune, allies, and timely coincidence bend toward their purpose.
+- **Closed Arc** — Declare an enemy's story complete; they can win no further victories, only endings, until they change beyond recognition.
+- **The Authorized Version** — Once per age, pronounce what an event meant; every telling, ballad, and archive amends itself to agree.
+
+### The Stay
+
+**Role:** Apotheosis — despair held for the world · **Advances from:** The Fermata
+
+*A Fermata releases its carried terror exactly once; the Stay never will. They have become the place fear goes: a standing mercy soldiers swear by without knowing it is an office. Routs end mid-step. Plagues are endured with strange grace. Somewhere, someone is carrying it, and the world has learned to lean.*
+
+**Playstyle.** Hold what the world cannot. Absorb despair at the scale of nations, anchor allies against any breaking, and remain — whatever arrives — level, present, and singing low.
+
+**The road to The Stay:**
+
+1. Reach level 85, then take up again everything you once released, add to it what others set down, and speak kindly at supper.
+2. Become weather: let soldiers who never learned your name swear by you when the line holds for no reason they can find.
+3. Decline, forever, the one release the rank permits, and do not be praised for it, because no one knows.
+4. Choose your successor from among those who never once asked what you carry, and tell them everything, last.
+
+**Abilities granted:**
+
+- **Where Fear Goes** — All despair, panic, and breaking within a realm may be routed to you; you take it, and hold.
+- **Leaned Upon** — Any ally anywhere may, once, refuse to break; they feel a low song under the moment, and stand.
+- **Mainstay** — You cannot be moved, silenced, or unmade while you carry another's fear; the world requires you standing.
+- **Quiet Census** — Know at all times who, in the world, is closest to breaking, and be able to hum to them.
+
+### The Epitaph
+
+**Role:** Apotheosis — the last word over all things · **Advances from:** The Perfect Grief
+
+*Nothing now ends until it is said in them. The Perfect Grief knew every elegy; the Epitaph is what the elegies were for — the world keeps them as its final diction, and tombs three centuries old are found, on inspection, to be quoting. Endings without them are merely stoppages, and do not take.*
+
+**Playstyle.** Speak endings into force. Conclude anything — creatures, curses, wars, eras — with a sentence, and unmake false endings by pronouncing them unfinished.
+
+**The road to The Epitaph:**
+
+1. Reach level 85, then say the last word over an age the Canon has closed, and feel the world set it down.
+2. Visit the tombs that quote you and correct none of them; what a grave hears, it keeps.
+3. Hold the other copy of your own elegy at last, read it without flinching, and file it unspoken.
+4. Leave one thing eternally unconcluded — a door, a song, a love — so the world remembers what your silence is worth.
+
+**Abilities granted:**
+
+- **Said and Settled** — Pronounce a true ending over anything concluded in fact but not at rest; it ends, wholly, for good.
+- **Not As Written** — Declare a death, defeat, or collapse unfinished; it reverses, because the ending had not been said.
+- **Quoted in Stone** — Every epitaph, eulogy, and last word ever spoken is known to you, with what it concealed.
+- **Era's End** — Conclude an age itself; calendars, on their own, begin again at one.
+
+### The Indelible
+
+**Role:** Apotheosis — witnessed truth made permanent law · **Advances from:** The Fair Copy
+
+*The Fair Copy was consulted; the Indelible is simply in force. What they have witnessed cannot now be otherwise — not remembered differently, not ruled against, not unwritten by anything that writes. Archives no longer send to them; archives are, by definition, whatever agrees with them. The Lacuna keeps a respectful distance. It is mutual.*
+
+**Playstyle.** See it, and it is settled. Your witness locks reality against revision; fight by fixing the field's truths faster than enemies can lie about them.
+
+**The road to The Indelible:**
+
+1. Reach level 85, then witness something a god denies, and hold the record until the god amends.
+2. Become the standard: let the archives stop citing you and start being measured against you, and do not visit them again.
+3. Keep the respectful distance. What the Lacuna holds and what you hold must never meet, and both of you know why.
+4. Witness one kindness with the same finality you gave the atrocities, so the permanent record is not only wounds.
+
+**Abilities granted:**
+
+- **Force of Record** — Whatever you witness becomes unalterable fact; no illusion, rewrite, erasure, or godly appeal stands against your seeing.
+- **Adverse Testimony** — Recite a creature's true history aloud; it loses every power founded on a lie, permanently.
+- **The Whole Answer** — Any person may ask you what truly happened, once in their life, and receive the answer whole.
+- **Witness Everlasting** — Your memories persist past your death as a place scholars may visit; the office admits one visitor at a time.
+
+### The Acclamation
+
+**Role:** Apotheosis — sovereignty by the crowd's roar · **Advances from:** The Murmuration
+
+*Crowns are fitted in private and confirmed in squares, and the confirmation has become a person. The Acclamation is the roar itself, holding office wherever the many decide as one; kings date their reigns from its sound and their abdications from its absence. Constitutional scholars have proposed writing this down. The squares decline.*
+
+**Playstyle.** Rule nothing; ratify everything. Crown and uncrown by massed voice, arrive wherever the many gather, and make legitimacy itself a sound you can withhold.
+
+**The road to The Acclamation:**
+
+1. Reach level 85, then be the sound a coronation waits for, in a city you have never entered, and choose whether it comes.
+2. Uncrown a good king once, because the many were wrong and had the right to be; carry what that teaches.
+3. Decline, permanently, the Kingmakers' standing offer of dinner.
+4. Become the absence too: teach the squares that your silence is a verdict, so that no tyrant ever again mistakes quiet for consent.
+
+**Abilities granted:**
+
+- **By Acclaim** — Raise any willing person to any office with the crowd's roar; the world treats the elevation as lawful.
+- **Withdrawn Consent** — Fall silent toward a ruler; their commands lose force by degrees until even their guards merely watch them speak.
+- **Every Square at Once** — Be present in every gathering of the many simultaneously; disperse one, and you remain in all the others.
+- **The Roar** — Loose the assembled voice of a city as force; gates, walls, and shield-lines are argued out of the way.

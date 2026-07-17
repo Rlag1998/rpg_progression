@@ -11,11 +11,19 @@ Every library keeps one shelf chained, and the Necromancer has read it twice. Th
 ```text
 Necromancer (Lv 1)
 ├── Corpsebinder (Lv 10)
-│   ├── Ossuary Captain (Lv 25) → Gravemarshal (Lv 40) → Sovereign of the Risen (Lv 60)
-│   └── Gravetide Caller (Lv 25) → Charnel Shepherd (Lv 40) → The Unnumbered (Lv 60)
+│   ├── Ossuary Captain (Lv 25)
+│   │   ├── Gravemarshal (Lv 40) → Sovereign of the Risen (Lv 60) → The Reveille (Lv 85)
+│   │   └── Wightsmith (Lv 40) → The Reforged (Lv 60) → The Provenance (Lv 85)
+│   └── Gravetide Caller (Lv 25)
+│       ├── Charnel Shepherd (Lv 40) → The Unnumbered (Lv 60) → The Second Sea (Lv 85)
+│       └── Tribune of the Pit (Lv 40) → The Gravamen (Lv 60) → The Potter's Field (Lv 85)
 └── Pale Scholar (Lv 10)
-    ├── Vesselwright (Lv 25) → Lich Ascendant (Lv 40) → Archlich (Lv 60)
-    └── Soulchandler (Lv 25) → Usurer of Souls (Lv 40) → The Wakelight (Lv 60)
+    ├── Vesselwright (Lv 25)
+    │   ├── Lich Ascendant (Lv 40) → Archlich (Lv 60) → The Posthumous (Lv 85)
+    │   └── Mortifex (Lv 40) → The Composed (Lv 60) → The Mortmain (Lv 85)
+    └── Soulchandler (Lv 25)
+        ├── Usurer of Souls (Lv 40) → The Wakelight (Lv 60) → The Last Rite (Lv 85)
+        └── Crowner (Lv 40) → The Testament (Lv 60) → The Verdict (Lv 85)
 ```
 
 ## Tier I — Initiate (Level 1)
@@ -268,6 +276,94 @@ Necromancer (Lv 1)
 - **Foreclosure** — Sever the soul of a marked enemy below one-quarter health; no resurrection honors the contract they broke.
 - **Escrow** — Hold a willing ally's soul in your vault; their body cannot die while the deposit stands.
 
+### Wightsmith
+
+**Role:** Elite-minion duelist — one masterwork revenant · **Advances from:** Ossuary Captain
+
+*Wightsmiths call the Gravemarshal's legions a thousand apologies for one failure of craft. The order raises a single dead worth the work — a duelist, a headsman, a drowned queen's champion — and restores everything the grave took: name, memory, art. A Wightsmith keeps one. Garrisons have resigned rather than learn which one.*
+
+**Playstyle.** Fight as a pair: your masterwork duels while you maintain it, sharpening its art mid-battle, mending what it cannot dodge, and finishing what it staggers.
+
+**The road to Wightsmith:**
+
+1. Reach level 40 and exhume a duelist whose name still empties taverns, restoring every art the grave took from her.
+2. Refuse a Gravemarshal's commission in writing, and survive the correspondence.
+3. Match your one against another order's hundred, and be home by supper.
+4. Learn your revenant's one regret from its own mouth, and mend it.
+
+**Abilities granted:**
+
+- **Masterwork Raising** — Raise one named revenant with its living skill, memory, and speech intact; only one masterwork may exist at a time.
+- **Whetstone Litany** — Chant over your revenant; for ten seconds its strikes cannot be parried by any technique its opponent learned from the living.
+- **Signature Stroke** — Your revenant repeats the blow it was famous for in life; against a named opponent, it cannot miss.
+- **Smith's Prerogative** — Recall your masterwork to your side instantly, or rebuild it overnight from any surviving fragment.
+
+### Tribune of the Pit
+
+**Role:** Swarm avenger — grievance-charged mass assault · **Advances from:** Gravetide Caller
+
+*Tribunes of the Pit hold that the Shepherds keep livestock that ought to be plaintiffs. They work the same mass graves — plague pits, drowned levies, paupers' trenches — but raise them as a constituency: the unmourned, standing in suit against whoever spent them. A Tribune's tide does not graze. It presents demands.*
+
+**Playstyle.** Raise the wronged in wrathful crowds, name the party responsible, and let every shambler strike hardest at whoever owes its grave an answer.
+
+**The road to Tribune of the Pit:**
+
+1. Reach level 40 and raise an entire plague pit in one night, learning what each of its dead was owed.
+2. March the drowned levies of a forgotten war to the palace that spent them, and wait, saying nothing, until the palace asks.
+3. Win one wrongful death a hearing in a living court, with the deceased attending as evidence.
+4. Refuse the grave-markets outright, and let the Shepherds price the precedent.
+
+**Abilities granted:**
+
+- **Presentment** — Name the party responsible for a grave; everything you raise from it strikes that enemy twice as hard.
+- **Quorum of the Nameless** — Raise a mass grave as one crowd; the more who died wronged, the stronger each rises.
+- **Redress in Kind** — Your swarm learns whatever harms it and returns it in kind, wound for remembered wound.
+- **Dismissal** — Dismiss the crowd to rest; any dismissed unavenged rise without cost next time, and angrier.
+
+### Mortifex
+
+**Role:** Burst caster — banked-death sacrifice economy · **Advances from:** Vesselwright
+
+*Where the Lich Ascendant files death away, the Mortifex takes it into the workshop. The order holds that a death refused is a death wasted: each member builds their own, choosing hour and instrument, compounding it in a vessel until their one mortality is the heaviest object they own. Liches call the work tragic. The order calls liches unfinished.*
+
+**Playstyle.** Spend your own death in installments: self-wounding rites buy disproportionate power, and the vessel holding your ending grows heavier and more dangerous every year.
+
+**The road to Mortifex:**
+
+1. Reach level 40 and begin your death: choose its hour, its instrument, and its witness, then build the vessel to hold it until then.
+2. Decline a Lich Ascendant's tutelage politely, and note the flinch when you explain why.
+3. Survive what should have killed you nine times, and bank all nine.
+4. Weigh your vessel each solstice, and be glad it is heavier.
+
+**Abilities granted:**
+
+- **The Prepared End** — Your death lives in a vessel you built; nothing kills you by surprise, only by appointment.
+- **Installments** — Pour one measure of your stored death into a spell; it lands with the weight of a dying man's last act.
+- **The Growing Weight** — Every wound you survive is added to the vessel; your death grows heavier, and so does everything you spend it on.
+- **Rehearsal** — Die briefly and on purpose; for ten seconds you act from beyond consequence, then return.
+
+### Crowner
+
+**Role:** Control caster — evidence, replayed deaths, denial · **Advances from:** Soulchandler
+
+*Crowners hold the one inquest that never adjourns. Where the Usurer lends soul-light at terms, a Crowner's lanterns are a court of record: every soul catalogued, every testimony preserved, nothing sold at any price. Magistrates cite them; tyrants burn archives and discover the archive was elsewhere. The order's oath is one line: the dead are evidence, not currency.*
+
+**Playstyle.** Win through testimony: replay deaths as weapons, confront the living with what the dead witnessed, and spend preserved evidence for exacting, judicial power.
+
+**The road to Crowner:**
+
+1. Reach level 40 and catalogue a massacre within a day, every soul deposed and not one bought.
+2. Decline the Usurer's standing offer for your archive, annually, in writing.
+3. Convict a man three courts acquitted, because the dead knew otherwise.
+4. Burn nothing, sell nothing, lose nothing, through ten consecutive years of war.
+
+**Abilities granted:**
+
+- **Court of Record** — Souls you bottle become depositions; their testimony cannot be altered, silenced, or purchased, even from you.
+- **Confrontation** — Show an enemy one death they caused, replayed in full; they fight the memory while you fight them.
+- **Subpoena** — Summon any relevant soul to testify for one minute; refusal is contempt, and contempt hurts.
+- **Sealed Exhibit** — Store a witnessed moment unopened; broken in battle, it inflicts everything the moment contained.
+
 ## Tier V — Mythic (Level 60)
 
 ### Sovereign of the Risen
@@ -357,3 +453,269 @@ Necromancer (Lv 1)
 - **Snuff** — Extinguish one soul utterly; no god, spell, or clause can retrieve it.
 - **The Kept Flame** — Return a stored soul to its body whole — a true resurrection, granted rarely and priced honestly.
 - **Hour of Moths** — Release a stormcloud of kept souls that swarm your enemies, each whispering its own death.
+
+### The Reforged
+
+**Role:** Mythic duelist — flawless self-made masterwork · **Advances from:** Wightsmith
+
+*The last tradition of the Wightsmiths is the quiet one: dying, the greatest are raised by their own prepared working, remade as the masterpiece no commission ever deserved. Histories dispute whether a Reforged is maker or made; the Reforged decline to see the difference. Connoisseurs identify perhaps four across the ages, and argue attribution bitterly.*
+
+**Playstyle.** Play as the masterwork itself: a remade body without flaw, every art of every revenant you ever raised, and a maker's patience for repairs.
+
+**The road to The Reforged:**
+
+1. Reach level 60 and complete the working that will raise you, in instructions no apprentice could mistake.
+2. Die of nothing but readiness, and rise as your own final commission.
+3. Pass among the living for a year, and be complimented on your health.
+4. Keep one flaw on purpose, so the work stays yours.
+
+**Abilities granted:**
+
+- **The Smith's Last Work** — Your body is craft, not flesh: critical strikes find no seam, fear finds no owner, and wounds are repairs, not injuries.
+- **Repertoire of the Raised** — Perform any combat art of any revenant you ever raised, at the mastery its owner died holding.
+- **Recast** — When destroyed, your remains reforge you within a day, and each casting removes one flaw of the original.
+- **Maker's Mark** — Undead that strike you recognize the hand that perfected their kind, and kneel instead.
+
+### The Gravamen
+
+**Role:** Mythic host — province-scale risen grievance · **Advances from:** Tribune of the Pit
+
+*In law, the gravamen is the weight of a grievance — the part no court may dismiss. Histories record one per catastrophe and dispute each: a figure who stood up out of an age's mass graves carrying everything the unmourned were owed. Three dynasties are known to have ended by settlement. The terms remain sealed.*
+
+**Playstyle.** Fight as a walking indictment: your host grows from every injustice on the field, and named enemies kneel beneath the weight of what stands against them.
+
+**The road to The Gravamen:**
+
+1. Reach level 60 and stand up out of a century's mass grave carrying its full and itemized complaint.
+2. End a dynasty by settlement, and seal the terms so well that historians blame the weather.
+3. Bury the settled dead a second time, properly, with every name spoken once aloud.
+4. Become the reason powerful men fund cemeteries.
+
+**Abilities granted:**
+
+- **Burden of Proof** — Enemies you indict slow, then buckle, beneath the counted burden of everyone they sent unmourned into the ground.
+- **The Pits Empty** — Every mass grave in the province opens; the wronged rise and walk to you, gathering as they come.
+- **Settlement** — Offer terms once per battle; those who accept leave unmarked, and those who refuse are added to the complaint.
+- **No Dismissal** — Your host cannot be turned, banished, or laid to rest by any authority until the grievance is answered.
+
+### The Composed
+
+**Role:** Mythic bulwark — unkillable calm, apocalyptic reserve · **Advances from:** Mortifex
+
+*A Mortifex who finishes the work is called Composed: death complete, carried, unspent. Histories record them by absence — battles that ended because one calm figure arrived and nothing happened. What a finished death could purchase has been calculated three times, by three colleges, each of which then closed its necromancy department. The Composed carry it anyway, and wait.*
+
+**Playstyle.** Fight with absolute composure: immune to fear, haste, and despair, spending single drops of a finished death that could, poured out, end an age.
+
+**The road to The Composed:**
+
+1. Reach level 60 and finish your death: the last hour poured, the vessel sealed, the work complete.
+2. Arrive at a war so calmly that both sides assume you are the terms, and be right.
+3. Let three colleges calculate what your death could buy, and outlive their necromancy departments.
+4. Carry the heaviest object in the world through a crowded market, and be jostled.
+
+**Abilities granted:**
+
+- **Perfect Composure** — Nothing frightens, hurries, or breaks you; effects that target your mortality find it elsewhere, finished and put away.
+- **A Drop of the End** — Spend the smallest measure of your death; one enemy experiences their entire ending in a heartbeat, and drops.
+- **The Weight Made Plain** — Set the vessel down where all can perceive it; armies discover they would rather not, and withdraw in good order.
+- **Still Unspent** — While your death remains whole you cannot be slain; whatever should kill you is taken by the vessel instead.
+
+### The Testament
+
+**Role:** Mythic seer — perfect counterplay through testimony · **Advances from:** Crowner
+
+*Somewhere the true history is kept, in the dead's own light, and its keeper is called the Testament. Chronicles dispute every mythic of the age; the disputes are settled, when settled at all, by quiet correspondence with the archive. Gods have petitioned to amend their entries. The answer, in every recorded case, was no.*
+
+**Playstyle.** Fight with total knowledge of the dead: every technique ever witnessed by the dying, every deathbed secret, arrayed in evidence against the living.
+
+**The road to The Testament:**
+
+1. Reach level 60 and complete the deposition of an age: every death recorded, every record true.
+2. Refuse a god's petition to amend its entry, citing precedent.
+3. Settle a war between three kingdoms' histories with one lantern, lit once, for an hour.
+4. Be cited as the source no chronicle names, in every chronicle that matters.
+
+**Abilities granted:**
+
+- **The Whole Record** — Know anything any dying person ever knew; the dead witnessed nearly everything, and they deposed to you.
+- **Prior Testimony** — Your enemy's every tactic was watched by someone who died of it; you counter techniques before their first use.
+- **Amendment Denied** — Once a day, declare an event unalterable; no god, spell, or regret may revise what the dead witnessed.
+- **Reading of the Will** — Read an enemy the testament they have not yet made; the living fight poorly while hearing themselves inherited.
+
+## Tier VI — Apotheosis (Level 85)
+
+### The Reveille
+
+**Role:** Apotheosis — every dead soldier answers once · **Advances from:** Sovereign of the Risen
+
+*Soldiers' burial rites now end the same way in every land: rest until the horn. Few liturgies say whose. The Reveille is what remained when the last Sovereign of the Risen dissolved into the promise made to every buried soldier — one morning, one call, one final formation. Armistices hold because the alternative is attendance.*
+
+**Playstyle.** Wield the promised morning: call any dead soldier of any age to one last formation, and end wars by demonstrating what would answer the horn.
+
+**The road to The Reveille:**
+
+1. Reach level 85 and inherit the promise itself: every buried soldier's right to one more morning, held in your keeping.
+2. Sound the horn once, over one field, and let the ranks that answer be the treaty.
+3. Refuse to sound it for a century, and let the silence keep more peace than any call could.
+4. Be written into burial rites in languages you never learned: rest until the horn.
+
+**Abilities granted:**
+
+- **One Morning Owed** — Call any dead soldier in history to your line for one hour; each may be called exactly once, ever.
+- **The Horn at Last** — Sound reveille over a battlefield; every dead of every era beneath it stands to, in ranks, awaiting review.
+- **Stand Easy** — Dismiss any undead host, however bound, to genuine rest; its binder's authority is outranked.
+- **The Asking** — Belligerents who hear your horn must state their war's purpose aloud; wars that cannot are over.
+
+### The Second Sea
+
+**Role:** Apotheosis — the dead as living geography · **Advances from:** The Unnumbered
+
+*The cartographers conceded in the end: the world has acquired a second sea. It has tides, which follow no moon; a shore, which moves; and sailors, in a sense. Where the Unnumbered was disputed, the Second Sea is charted — a standing body of the dead, weather to some coasts, doctrine to others. Landlocked nations now maintain sea-walls.*
+
+**Playstyle.** Play as geography: your host is a region of the map, arriving as tide and climate rather than army, and receding only by choice.
+
+**The road to The Second Sea:**
+
+1. Reach level 85 and be entered on the admiralty charts as a body of water, with your own soundings and seasons.
+2. Flood a continent's interior once, gently, so the maps stop arguing.
+3. Grant one pilgrim fleet safe passage across yourself, and ignore the religion this founds.
+4. Recede for a generation, and let the world call it low tide.
+
+**Abilities granted:**
+
+- **Making Tide** — Your sea advances across a province; everything it covers joins it, and everything it uncovers is clean bone.
+- **The Moving Shore** — Your coastline is wherever you decide; inland is a courtesy the dead extend, and may revoke.
+- **Deep Census** — Take a sounding anywhere on earth: learn how many dead lie beneath, and how lightly they sleep.
+- **Wrackline** — Whatever your tide leaves behind rises sworn to you; every retreat seeds a garrison along the tideline.
+
+### The Posthumous
+
+**Role:** Apotheosis — history inside one afterlife · **Advances from:** Archlich
+
+*There is a scholarly question, seldom asked twice in the same room, about when the Archlich died — because every candidate date implies the same conclusion: that history has been proceeding inside somebody's afterlife for centuries. The Posthumous is that continuation, given a name. The age does not merely have an owner. The age is one.*
+
+**Playstyle.** Win from beyond the end: nothing that happens can precede you, your workings mature across centuries, and every clock in the fight is yours by seniority.
+
+**The road to The Posthumous:**
+
+1. Reach level 85 and let historians finally date your death, then let them notice what that makes everything since.
+2. Watch every plan you ever made mature in the same decade, and be mildly pleased.
+3. Become the fixed point calendars argue from, and decline to confirm which event you were.
+4. Let permanence be defined, in three languages, by reference to you.
+
+**Abilities granted:**
+
+- **Already Ended** — You cannot be ended, expired, or concluded; that happened long ago, and effects with durations treat you as their exception.
+- **Scheduled Inevitability** — Declare an outcome and a date up to a century out; the world begins arranging it immediately.
+- **The Age Answers** — Within the era that bears your name, every working older than a decade answers to you.
+- **Surplus of Hours** — Spend hoarded years to act many times in a single moment; you have more time than the battle does.
+
+### The Last Rite
+
+**Role:** Apotheosis — universal custody of the dying · **Advances from:** The Wakelight
+
+*Every funeral in every land now works, whatever the priest believes, because every candle lit for the dead is an annex of one flame. The Last Rite is what the Wakelight became when the churches surrendered the question: not a light the dying see, but the right of the dying to see one — enforced, universally, by something that collects.*
+
+**Playstyle.** Officiate mortality itself: every death in reach concludes on your terms, souls pass into your keeping by rite, and your rare mercies become liturgy.
+
+**The road to The Last Rite:**
+
+1. Reach level 85 and be adopted by every liturgy at once, under different names, without a single council convening.
+2. Attend, in the same hour, every deathbed on earth, and be seen carrying nothing away.
+3. Hold the rite for a dying god, and be thanked in its will.
+4. Become the entitlement itself: that no one, anywhere, dies unlit.
+
+**Abilities granted:**
+
+- **Universal Office** — Every death in your presence is conducted properly; no soul is lost, stolen, or harvested by any hand but yours.
+- **The Owed Candle** — Claim retroactively any soul ever denied its rite, voiding whatever was built upon the theft.
+- **Liturgy of Return** — Return one kept soul to life so completely that no church can call it heresy, and several call it proof.
+- **Final Benediction** — Pronounce a death complete; nothing may raise, bottle, bargain with, or appeal what you have blessed shut.
+
+### The Provenance
+
+**Role:** Apotheosis — authorship over all undeath · **Advances from:** The Reforged
+
+*Every raised thing carries, somewhere in the marrow, the mark of one hand. Scholars found it the way scholars find most horrors: cataloguing. The Provenance is the attribution behind all necromancy — the maker every working quietly cites, the workshop every apprentice unknowingly copies. The office outlives its holders, or the holders outlive the distinction; the catalogues stopped asking.*
+
+**Playstyle.** Command by authorship: everything raised by anyone is your uncredited work, and your mark, once invoked, outranks any binding on any dead thing.
+
+**The road to The Provenance:**
+
+1. Reach level 85 and find your mark in a corpse raised a thousand leagues away, by hands you never taught.
+2. Let three academies attribute the same masterwork to three different centuries, and sign nothing.
+3. Withdraw your mark once, in mercy, and watch an empire's necromancy fail overnight.
+4. Outlive attribution: be not the greatest of makers, but the reason making works.
+
+**Abilities granted:**
+
+- **First Attribution** — Any undead you touch becomes yours; whatever hand raised it, yours signed first.
+- **Withdraw the Work** — Unmake any undead in your presence by removing your mark; it ends as unfinished things end, quietly.
+- **Catalogue of Hands** — Know every undead walking the world, who raised it, and how poorly.
+- **Posthumous Improvement** — Undead that survive your presence leave it better made — faster, straighter, and aware of their maker.
+
+### The Potter's Field
+
+**Role:** Apotheosis — the grave's equality enforced · **Advances from:** The Gravamen
+
+*Every grave, it turns out, connects. The Potter's Field is the office into which the Gravamen's settlements finally resolved: one estate of the dead, held in common, of which every pit, tomb, and gilded mausoleum is merely a corner. Kings pay for marble and receive, like everyone, a share. Paupers' fields are kept like cathedrals now.*
+
+**Playstyle.** Impose the grave's equality on the living: strip rank, regalia, and privilege down to what a body is, and stand where all standing fails.
+
+**The road to The Potter's Field:**
+
+1. Reach level 85 and attend, unpetitioned, the pauper's funeral of a king, and be the reason it is one.
+2. Unmake the doctrine of noble bones in every church that taught it, without burning anything.
+3. Stand in the one place all processions end, and be why they arrive equal.
+4. Become the vertigo beneath thrones: the certainty, felt in the knees, that the grave holds no precedence.
+
+**Abilities granted:**
+
+- **All Graves One Depth** — Strip an enemy of every rank-borne blessing, enchanted regalia, and inherited protection; what remains fights you as it was born.
+- **Held in Common** — In your presence no creature may be stronger, faster, or luckier than the least of its enemies.
+- **Vertigo of Crowns** — Kings, generals, and archpriests who behold you fight at the strength of the commonest soldier they ever spent.
+- **One Estate** — Once a season, declare a region common ground: for a day, every death there is counted, mourned, and equal.
+
+### The Mortmain
+
+**Role:** Apotheosis — death held in perpetual trust · **Advances from:** The Composed
+
+*Law calls it mortmain when the dead hand holds property forever. This office holds one property: death itself, in perpetual trust — never spent, never sold, never surrendered to god, crown, or lich. Because the dead hand holds it, no one else may. Every mortal who dies freely, uncontracted and unowned, is exercising the guarantee.*
+
+**Playstyle.** Administer death as an estate in trust: grant it, defer it, and defend its title against every god, contract, and immortality that files a claim.
+
+**The road to The Mortmain:**
+
+1. Reach level 85 and take death itself into trust, witnessed by the courts of the dead, with no god objecting twice.
+2. Refuse an empire's offer for a monopoly on dying, and record the refusal where empires check.
+3. Let a god sue for possession of death, and win on the merits.
+4. Hold the estate until dying freely is assumed, like weather, and your office is mistaken for nature.
+
+**Abilities granted:**
+
+- **Perpetual Trust** — Death cannot be stolen, monopolized, or abolished in your presence; every clause that says otherwise is void.
+- **The Dead Hand** — Hold a creature's death in trust; it cannot die, nor be made to die, until you release the title.
+- **Quiet Enjoyment** — Grant a dying soul quiet enjoyment of its own end; nothing may interrupt, harvest, or repurpose that death.
+- **Title Review** — Examine any immortality in your presence and, once a season, revoke it.
+
+### The Verdict
+
+**Role:** Apotheosis — standing judgment of the dead · **Advances from:** The Testament
+
+*An archive is a promise that someone will finally read it aloud. The Verdict is the reading. Past the Testament's keeping lies the office where evidence becomes finding: the standing judgment of the dead upon the living, revised nightly. The world behaves as though watched, because it is. Perjury against the dead has quietly ceased.*
+
+**Playstyle.** Pronounce rather than fight: findings of fact strike like weather, the guilty arrive already sentenced, and your word carries the assembled certainty of the dead.
+
+**The road to The Verdict:**
+
+1. Reach level 85 and deliver the dead's verdict on a living age, and watch its guilty sentence themselves rather than be read.
+2. Judge a god's oldest lie against the testimony of everyone who died believing it.
+3. Acquit someone history hates, and make the acquittal hold in every archive at once.
+4. Become the hush after perjury: the certainty, everywhere, that the dead are listening and will be believed.
+
+**Abilities granted:**
+
+- **Finding of Fact** — Pronounce what an enemy did; the pronouncement strikes with force proportional to how much they hoped it was hidden.
+- **Prejudged** — The guilty enter your presence already sentenced: weakened, marked, and aware of exactly why.
+- **The Dead Concur** — Every soul in the region lends weight to one ruling; the sentence executes itself through their assembled testimony.
+- **Stay of Execution** — Suspend any death, sentence, or curse indefinitely while evidence is heard; some hearings outlast dynasties.

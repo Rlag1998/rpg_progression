@@ -11,11 +11,19 @@ Wizards are not born to power; they purchase it, syllable by syllable, across de
 ```text
 Wizard (Lv 1)
 ├── Convoker (Lv 10)
-│   ├── Cindertongue (Lv 25) → Ashen Rhetor (Lv 40) → Voice of Ruin (Lv 60)
-│   └── Graven Lector (Lv 25) → Winter Grammarian (Lv 40) → Stillword (Lv 60)
+│   ├── Cindertongue (Lv 25)
+│   │   ├── Ashen Rhetor (Lv 40) → Voice of Ruin (Lv 60) → The Peroration (Lv 85)
+│   │   └── Ember Anchorite (Lv 40) → The Banked Star (Lv 60) → Undersun (Lv 85)
+│   └── Graven Lector (Lv 25)
+│       ├── Winter Grammarian (Lv 40) → Stillword (Lv 60) → The First Winter (Lv 85)
+│       └── Litanist of Dust (Lv 40) → The Slow Flood (Lv 60) → The Orogeny (Lv 85)
 └── Deepscribe (Lv 10)
-    ├── Hourwright (Lv 25) → Chronarch (Lv 40) → The Unhoured (Lv 60)
-    └── Geometer (Lv 25) → Axiom-Breaker (Lv 40) → Worldscribe (Lv 60)
+    ├── Hourwright (Lv 25)
+    │   ├── Chronarch (Lv 40) → The Unhoured (Lv 60) → The Meridian (Lv 85)
+    │   └── Eventualist (Lv 40) → The Foregone (Lv 60) → The Future Perfect (Lv 85)
+    └── Geometer (Lv 25)
+        ├── Axiom-Breaker (Lv 40) → Worldscribe (Lv 60) → The Colophon (Lv 85)
+        └── Tessellant (Lv 40) → The Adytum (Lv 60) → The Firmament (Lv 85)
 ```
 
 ## Tier I — Initiate (Level 1)
@@ -268,6 +276,94 @@ Wizard (Lv 1)
 - **Parallel Postulate** — Exist briefly along two parallel lines; both of you cast, and only one accepts the consequences.
 - **Broken Compass** — Refute direction within a zone; enemy movement is redistributed by a geometry they never studied.
 
+### Ember Anchorite
+
+**Role:** Aura caster — self-stoked heat and retaliation · **Advances from:** Cindertongue
+
+*The Rhetors amplify; the Anchorites decline. Each takes the Held Word as a vow, not a weapon — fire swallowed whole and carried for decades, never spoken. They brick themselves into cells that glow faintly by the third winter. Rhetors call them wasted artillery. Anchorites call Rhetors spendthrifts who mistake noise for heat.*
+
+**Playstyle.** Stand inside the enemy and radiate. Swallowed fire stacks endlessly while you stay silent; every ability spends none of it, and one forbidden word spends all.
+
+**The road to Ember Anchorite:**
+
+1. Reach level 40 and swallow a word of fire whole; keep it down for a year and a day without once clearing your throat.
+2. Brick yourself into a cell with one window, facing away from anywhere you might be heard.
+3. Refuse a city's commission to end its war; refuse it in writing, since you no longer speak.
+4. Warm one stranger's winter without being found; the order counts the hearths you are not credited for.
+
+**Abilities granted:**
+
+- **Swallowed Syllable** — Bank a word of fire in your chest instead of your mouth; it compounds without limit and cannot be counterspelled, dispelled, or overheard.
+- **Anchorite's Cell** — Raise a small brick sanctum around yourself; inside, your heat aura doubles and hostile speech arrives as harmless smoke.
+- **Radiant Fast** — While you cast nothing and speak nothing, everything near you burns a little more each second, without flame or warning.
+- **Vow's End** — Speak the word you have carried; damage equals every day of silence, and the vow, with the target, is gone.
+
+### Litanist of Dust
+
+**Role:** Attrition controller — permanent, stacking erosion · **Advances from:** Graven Lector
+
+*Where Grammarians end sentences, Litanists refuse to. Their order holds permanence to be the one heresy the quiet grammar forbids: everything graven must someday be dust, and mastery is presiding over the journey. They repeat one word at a fortress until it agrees. Grammarians thaw nothing; Litanists, given time, unthaw everything.*
+
+**Playstyle.** Stack small, unremovable erosions: armor thins, walls sift, resolve wears. Nothing you cast is impressive; nothing you cast can be undone, which proves sufficient.
+
+**The road to Litanist of Dust:**
+
+1. Reach level 40 and repeat one word at a standing stone until it kneels; schedule several decades.
+2. Unmake, grain by grain, one work a Winter Grammarian sealed; leave the heresy trial to find an empty wall.
+3. Carry a mountain through a sieve, one pocketful a day, and build nothing with it.
+4. Recite the litany's single word to the assembled order and make no second point; admission is unanimous or eventual, which the order considers identical.
+
+**Abilities granted:**
+
+- **Repetend** — Recite the same slow word each second; every repetition wears the target's armor and certainty by a margin that never recovers.
+- **Sift** — Pronounce mortar into sand across a zone; walls and armor there shed a little of themselves each second, beginning with whatever is proudest.
+- **Patient Landslide** — Start a hillside moving at one inch per hour toward a target; it arrives eventually, and it arrives entire.
+- **Last Grain** — Declare one enemy already dust that has not settled yet; all erosion you have inflicted on them repeats at once.
+
+### Eventualist
+
+**Role:** Foresight duelist — counters declared in advance · **Advances from:** Hourwright
+
+*Chronarchs amend the ledger; Eventualists hold it was never theirs to touch. Their order teaches that the Undertext fixed every hour at the first writing, and that rewinding is scribbling in a book one did not write. An Eventualist files tomorrow's battle-report today, unsigned. Generals resent this precisely as often as expected.*
+
+**Playstyle.** Read ahead, then stand where the page says. You cannot change outcomes, only positions — so every counter, dodge, and ruin is announced early and arrives exactly.
+
+**The road to Eventualist:**
+
+1. Reach level 40 and deliver a battle's full report to the general the night before; attend the battle only to be thanked.
+2. Watch a Chronarch commute a death, and file the objection that the death simply moved; be proven right within the year.
+3. Grieve once for something that has not happened yet, thoroughly, so it is done.
+4. Open your own sealed admission letter, written in the order's hand, dated before your birth.
+
+**Abilities granted:**
+
+- **Foreread** — Read the next six seconds aloud from the Undertext; whatever you pronounced cannot now be prevented, including by you.
+- **Filed in Advance** — Lodge a counterspell against an enemy's next casting before they choose it; the paperwork predates the spell, and outranks it.
+- **Appointment** — Name a place and second; the first enemy present is struck by everything you scheduled, which was waiting patiently.
+- **Margin of Error** — You are always standing one annotation to the left of where the blow was written to land.
+
+### Tessellant
+
+**Role:** Area architect — cells, walls, sealed ground · **Advances from:** Geometer
+
+*Axiom-Breakers hold that mastery is the gap; Tessellants leave none. Their order tiles space whole — vault by vault, cell by cell — and builds the rooms other orders need built: the archive's sealed floor, the cells Axiom-Breakers must escape to graduate. A Tessellant's fee is standard. The door is extra.*
+
+**Playstyle.** Tile the battlefield into cells you own. Each sealed shape strengthens the rest; enemies fight the floor plan first and you, if scheduled, second.
+
+**The road to Tessellant:**
+
+1. Reach level 40 and tile one floor perfectly, in shapes no scholar has named, leaving no gap wider than a doubt.
+2. Build a cell for an Axiom-Breaker and lose it to them graciously; build the second one differently.
+3. Seal one floor of the deep archive and decline, permanently, to say what the tiles are holding down.
+4. Live one year in a room with no visible door; on leaving, decline to show the guild where it was.
+
+**Abilities granted:**
+
+- **Perfect Tiling** — Divide the ground into locked cells; enemies may fight anything sharing their tile, which, increasingly, is nothing.
+- **Keystone Proof** — Erect an instant vault overhead; while its keystone holds, nothing falls on anyone you shelter, including consequences.
+- **Oubliette Lemma** — Prove a cell into being beneath one enemy; it contains them, by definition, until you misplace the proof deliberately.
+- **Sealed Premises** — Close the field's boundary; nothing enters, leaves, or arrives by fold until you sign the release.
+
 ## Tier V — Mythic (Level 60)
 
 ### Voice of Ruin
@@ -357,3 +453,269 @@ Wizard (Lv 1)
 - **Deep Revision** — Rewrite a region's terrain wholesale — mountains struck through, rivers inserted — effective immediately and retroactively.
 - **Authorial Intrusion** — Step directly into any scene the Undertext is currently running, regardless of distance or wards.
 - **Binding Copy** — Declare one rule of your choosing canonical for an hour; reality enforces it without appeal.
+
+### The Banked Star
+
+**Role:** Immovable aura — zone-scale heat dominion · **Advances from:** Ember Anchorite
+
+*Once a generation, an Anchorite's fire outgrows the vocabulary that could release it. What remains is a person-shaped warmth the size of a county: crops ripen early, winters arrive apologetically, and pilgrims mistake the cell for a shrine. Astronomers keep politely quiet about which star went missing, and when.*
+
+**Playstyle.** Do not chase; be somewhere. Your presence is the spell — allies kindle, enemies cook, terrain remembers you warmly. Movement is rare, deliberate, and usually unnecessary.
+
+**The road to The Banked Star:**
+
+1. Reach level 60 and outgrow release: hold a fire that no remaining word in any language could pronounce.
+2. Let a village settle inside your warmth for seven winters; bury none of them early.
+3. Refuse the sun's own name when the order offers it; you did not fast this long to be renamed.
+4. Be observed by astronomers as a fixed light on the earth, and decline, gently, to correct them.
+
+**Abilities granted:**
+
+- **Corona** — A permanent aura in rings: the nearest ignites, the next scorches, the outermost merely persuades enemies to reconsider their approach.
+- **Gravity of Warmth** — Pull projectiles, spells, and the smaller sort of cavalry into slow orbits around you until they burn away.
+- **Perihelion** — Mark an enemy as your nearest point; wherever they run, your heat calculates them as adjacent.
+- **Vented Dawn** — Vent one hour of banked fire skyward; it falls back across the field as a dawn that sides with you.
+
+### The Slow Flood
+
+**Role:** Terrain engine — creeping mass and burial · **Advances from:** Litanist of Dust
+
+*The order admits one living Slow Flood at a time, and denies that this one is late. Where they walk, geology keeps pace: hills follow at a respectful distance, rivers change their minds, moraines arrive like delayed correspondence. The Third Siege of Vhal ended in fire; the fourth was quietly buried.*
+
+**Playstyle.** Set slow catastrophes moving early and fight inside their timetable. Everything you start finishes; the art is surviving long enough to inherit the landscape.
+
+**The road to The Slow Flood:**
+
+1. Reach level 60 and start a landslide you will not live to see land; arrange to live anyway.
+2. Bury a siege so gently the sentries notice nothing until the birds are walking.
+3. Spend a year walking slower than stone; whatever still follows you afterward is yours.
+4. Deliver the mountain you sieved, pocketful by pocketful, to wherever it is needed next; geography will adjust its expectations.
+
+**Abilities granted:**
+
+- **Advancing Moraine** — A wall of rubble crosses the field at walking pace, gathering everything it defeats into itself as mass.
+- **Interment Clause** — Lower a zone one stratum per second; anything fully buried is archived beneath the field, alive, pending excavation.
+- **Watershed** — Redirect the field's every slope toward one point; enemies fight uphill in all directions at once.
+- **Angle of Repose** — Nothing within your sight may stand steeper than you permit; towers, stances, and morale all settle accordingly.
+
+### The Foregone
+
+**Role:** Inevitability caster — outcomes locked before combat · **Advances from:** Eventualist
+
+*A Foregone has finished the book. They know which winters are load-bearing, which dynasties are typographical errors, and how the world's last sentence runs — and they will not say, having read what saying does. Eventualists file predictions; a Foregone merely attends. Their arrival is not an omen. It is confirmation.*
+
+**Playstyle.** Declare the ending first and spend the fight arriving at it. Deviations hurt you; fidelity to the read text makes you briefly, completely untouchable.
+
+**The road to The Foregone:**
+
+1. Reach level 60 and read the world's last page; return the book to its shelf evenly, as though nothing were different.
+2. Attend three endings you could have prevented, and prevent none; the order will know if you wept, and does not mind.
+3. Keep one appointment in the uncounted hour; whatever waits there has been reading over your shoulder all along.
+4. Stop making predictions; from you, they are quotations.
+
+**Abilities granted:**
+
+- **As Written** — Declare a fight's outcome at its start; while events comply, you take no damage the text does not mention.
+- **Known Ending** — Show one enemy the paragraph where they lose; their morale fails, and their most confident ability forgets its own name.
+- **Attendance** — Be present at any event you have read, stepping from the preceding sentence without crossing the intervening ground.
+- **Unturned Page** — Refuse to read one future; within it, and only there, you may still choose anything, and enemies cannot predict you.
+
+### The Adytum
+
+**Role:** Living fortress — absolute defense, spatial custody · **Advances from:** Tessellant
+
+*A Tessellant perfects enclosure once, on themselves. The Adytum is less a person than an address: somewhere inside the folded vaults is someone who took final orders in geometry and sealed the door behind them. Petitioners address the outermost wall. Three empires keep maps of where the Adytum is not.*
+
+**Playstyle.** Be the safest place in the war. Allies fight from inside you; sieges break on geometry they cannot see all of. Offense is a wall, repeated.
+
+**The road to The Adytum:**
+
+1. Reach level 60 and seal yourself in absolutely; hold audiences anyway.
+2. Outlast a siege by three dynasties without once clarifying whether you are inside.
+3. House the archive's most dangerous shelf where even the index cannot follow; the librarians will sleep again, eventually.
+4. Turn away the Axiom-Breaker who escaped your first cell; they will cite the precedent; the wall will not.
+
+**Abilities granted:**
+
+- **Nested Sanctum** — Enclose allies within your inner vaults; harm must solve each shell in order, and the shells are not in order.
+- **Curtain Theorem** — Raise a wall that is also the proof of the next wall; every breach merely establishes the following rampart.
+- **Custody of Ground** — Annex the ground an enemy stands on into your interior; house rules apply, and the house is you.
+- **Withheld Door** — Reveal, once per battle, that there was always a door; allies leave through it, enemies learn of it afterward.
+
+## Tier VI — Apotheosis (Level 85)
+
+### The Peroration
+
+**Role:** Apocalyptic orator — warfare ended by address · **Advances from:** Voice of Ruin
+
+*Voices end sieges; something must end arguments. The Peroration is what a Voice of Ruin becomes when the address outgrows the speaker: history's closing statement, already in delivery, audible wherever a war runs long. Thunder is its rough draft. The three recorded Voices are now considered its opening remarks.*
+
+**Playstyle.** Speak seldom and at the scale of history. Each clause retires part of the battlefield permanently; the fight ends when your paragraph does, and it does.
+
+**The road to The Peroration:**
+
+1. Reach level 85 and begin the address that does not end with you; future holders will clear their throats mid-sentence.
+2. Deliver one clause per decade; let empires draft their policies around your pauses.
+3. Speak the summary of a century so that no historian needs to; accept their resentment as citation.
+4. When the world's argument closes, be what holds the floor after: the silence in which nothing dares resume.
+
+**Abilities granted:**
+
+- **In Conclusion** — Open your address; each subsequent clause removes one category of thing — cavalry, weather, walls — from the engagement.
+- **The Floor** — Take the floor: while you speak, no enemy ability may begin, and several currently running reconsider.
+- **Scorched Minutes** — Enter the battle into the record as ash; whatever the record omits stops existing at the session's close.
+- **History Rests** — Rest your case upon a region; nothing there may begin a war again, the clause being self-enforcing and famously tested once.
+
+### The First Winter
+
+**Role:** Season incarnate — stillness as world condition · **Advances from:** Stillword
+
+*Historians keep Stillwords in the present tense; one has slipped further back. The First Winter is the stillness before the first thaw, holding office retroactively since before calendars — every winter since is quotation, every truce a thaw it permits. Glaciers are its correspondence. The quiet grammar has exactly one speaker left, and it is weather now.*
+
+**Playstyle.** Arrive as a season, not a combatant. The field enters your winter and adopts its habits: nothing hostile begins, persists, or thaws without written permission.
+
+**The road to The First Winter:**
+
+1. Reach level 85 and backdate your stillness to the world's first morning; the filing will be accepted, seasons being unable to prove otherwise.
+2. Permit one thaw per age, in writing, and attend none of them.
+3. Be quoted by the weather verbatim for a century without once granting an interview.
+4. Sit so still that the calendars agree to start after you; do not gloat, which would be movement.
+
+**Abilities granted:**
+
+- **Before Calendars** — Set the field to the winter before counting; durations, cooldowns, and reinforcement timetables find they have no dates to refer to.
+- **Quotation Frost** — Any ice anywhere on the field becomes citation of you; it deepens to match the original.
+- **Deferred Spring** — Suspend every recovery in your winter — healing, rallying, morale — until spring, whose scheduling is at your discretion.
+- **Glacial Correspondence** — Send a glacier as a letter; it arrives in some years, unopposable, saying exactly what you still mean.
+
+### The Meridian
+
+**Role:** Temporal axis — all timing measured from you · **Advances from:** The Unhoured
+
+*Clocks must agree with something. When the last Unhoured let every calendar forget them, the forgetting left a line — and the world, needing one, hung its noons upon it. The Meridian is that office: the standing agreement all hours are reckoned against, held by someone no calendar can any longer name. The Throne faces it when in session.*
+
+**Playstyle.** Do not act in time; be what time acts relative to. Haste, delay, and sequence are defined against you, which makes disagreement a rounding error.
+
+**The road to The Meridian:**
+
+1. Reach level 85 and return from being forgotten as something calendars can point at without naming.
+2. Hold noon steady through an eclipse, a war, and a committee of astronomers; only the committee will truly test you.
+3. Preside over the Meridian Throne's every session at once, being now what it faces.
+4. When two calendars go to war over a leap-day, absorb the day; neither will miss it, and you keep such things now.
+
+**Abilities granted:**
+
+- **Prime Noon** — Declare the local instant noon; every duration on the field is re-reckoned from you, generally to your advantage.
+- **Reckoning Line** — Draw your line across the field; allies west of it act early, enemies east of it act late, and you decide which way is west.
+- **Standard Time** — Impose your personal tempo as law; abilities faster than yours are cited for it and slowed to compliance.
+- **Antemeridian** — Step to the morning side of the present moment; whatever harmed you there has not technically occurred, and now cannot.
+
+### The Colophon
+
+**Role:** Reality authority — authorship as final law · **Advances from:** Worldscribe
+
+*Every finished book ends with the maker's mark. The Worldscribe who edits long enough stops signing pages and becomes the signature: the Colophon, shelved at the end of everything, in whose small type the world admits who has been writing it lately. Scholars who read that far report only that the mark was watching them back.*
+
+**Playstyle.** Everything that exists is your text and cites you. Combat is copyediting at world scale: strike a line here, approve a fate there, initial the result.
+
+**The road to The Colophon:**
+
+1. Reach level 85 and finish the book once, privately, to prove it can be done; then reopen it for everyone else.
+2. Sign the world's last page with the same hand that answered its first margin; leave the scholars the argument.
+3. Approve one printing of the world per morning; reject the others without comment.
+4. When the first author returns for the pen, initial their request, and file it.
+
+**Abilities granted:**
+
+- **Imprimatur** — Nothing new may exist on the field — spells, gates, reinforcements — until it bears your stamp, which is discretionary.
+- **Struck Line** — Delete one sentence of reality — a wall, a wound, a general's best idea — and initial the margin.
+- **Errata of Empires** — Publish corrections to the standing world; kingdoms adjust their borders, memories, and casualty lists to match the new printing.
+- **Small Type** — Reside in the world's fine print; only those who read everything can target you, and the fine print warned them.
+
+### Undersun
+
+**Role:** World-scale aura — warmth as standing law · **Advances from:** The Banked Star
+
+*The Banked Star does not die; it sets. Somewhere beneath the bedrock a swallowed fire now keeps the world's feet warm, and every hearth, forge, and fever draws on it without asking. Scholars call this geology. The order calls it the Undersun, and banks its own fires toward the day it gutters.*
+
+**Playstyle.** Fight from underneath everything. Your fire arrives through floors, hearths, and blood; enemies stand on you by definition, which is rarely wise for long.
+
+**The road to Undersun:**
+
+1. Reach level 85 and set: walk into the earth while still burning, and do not treat it as a funeral.
+2. Warm the world for one full winter from below; let spring take the credit.
+3. When the last fire of a dying age is down to one coal, be that coal.
+4. Answer, once a century, a knock on the underside of a hearthstone; it will be the order, checking.
+
+**Abilities granted:**
+
+- **Hypocaust** — Heat the field from below; every surface becomes your aura, and burrowing, tunneling, and prone enemies regret their doctrine.
+- **Every Hearth a Door** — Emerge from any lit fire in the world; arriving extinguishes it, which is considered an omen, correctly.
+- **Deep Kindling** — Ignite what was never fuel: stone, rain, and the idea of retreat all burn if you insist.
+- **Gutter and Return** — Upon dying, sink beneath the field and rekindle at any hearth you have warmed within three days.
+
+### The Orogeny
+
+**Role:** Geologic sovereign — raises and razes terrain · **Advances from:** The Slow Flood
+
+*When a Slow Flood finally stops walking, the walking does not stop. Ranges rise where they rested; surveyors date fresh peaks to their pauses. The world keeps the Orogeny as its slowest office: the standing appointment by which mountains are raised, worn down, and — the order insists — merely redrafted.*
+
+**Playstyle.** Play in eras. Raise ranges as opening moves, spend the erosion as resources, and treat any fight shorter than a season as already conceded to you.
+
+**The road to The Orogeny:**
+
+1. Reach level 85 and rest; where you slept, present a mountain range to the morning.
+2. Raise one range and wear down another in the same century, and file both under maintenance.
+3. Let the order carve its archive into your foothills, and keep its shelves level for a thousand years.
+4. When the world needs a new horizon, be it.
+
+**Abilities granted:**
+
+- **Mountain, Drafted** — Raise a young range across the field over ten seconds; everything it lifts fights at the altitude you assign.
+- **Subduction** — Slide one edge of the battlefield beneath another; whatever stood on the losing plate is filed under the winning one.
+- **Unconformity** — Strike an era from the strata; anything built or sworn within it loses its foundations at once.
+- **Peneplain** — Level everything: reduce the field, its fortifications, and its argument to one calm plain, yours.
+
+### The Future Perfect
+
+**Role:** Causal sovereign — battles resolved in advance · **Advances from:** The Foregone
+
+*The Foregone knew the ending; the Future Perfect is its tense. They exist as the fact that everything will have happened: harvests, heresies, the last sentence itself. Scholars conjugating far enough forward find them standing in the grammar, patient as punctuation. Nothing surprises the world anymore; it has them instead.*
+
+**Playstyle.** You have already won by the time you arrive; play consists of disclosing how. Enemies act freely, discover their actions were prerequisites, and file out.
+
+**The road to The Future Perfect:**
+
+1. Reach level 85 and be conjugated: enter the tense where your work is finished, and keep working anyway.
+2. Answer, from tomorrow, letters not yet written; the order files your replies under pending, which they no longer are.
+3. Stand where the world's last sentence will have been read, and wave to the Foregone you were.
+4. Let grammarians of every language add one tense in your honor; correct their tables gently, since you have already done so.
+
+**Abilities granted:**
+
+- **Will Have Fallen** — Conjugate one enemy forward: they have already lost this fight, and their body is granted a few seconds to catch up.
+- **Retrospect** — Fight from one hour after the battle; effects reach you only as reports, summarized, and considerably reduced.
+- **Prerequisite** — Declare an enemy action necessary to your victory; it resolves, then contributes its full force to your next spell.
+- **The Settled Question** — Once per day, end any engagement as history records it ended; history is open to reasonable suggestions.
+
+### The Firmament
+
+**Role:** Cosmic bulwark — the sky as fortification · **Advances from:** The Adytum
+
+*The Adytum enclosed themselves; the Firmament encloses everything else. The world's oldest wall — the vault the stars are set in — is an office, and it is held. Nothing enters that was not allowed; nothing important leaves. Astronomers map its joints and call them constellations. The order calls them courses of masonry.*
+
+**Playstyle.** Defend at the scale of skies. Your walls are horizons, your cells are climates, and anything thrown at anyone, anywhere you stand watch, was thrown at you.
+
+**The road to The Firmament:**
+
+1. Reach level 85 and accept the oldest commission on the order's books: one wall, stars for tiles, everything living on the inside.
+2. Point the brass compass upward and finally agree with it.
+3. Mortar the sky's one true gap so gently that whatever waited outside fails to notice the lock.
+4. Stand watch until the stars need re-setting; you will know the courses by heart, having been them.
+
+**Abilities granted:**
+
+- **Course of Stars** — Rearrange a constellation into a rampart overhead; while it stands, the night itself counts as your outermost wall.
+- **Horizon Seal** — Close the sky over a region; weather, omens, and airborne assaults wait outside until reviewed.
+- **Raised Horizon** — Raise the horizon itself as a wall; everything beyond it is postponed, and the postponement is not appealable.
+- **Nothing Falls** — Catch every falling thing above the field — arrows, stars, verdicts — and set each into the vault as fixtures, yours.

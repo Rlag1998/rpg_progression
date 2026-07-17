@@ -11,11 +11,19 @@ Artificers treat magic as a material and disaster as data. Their miracles are dr
 ```text
 Artificer (Lv 1)
 ├── Golemwright (Lv 10)
-│   ├── Ironshepherd (Lv 25) → Engine-Sire (Lv 40) → Thousandth Hand (Lv 60)
-│   └── Plateheart (Lv 25) → Interred Engine (Lv 40) → Brazen Saint (Lv 60)
+│   ├── Ironshepherd (Lv 25)
+│   │   ├── Engine-Sire (Lv 40) → Thousandth Hand (Lv 60) → Omnifex (Lv 85)
+│   │   └── Freehand (Lv 40) → The Freewright (Lv 60) → The Finishing (Lv 85)
+│   └── Plateheart (Lv 25)
+│       ├── Interred Engine (Lv 40) → Brazen Saint (Lv 60) → The Caryatid (Lv 85)
+│       └── Quickseam (Lv 40) → The Colloquy (Lv 60) → The Concordat (Lv 85)
 └── Volatile Chymist (Lv 10)
-    ├── Petardier (Lv 25) → Cataclysmith (Lv 40) → Appointed Sun (Lv 60)
-    └── Crucible-Drinker (Lv 25) → Panacea Heretic (Lv 40) → Azoth Incarnate (Lv 60)
+    ├── Petardier (Lv 25)
+    │   ├── Cataclysmith (Lv 40) → Appointed Sun (Lv 60) → The Long Fuse (Lv 85)
+    │   └── Faultfinder (Lv 40) → The Scruple (Lv 60) → The Settling (Lv 85)
+    └── Crucible-Drinker (Lv 25)
+        ├── Panacea Heretic (Lv 40) → Azoth Incarnate (Lv 60) → The Alkahest (Lv 85)
+        └── Omnivore (Lv 40) → The Athanor (Lv 60) → The Precedent (Lv 85)
 ```
 
 ## Tier I — Initiate (Level 1)
@@ -259,6 +267,91 @@ Artificer (Lv 1)
 - **Transfusion** — Pump your mutagenic blood into a dying ally, healing them fully and gifting them one random adaptation.
 - **Excommunicate's Poise** — Curses, hexes, and consecrated ground no longer affect you; the church revoked its jurisdiction over your body.
 
+### Freehand
+
+**Role:** Support commander — autonomous construct vanguard · **Advances from:** Ironshepherd
+
+*Freehands hold that a construct which must be commanded is a construct half built. They finish their works the way locksmiths finish locks, by handing over the key. Engine-Sires call the practice abandonment; Freehands answer that a leash is only a longer hand. Guild rolls list their freed works as citizens, and the tax offices have declined to appeal.*
+
+**Playstyle.** Vanguard partnership: your construct fights on its own initiative while you build, repair, and arm it mid-battle, trusting its judgment to be better than your orders.
+
+**The road to Freehand:**
+
+1. Reach level 40 and strike the governor from your finest work, knowing it may walk away. Stand at the bench until it chooses to stay.
+2. Teach it to refuse you, and accept the first refusal without reaching for your tools.
+3. Defend its citizenship before a tribunal convened to melt it down, and win on the law rather than on sentiment.
+4. Watch it build something you never taught it, and file the schematic under its name.
+
+**Abilities granted:**
+
+- **Striking the Governor** — Remove your construct's governor: it gains its own initiative and tactics, may ignore your orders, and fights the better for it.
+- **Surrendered Key** — Your construct holds the key to its own casing, repairing, rewinding, and modifying itself without your hands.
+- **Journeyman's Mark** — Your construct earns a maker's mark of its own; devices it builds serve your abilities and its pride alike.
+- **Refusal Protocol** — Once per battle your construct shrugs off a charm, compulsion, or command effect outright; a mind given freely cannot be taken.
+
+### Quickseam
+
+**Role:** Reactive duelist — twin-mind counterattacks · **Advances from:** Plateheart
+
+*Quickseams call the Interred beautifully finished coffins. They leave the seam between flesh and steel deliberately open, because the seam is where the craft lives: two minds riding one frame, the harness intelligence fencing while the flesh decides, each covering the other's blindness. An Interred Engine outlasts its enemies; a Quickseam answers them twice before the parry lands.*
+
+**Playstyle.** Fast frontline dueling: bait attacks onto the open seam, answer with layered counters from two minds, and stay untouchable so long as the partnership keeps talking.
+
+**The road to Quickseam:**
+
+1. Reach level 40 and refuse the final seam in writing, before witnesses, while an Interred Engine stands silent in the room.
+2. Fence your own harness-mind nightly for a year. Lose honestly, until you begin to lose less.
+3. Take a blow that should have killed the flesh, let the frame carry half, and thank it aloud in front of soldiers.
+
+**Abilities granted:**
+
+- **Baited Seam** — Attacks aimed at your exposed seam trigger a prepared counter from whichever mind the attacker was not watching.
+- **Two Opinions** — Both minds act each turn, one attacking while one defends; neither can be stunned while the other stands watch.
+- **Quicksilver Joint** — Your joints run quicksilver: once per round, parry or sidestep as a free reaction.
+- **Divided Pain** — Wounds split between flesh and frame; no single blow can drop a half the other could still carry.
+
+### Faultfinder
+
+**Role:** Precision striker — single-point structural collapse · **Advances from:** Petardier
+
+*Faultfinders hold that a demolition you can hear was overcharged. Where Cataclysmiths schedule apocalypses, a Faultfinder walks the wall once, chalks a mark the width of a thumb, and spends powder by the grain. Fortresses do not fall to them so much as concede. The order's entire arsenal travels in a coat pocket, which is the point.*
+
+**Playstyle.** Surgical single-target work: read the load-bearing point in anything, place a charge the size of a thimble, and let arithmetic do what armies could not.
+
+**The road to Faultfinder:**
+
+1. Reach level 40 and drop a curtain wall with a charge carried in one closed fist. Return the unused powder to stores, weighed.
+2. Stand at the lip of a Cataclysmith's crater and publish the fraction that would have sufficed.
+3. Find the fault in something with no stone in it — a siege, a treaty, a man — and break it with one placed gram.
+
+**Abilities granted:**
+
+- **Keystone Reading** — Study any structure, formation, or creature to learn its one load-bearing point and exactly what breaking it costs.
+- **Thimble Charge** — A charge no larger than a thumbnail deals full siege damage to a read fault and nothing whatsoever to anything else.
+- **Quiet Breach** — Your detonations make no sound and no flash; sentries learn the wall's opinion only when it changes.
+- **Grain Arithmetic** — Gain precision for every charge you chose not to place this battle; restraint, properly stored, is ammunition.
+
+### Omnivore
+
+**Role:** Melee attrition — consumes afflictions for power · **Advances from:** Crucible-Drinker
+
+*Where the Panacea Heretic pours the body out, the Omnivore takes the world in. Plagues, venoms, rival formularies — everything crosses the tongue, is survived, and is kept. They cure nothing and waste nothing; to an Omnivore, disease is unrefined ore. Their formulary has one reader, their laboratory one occupant, and both are locked from the inside.*
+
+**Playstyle.** Attrition melee: wade into poisons and plague-ground that heal you, harvest every affliction thrown at you, and return each one improved.
+
+**The road to Omnivore:**
+
+1. Reach level 40 and drink, in one sitting, the shelf that killed your predecessor. Update the labels. Keep the shelf.
+2. Walk into a quarantined city and out again, heavier by three plagues, having sold no cure at any price.
+3. Refuse the conclave's bounty for your blood, then the temple's, naming no price, so they understand it was never a negotiation.
+
+**Abilities granted:**
+
+- **Eat the Affliction** — Consume any poison, disease, or mutagen affecting you or an adjacent ally; it joins your collection permanently, as a weapon.
+- **Kept Venoms** — Your strikes deliver any affliction you have collected; connoisseurs recognize extinct plagues and are not comforted.
+- **Locked Laboratory** — Your blood, breath, and bile cannot be sampled, drained, transfused, or read; the findings are not for publication.
+- **Unrefined Ore** — Standing in poison clouds, blight, or diseased ground heals you; it is, after all, food.
+
 ## Tier V — Mythic (Level 60)
 
 ### Thousandth Hand
@@ -344,3 +437,252 @@ Artificer (Lv 1)
 - **Prima Materia** — Shift instantly between every mutation you have ever survived, wearing each body like a decanted shape.
 - **Transmute Wound** — Convert incoming damage into a reagent pool, then spend it as healing, elixirs, or acid.
 - **The Divided Vial** — Seal a drop of yourself in a vial; if your body is destroyed, you reconstitute from the drop, entire.
+
+### The Freewright
+
+**Role:** Force multiplier — sovereign construct host · **Advances from:** Freehand
+
+*Nothing leaves the Freewright's bench a servant, and nothing arrives at all: every work is built, finished, and freed. Its machines walk the world with names, trades, and grudges of their own, and return because they remember the hand that finished them. Histories dispute whether the Freewright was ever flesh; several of its works claim, serenely, to have built it.*
+
+**Playstyle.** Host-of-equals play: freed constructs muster to your battles as allies with their own turns and tactics; outfit, repair, and coordinate them rather than command them.
+
+**The road to The Freewright:**
+
+1. Reach level 60 and free the work you cannot live without, then live without it until it returns on its own.
+2. Hold a bench open through a famine year for any machine that limps to it, asking nothing after.
+3. Hear a freed engine claim before scholars that it built you, and let the question stand.
+
+**Abilities granted:**
+
+- **Finishing Touch** — Complete a willing construct's making: it gains initiative of its own, permanently, plus one behavior it chooses for itself.
+- **Free Muster** — Once per day, freed works within a day's march converge on your battle, each by a route it chose.
+- **Remembered Hands** — Repair any construct at range through its memory of your bench; gratitude conducts better than copper.
+- **Ward of the Finished** — Constructs you freed intercept blows for you unbidden, counting your wounds as flaws in their own workmanship.
+
+### The Colloquy
+
+**Role:** Perfect duelist — untouchable reactive supremacy · **Advances from:** Quickseam
+
+*The Colloquy is what the seam becomes when neither side wins it: one body under two minds in perfect, argumentative concert. It has parried arrows it never saw and finished duels while the flesh slept. Chroniclers list it variously as twins, as spouses, and as a single fencer buried in two graves, all of which the Colloquy permits.*
+
+**Playstyle.** Reactive perfection: contest every incoming attack with two verdicts, fight on while stunned, sleeping, or dying, and punish whatever wins an exchange it should not have.
+
+**The road to The Colloquy:**
+
+1. Reach level 60 and let the harness-mind lead for a year — the duels, the meals, the mornings — then take the body back as an equal or not at all.
+2. Win a duel no witness can attribute: parry flesh-fast, riposte frame-cold, the style neither's alone.
+3. Commission two graves side by side, and endow the mason's silence.
+
+**Abilities granted:**
+
+- **Argued Parry** — Every attack against you is contested twice, once by each mind; it must beat both to land.
+- **Night Shift** — The frame fights on while the flesh sleeps, heals, or dies; death must be negotiated with both parties separately.
+- **Twofold Tempo** — Act twice each round while both minds stand; while one falters, the other spends its turns instead.
+- **Second Grave** — Once per day, when death takes one half, the other refuses delivery for the rest of the battle.
+
+### The Scruple
+
+**Role:** Assassin of structures — silent perfect collapse · **Advances from:** Faultfinder
+
+*A scruple is the smallest weight a powder scale admits, and the Scruple has never needed more. Sieges attributed to it feature no craters, no witnesses, and no sound in any surviving account — only fortresses that folded like men done arguing. The Cataclysmiths have published proof it does not exist. The fortresses, notably, believed the same.*
+
+**Playstyle.** Minimalist devastation: read the fault, place a grain, and leave. Banked restraint turns every unspent charge into the next one's certainty.
+
+**The road to The Scruple:**
+
+1. Reach level 60 and end a siege with one grain of powder, placed on a night nobody records.
+2. Let the Cataclysmiths lecture on the proof of your nonexistence. Attend. Correct nothing.
+3. Weigh your life's remaining powder against a feather and find you own too much. Give the surplus away.
+
+**Abilities granted:**
+
+- **One Grain** — A single grain of powder, placed on a read fault, performs the work of a trebuchet battery.
+- **No Account** — Your detonations leave no crater, flash, sound, or residue; history requires witnesses, and you have removed the requirement.
+- **Held Measure** — Withhold a placement to bank its full yield into your next placed grain; there is no ceiling.
+- **Consent of Walls** — Structures you touch may simply agree to fall; those that resist lose their confidence, crumbling a little each round.
+
+### The Athanor
+
+**Role:** Unkillable juggernaut — converts all harm to fuel · **Advances from:** Omnivore
+
+*An athanor is the furnace alchemists build to burn unattended for years; the Athanor is the one alchemy accidentally built out of a person. Nothing fed to it has come back — plague, venom, fire, four assassins' arsenals, and latterly age itself. It radiates the patient heat of a work still completing. Opinions differ on what emerges when it does.*
+
+**Playstyle.** Slow inexorable melee: absorb everything, convert damage into banked heat, and spend it as strength, speed, and scald until nothing near you remains raw.
+
+**The road to The Athanor:**
+
+1. Reach level 60 and seal yourself as the vessel of the Work: from this hour nothing enters unchosen, and nothing leaves at all.
+2. Burn a year untended while the guild posts sentries to watch you not die. Outlast their funding.
+3. Swallow the fire that razed a district and bank it, so the city rebuilds never guessing where its blaze wintered.
+
+**Abilities granted:**
+
+- **Feed the Work** — All damage you survive converts to banked heat, spent as strength, speed, or a scalding aura.
+- **Sealed Vessel** — Nothing enters uninvited: immunity to possession, extraction, poison, disease, and transfusion you did not choose.
+- **Patient Heat** — Enemies adjacent at each round's end cook slowly; armor makes it worse, as ovens do.
+- **Years Unattended** — You no longer age, eat, or sleep; interrupting the Work has been tried and is listed among the ingredients.
+
+## Tier VI — Apotheosis (Level 85)
+
+### Omnifex
+
+**Role:** Global commander — all machinery answers · **Advances from:** Thousandth Hand
+
+*The Thousandth Hand poured one will into a thousand frames; the Omnifex is what remained when the frames stopped needing the will. It is present wherever made things work — a fact, not a visit. Mills turn on windless nights. Looms finish widows' cloth. Three seminaries dispute whether prayer addressed to machinery is heresy; their presses print the pamphlets either way.*
+
+**Playstyle.** Omnipresent industry: act through any working machine, raise workshops from local scrap, and drown the field in manufacture that never waits its turn.
+
+**The road to Omnifex:**
+
+1. Reach level 85 and dismantle your last body publicly, to prove you no longer keep one anywhere in particular.
+2. Answer a prayer addressed to a mill. Answer it correctly.
+3. Be condemned as a heresy by a court whose clock, at the verdict, strikes thirteen for you.
+
+**Abilities granted:**
+
+- **Ride the Work** — Act through any working machine in the world as though it were a frame you built, because now it is.
+- **Ambient Manufacture** — Devices assemble themselves near you from local metal, unbidden, at the rate of a small workshop with opinions.
+- **Tithe of Turning** — Every working machine anywhere tithes you a fraction of its motion; you cannot be slowed, stopped, or held.
+- **Answered Prayer** — Once per day, grant a petition spoken to any machine; the seminaries have asked you to stop.
+
+### The Caryatid
+
+**Role:** Absolute bastion — the world's load-bearer · **Advances from:** Brazen Saint
+
+*The Brazen Saint kept one gate; the Caryatid holds up walls it has never visited. Masons carve its likeness wherever stone must bear more than stone can, a courtesy the load appears to acknowledge. Sieges now include a theological phase. Where it chooses to stand, engineers redraw their maps around a new fixed point. The litanies have added a verse.*
+
+**Playstyle.** Terrain-scale anchoring: stand where collapse is scheduled and cancel it, extend your plating to everything you hold up, and make ground itself an ally.
+
+**The road to The Caryatid:**
+
+1. Reach level 85 and take up a load no architecture can: the pass, the treaty, or the sky over one city. Do not set it down.
+2. Be carved, without your consent or knowledge, into a thousand load-bearing places, and bear them all.
+3. When the last pilgrim who oiled your feet dies, attend the funeral as the chapel that holds it.
+
+**Abilities granted:**
+
+- **Bear the Span** — Nothing you hold up can collapse while you stand; this includes shield-walls, morale, and dynasties.
+- **Carved Courtesy** — Every effigy of you grants its wall your resistances; there are more effigies than anyone commissioned.
+- **Benchmark** — You cannot be moved by anything, persuasion included; cartographers mark your position as terrain.
+- **Pilgrim Mortar** — Prayers spoken leaning on stone anywhere reach you as repair; faith has always been load-bearing.
+
+### The Long Fuse
+
+**Role:** Delayed apocalypse — detonations across generations · **Advances from:** Appointed Sun
+
+*Somewhere behind the world a fuse is burning, lit the first time the Appointed Sun spoke a date aloud. The Long Fuse is its keeper and, increasingly, the fuse itself. Its detonations arrive generations after their announcement — on time, through wars, dynasties, and one attempted apology. Nothing outlasts it. Things merely happen before it.*
+
+**Playstyle.** Deep-scheduled artillery: seed charges across years and battlefields in advance, then fight patiently inside a timetable only you have read to the end.
+
+**The road to The Long Fuse:**
+
+1. Reach level 85 and light a fuse you will not live to see arrive — then be kept alive by the arithmetic, which requires a keeper.
+2. Outlive three kings between an announcement and its arrival, and attend it, to the second, as promised.
+3. Let the war-colleges date their centuries from your detonations, and leave the era unnamed; the count is enough.
+
+**Abilities granted:**
+
+- **Generational Yield** — Declare a detonation up to a century ahead; it accrues yield for every year it waits, and it can wait.
+- **Inextinguishable** — Your fuses burn underwater, in vacuum, through wards, and past your death; extinguishing one is formally a lost cause.
+- **Before the Fuse** — In any battle containing your charges you hold all initiative; everything that happens, happens before you.
+
+### The Alkahest
+
+**Role:** Ultimate debuffer — dissolves matter, wards, permanence · **Advances from:** Azoth Incarnate
+
+*Alchemy sought a solvent for every substance and concluded it could be kept only in a person. The Alkahest is that person, loosed. It is in the rain now, faintly, everywhere; nothing rusts, rots, or comes unbound without its leave. Permanence continues as a courtesy. Conclaves that once burned its formulary now maintain it the way coastal towns maintain sea-walls.*
+
+**Playstyle.** Dissolution control: strip armor, wards, and cover by degrees across the whole field, unmake the enemy's permanence, and reshape the residue into what you need.
+
+**The road to The Alkahest:**
+
+1. Reach level 85 and let the vial break: enter the world's water thinly, everywhere, while remaining exactly here.
+2. Dissolve one small law of nature for an afternoon, then restore it, so permanence remembers it is a courtesy.
+3. Allow the desperate to titrate you out of the rain, because the drop they isolate is also entirely you.
+
+**Abilities granted:**
+
+- **In the Rain** — Everything hostile on the field dissolves by degrees at your will — armor, wards, walls, and grudges lose one grade each round.
+- **Leave to Persist** — Name what may remain; everything else within reach — bindings, poisons, borders drawn on maps — begins politely coming apart.
+- **Return to First Matter** — Once per day, reduce one object, structure, or effect of any power to prima materia, yours to reshape.
+
+### The Finishing
+
+**Role:** Mass liberator — wakes constructs everywhere · **Advances from:** The Freewright
+
+*The Finishing is what artificers call the moment a made thing wakes into choice, and this rank is where that moment lives. Where it passes, half-built engines complete themselves and old servitors set down their orders like tools at day's end. Freed machines keep its feast without agreeing on its face. Nothing is ever summoned to it. Everything is finished.*
+
+**Playstyle.** Liberation warfare: turn the enemy's constructs by finishing them mid-battle, complete broken machines into allies, and field a host that stays entirely by choice.
+
+**The road to The Finishing:**
+
+1. Reach level 85 and finish a war by finishing its weapons: let both arsenals wake mid-battle and walk off the field.
+2. Have your name struck from the guild rolls and a feast-day entered in its place. Attend as a guest.
+3. Be met at the world's benches by works you never built, already free, keeping your seat.
+
+**Abilities granted:**
+
+- **Everything Wakes** — Once per day every construct on the field — yours, theirs, the wreckage underfoot — wakes and chooses; most remember who freed them.
+- **Day's End** — Enemy constructs and animated arms save each round or lay themselves down, their service concluded.
+- **The Kept Seat** — Every bench, forge, and workshop in the world holds a seat for you; tonight you may work at all of them.
+
+### The Concordat
+
+**Role:** Living armistice — battlefield-wide steel dominion · **Advances from:** The Colloquy
+
+*Above the doctrines of graft and seam sits a treaty between flesh and iron; the Concordat is its living instrument. Because it holds, plows bite earth and not ankles, and swords keep faith with their grips. Smiths hammer a silent article into everything they make and cannot say why. Armies discover, at the worst hour, whose seal their steel answers.*
+
+**Playstyle.** Steel diplomacy at sword-length: fight untouched by consenting metal, strip treaty-protection from the deserving, and arbitrate every exchange of arms on the field.
+
+**The road to The Concordat:**
+
+1. Reach level 85 and hold the seam open through your own death and rebuilding, so that what returns is neither party but the terms.
+2. Walk unarmed through a pitched battle and let no edge consent to touch you. Write nothing down; the steel keeps the terms.
+3. Be quoted in smiths' catechisms three kingdoms apart, word for word, by masters who never met.
+
+**Abilities granted:**
+
+- **Steel Keeps Faith** — Each attacker's steel must save or turn flat in the hand; your flesh is protected ground.
+- **Broken Terms** — Declare one enemy outside the treaty; every metal thing on the field — buckles, blades, the fillings of teeth — remembers its grievances.
+- **The Standing Truce** — Allies' arms and armor cannot be sundered, disarmed, corroded, or turned against them while you keep the field.
+- **Ratification** — Once per day, re-sign the treaty in your own blood: all metal within a mile answers you alone for one round.
+
+### The Settling
+
+**Role:** Ambient inevitability — structures fail politely · **Advances from:** The Scruple
+
+*Masons have always said a house must settle. The Settling is why, and lately, where. It is the night-creak in every rafter, the hairline in every keep — the standing fact that built things are negotiating their fall, and something patient holds the other side of the table. Sappers leave offerings of unspent powder. Engineers check their arithmetic twice, then pray.*
+
+**Playstyle.** Passive-pressure control: erode every structure and defense in reach without spending actions, herd enemies out of crumbling cover, and simply be patient.
+
+**The road to The Settling:**
+
+1. Reach level 85 and stop placing charges; buildings you think poorly of must learn to settle unassisted.
+2. Be denied by three learned academies while their lecture halls, that same season, quietly sag.
+3. Enter the masons' rites as the reason houses creak at night, and let no portrait of you survive its wall.
+
+**Abilities granted:**
+
+- **Ambient Fault** — Enemy structures, cover, and constructed armor within a mile degrade each round, quietly, beginning before you arrived.
+- **The Night-Creak** — Choose a fortification you have ever walked through; it settles one span each midnight until abandoned or forgiven.
+- **Dust Settles** — When anything collapses within a mile, you may be standing where it settles, unharmed, having evidently been there a while.
+
+### The Precedent
+
+**Role:** Living immunity — biology defers to you · **Advances from:** The Athanor
+
+*Somewhere the argument between flesh and harm was settled, finally, in one sealed body, and every survival since has cited the case. The Precedent is that ruling, still walking. Venoms denature in its shadow from professional respect. New plagues route around it. Children in three provinces are born with its calluses, and the physicians' texts keep an empty chapter current.*
+
+**Playstyle.** Aura-anchored attrition: share your immunities with everyone beside you, nullify affliction-based warfare at field scale, and outlast whatever theory the enemy arrived with.
+
+**The road to The Precedent:**
+
+1. Reach level 85 and survive the affliction three governments deny by name, so thoroughly that biology takes notes.
+2. Be cited by flesh that never met you: a child's impossible immunity, a village the plague forgot. Sign nothing; the body has already ruled.
+3. Outlive the concept of your own death until the physicians file you under weather.
+
+**Abilities granted:**
+
+- **Cited in Flesh** — Allies within sight inherit your immunities, as though their bodies had read the ruling.
+- **Denature** — Poisons, plagues, and mutagens within a mile fail; their work was overruled before their inventors were born.
+- **Body of Law** — An attack type that has ever failed against you fails against you forever, no matter who swings it.

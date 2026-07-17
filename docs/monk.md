@@ -11,11 +11,19 @@ The Monk surrendered every possession at the cloister door and kept only breath,
 ```text
 Monk (Lv 1)
 ├── Iron Vessel (Lv 10)
-│   ├── Unmoved Pillar (Lv 25) → Stillgate (Lv 40) → Seated Mountain (Lv 60)
-│   └── Idolbreaker (Lv 25) → Palm of Ruin (Lv 40) → Iron Knell (Lv 60)
+│   ├── Unmoved Pillar (Lv 25)
+│   │   ├── Stillgate (Lv 40) → Seated Mountain (Lv 60) → The Unturning (Lv 85)
+│   │   └── Millrace (Lv 40) → Patient Flood (Lv 60) → Slackwater (Lv 85)
+│   └── Idolbreaker (Lv 25)
+│       ├── Palm of Ruin (Lv 40) → Iron Knell (Lv 60) → Worldbell (Lv 85)
+│       └── Winnower (Lv 40) → Threshing Floor (Lv 60) → The Harrow (Lv 85)
 └── Breathbinder (Lv 10)
-    ├── Pilgrim of Nowhere (Lv 25) → Roadless Saint (Lv 40) → Tenth Step (Lv 60)
-    └── Hollow Hand (Lv 25) → Heart-Stiller (Lv 40) → Empty Heaven (Lv 60)
+    ├── Pilgrim of Nowhere (Lv 25)
+    │   ├── Roadless Saint (Lv 40) → Tenth Step (Lv 60) → The Destination (Lv 85)
+    │   └── Earthfast (Lv 40) → The Overtaking (Lv 60) → All Roads (Lv 85)
+    └── Hollow Hand (Lv 25)
+        ├── Stillpalm (Lv 40) → Empty Heaven (Lv 60) → The Vacant Throne (Lv 85)
+        └── Breathward (Lv 40) → The Kept Breath (Lv 60) → The Reprieve (Lv 85)
 ```
 
 ## Tier I — Initiate (Level 1)
@@ -231,15 +239,15 @@ Monk (Lv 1)
 - **The Unwalked Way** — Open a hidden path a short distance; allies may follow before it closes and forgets itself.
 - **Absent Step** — Once per round, an attack that should have hit you finds you were never in that place.
 
-### Heart-Stiller
+### Stillpalm
 
 **Role:** Executioner — clean, woundless single-target death · **Advances from:** Hollow Hand
 
-*Heart-Stillers are named in treaties. Certain wars have ended on the rumor that one had taken an interest; certain kings sleep in rooms without doors because of them. They kill without wound and without appetite, and what is more feared, they sometimes decline, and no offer improves the answer.*
+*Stillpalms are named in treaties. Certain wars have ended on the rumor that one had taken an interest; certain kings sleep in rooms without doors because of them. They kill without wound and without appetite, and what is more feared, they sometimes decline, and no offer improves the answer.*
 
 **Playstyle.** Choose the one death that ends the battle and administer it precisely; everything else on the field is a distraction to be endured.
 
-**The road to Heart-Stiller:**
+**The road to Stillpalm:**
 
 1. Reach level 40 and stop a bull's heart with two fingers, restart it with two more, and master the trembling afterward.
 2. Be listed by name in a peace treaty as a weapon, and attend the signing unarmed and unintroduced.
@@ -250,6 +258,90 @@ Monk (Lv 1)
 - **Stilling Palm** — Against a weakened foe, stop the heart outright; the body shows no wound and no violence.
 - **Held Verdict** — Touch a foe and defer the blow; the stored death lands whenever you speak the word, hours later if you wish.
 - **Unstrung Knees** — Strike the resolve rather than the body; enemies around you falter, slow, and lose the will to press.
+
+### Millrace
+
+**Role:** Engulfing tank — pulls in, holds under · **Advances from:** Unmoved Pillar
+
+*The cold hall keeps a second doctrine, learned lower in the winter ford, where the current holds what the ice accepts. Where Stillgates refuse entry, Millraces grant it: let the enemy commit, close around them, keep them. One order calls the other appetite; the reply is vanity. They share a founder and have not shared a room since.*
+
+**Playstyle.** Welcome the committed attack; wrap it, hold it, and let the drowning weight of your stillness finish what the enemy began by reaching you.
+
+**The road to Millrace:**
+
+1. Reach level 40 and return to the winter ford at thaw, when the river fights back, and hold it in your arms until it calms.
+2. Let a champion strike you thrice unanswered, then hold him, gently, until his army agrees to go home.
+3. Ask a Stillgate to move you; when neither doctrine wins by dawn, bow first, and mean nothing by it.
+
+**Abilities granted:**
+
+- **Closing Water** — Enemies who strike you or enter your reach are gripped by dragging force and cannot withdraw until you release them.
+- **Grip of the Ford** — Seize a foe mid-swing; while held they suffer crushing pressure each heartbeat and their blows land as if underwater.
+- **Fed by the Current** — While an enemy remains in your grip, damage you take is halved and flows back into your reserves as recovered breath.
+- **The Second Lesson** — Release every held foe at once in a drowning surge of force, flinging them prone and breathless at your feet.
+
+### Winnower
+
+**Role:** Precision striker — strips arms, wards, pretenses · **Advances from:** Idolbreaker
+
+*The demolition halls parted over a single question: when the idol falls, what happens to the truth it stood on? Palms of Ruin conclude a false thing whole. Winnowers break everything about it that lies — blade, ward, title, nerve — and leave the remainder standing, unarmed and accurate. Each order considers the other's mercy the crueler one.*
+
+**Playstyle.** Disassemble the enemy's advantages one strike at a time — weapon, armor, blessing, formation — until only the honest question of flesh and resolve remains.
+
+**The road to Winnower:**
+
+1. Reach level 40 and strip a proofed champion to skin and certainty without marking the man beneath, and bow if what remains stands anyway.
+2. Enter the counterfeit shrine and break only the seven lies in it, leaving the one honest stone for the villagers to build on.
+3. Watch a Palm of Ruin conclude a fortress you had nearly finished winnowing, and carry what you felt to your teacher unsoftened.
+
+**Abilities granted:**
+
+- **Chaff Stroke** — Each strike destroys one thing the target carries, wears, or was granted: a weapon, a ward, a blessing, your choice.
+- **Threshing Hands** — A flurry that strips one protective effect from every enemy in reach and staggers those with nothing left to lose.
+- **What Remains Is True** — Against foes bearing no weapon, armor, or enchantment, your strikes cannot miss and cannot be reduced.
+- **Winnowing Wind** — Exhale across a volley; arrows, bolts, and flung spells are sorted midair, and only the harmless portion arrives.
+
+### Earthfast
+
+**Role:** Pursuit hunter — closes roads, denies escape · **Advances from:** Pilgrim of Nowhere
+
+*Some Pilgrims walk the hidden roads far enough to meet what tends them, and come back changed in the direction of the ground. The Earthfast swear the earth-oath: no step between, ever again — and no such step taken near them, by anyone. Roadless Saints call them wardens of a door they fear. The Earthfast do not argue; they close it.*
+
+**Playstyle.** Run the quarry down on honest ground; every blink, gate, and hidden path near you fails, and what falls out of them meets your fists.
+
+**The road to Earthfast:**
+
+1. Reach level 40 and walk your last hidden road to its end, learn what sweeps it, and swear the earth-oath before it notices you have gone.
+2. Chase a sorcerer through nine gates on foot; arrive through none of them and take him at the last, which you closed yesterday.
+3. Refuse a Roadless Saint's shortcut with courtesy, once, while the bridge is burning.
+
+**Abilities granted:**
+
+- **Earth-Oath** — Within your breath's reach, nothing may teleport, phase, or step between; travelers mid-passage are spat out at your feet.
+- **Shut Road** — Touch a door, pass, or crossing to close it for a day; the closed way refuses even those with a right to it.
+- **Honest Miles** — On open ground you outpace horses and never tire in pursuit; distance to a fleeing foe only ever shortens.
+- **Dragged to Daylight** — Seize a foe hidden by shadow, veil, or unreality and haul them onto plain earth, ending the effect that hid them.
+
+### Breathward
+
+**Role:** Last-breath guardian — no one dies unpermitted · **Advances from:** Hollow Hand
+
+*The inner path forks at the same door. Stillpalms learned to open it; Breathwards hold it shut. While the last breath is unfinished, they teach, the person is not dead — and near a Breathward the last breath can stay unfinished a long time. Kings hire them before signings. Being kept alive by one is not always a mercy.*
+
+**Playstyle.** Fight beside the falling; hold allies on this side of their last breath, suspend enemies at theirs, and permit nothing on the field to finish dying unapproved.
+
+**The road to Breathward:**
+
+1. Reach level 40 and sit a plague ward through its worst month, losing no one you were not ready to lose, and be honest about the count.
+2. Hold a soldier at his last breath for three days until his daughter arrives, then give leave, and stay for the grief.
+3. Stand between a Stillpalm and a named tyrant, and win the argument without either of you raising a hand.
+
+**Abilities granted:**
+
+- **Unfinished Breath** — An ally struck down within your reach does not die this round; they fight on at the threshold until you exhale.
+- **Strike the Breath Home** — Drive a departing spirit back into its body with an open palm; the saved wake wounded, furious, and alive.
+- **Suspended Sentence** — Pin a dying enemy at the threshold: unable to die, act, or be finished until you grant leave.
+- **The Field Is Closed** — Once per battle, declare the field closed; for a short time nothing within your breath's reach can die, including what deserves to.
 
 ## Tier V — Mythic (Level 60)
 
@@ -316,7 +408,7 @@ Monk (Lv 1)
 
 ### Empty Heaven
 
-**Role:** Transcendent executioner — ends what cannot die · **Advances from:** Heart-Stiller
+**Role:** Transcendent executioner — ends what cannot die · **Advances from:** Stillpalm
 
 *The last teaching of the inner path is administered by no one: climb the final stair, strike at heaven, and stand in whatever answers. Those it leaves standing walk back down owning nothing, needing nothing, and able to touch anything — gods included, who are lately difficult to find at home.*
 
@@ -334,3 +426,256 @@ Monk (Lv 1)
 - **Nothing to Take** — Owning nothing, you cannot be disarmed, cursed, possessed, or beguiled; hostile magic finds no purchase and slides off.
 - **The Hollow Answer** — Still every spirit in reach; summons unravel, blessings fall mute, and the possessed wake as themselves.
 - **Unclenched Fist** — End a battle without a death by striking the will to fight from every foe who can still yield.
+
+### Patient Flood
+
+**Role:** Engulfing colossus — swallows offensives whole · **Advances from:** Millrace
+
+*Histories record valleys that drowned in windless weather and sieges that marched into a calm and were not seen again. A Patient Flood no longer grips; they merely permit approach. What enters that stillness joins it. The order keeps no reliquary — where a Patient Flood sat, there is a lake, and the lake is not asked questions.*
+
+**Playstyle.** Sit in the path of an offensive and accept it entirely; everything spent against you is held under, and nothing you hold surfaces unchanged.
+
+**The road to Patient Flood:**
+
+1. Reach level 60 and settle yourself below the dam the tyrant built, and wait, and let the engineers discover what patience weighs.
+2. Accept a full army's assault without answering a single blow, and be the only thing on the field by evening.
+3. Let the drowned kingdom's survivors curse you by name, and keep that name, since they need it more than you do.
+
+**Abilities granted:**
+
+- **Permission to Approach** — All enemies may always reach you; all who do are slowed, held, and drained a little more each heartbeat they remain.
+- **Drowned Arsenal** — Projectiles, spells, and charges that enter your stillness sink; store their force quietly, up to a reservoir's worth.
+- **The Flood Remembers** — Release your reservoir once per battle as a slow, total wave that carries every enemy from the field, arranged by weight.
+- **Still Surface** — Attacks against you disturb nothing; you suffer no stagger, no fear, and reveal no wound until you choose.
+
+### Threshing Floor
+
+**Role:** Field-wide purifier — falsehood fails in reach · **Advances from:** Winnower
+
+*Old temples keep a bare circle of stone no one will roof, and sweep it, and do not discuss it. Where a Threshing Floor stands, everything within the wind of their arms is tried: forged coin crumbles, glamours drop, and stolen strength runs out of the thief. Histories dispute whether they are people or verdicts.*
+
+**Playstyle.** Stand at the center and try everything that enters; enchantments, disguises, and false advantages fail around you while your own bare hands stay exactly what they claim.
+
+**The road to Threshing Floor:**
+
+1. Reach level 60 and hold the bare circle at the year's turning while every liar in the province is brought before you, and try them all by hand.
+2. Unmake a usurper's coronation by standing in the cathedral while the false regalia fails, and say nothing during or after.
+3. Be tried on your own floor by your own students, and pass, and never tell them how near it was.
+
+**Abilities granted:**
+
+- **The Trying Circle** — A standing aura: enemy enchantments, illusions, and summoned reinforcements within reach are tested each round and the false ones fail.
+- **Flail of the First Harvest** — A sweeping two-arm rhythm striking every adjacent foe; each hit also strips one falsehood they are wearing or telling.
+- **Chaff Rises** — What you strip does not linger: broken wards, husks, and unmade spells burst outward as blinding chaff that scours enemy eyes.
+- **True Weight** — Your strikes against anything revealed false — construct, glamour, or lie given legs — deal harm its maker cannot mend.
+
+### The Overtaking
+
+**Role:** Inevitable hunter — flight itself fails · **Advances from:** Earthfast
+
+*Every famous escape has a final page, and the final pages agree: a weathered figure, already waiting, apologizing for nothing. The Overtaking does not chase; it is what a chase becomes. The hidden roads eject the hunted at their feet, rivers deliver them, and mercy remains available, strictly on foot.*
+
+**Playstyle.** Declare a quarry and become their horizon; wherever they run arrives at you, and everything they spend fleeing is strength you no longer must break.
+
+**The road to The Overtaking:**
+
+1. Reach level 60 and end a pursuit your order began eighty years before your birth, then lay the oath to rest at the cloister gate.
+2. Wait at the harbor for a ship that sailed to escape you, and help them moor when the sea brings it back.
+3. Decline to overtake, once, and learn which of you the doctrine actually binds.
+
+**Abilities granted:**
+
+- **Named Quarry** — Mark one foe; all movement they attempt, mundane or otherwise, brings them measurably nearer to you until one of you yields.
+- **The Final Page** — Once per battle, be at the place your quarry flees toward before they arrive, rested and unhurried.
+- **No Second Wind** — Fleeing foes shed speed, spells, and courage as they run; whatever they drop is gone when they turn to fight.
+- **Mercy on Foot** — A quarry that stops, turns, and walks to you unarmed may live; the annals record it happening twice.
+
+### The Kept Breath
+
+**Role:** Mythic warden — death waits for permission · **Advances from:** Breathward
+
+*There is a village in the border hills where no one has died in sixty years, and a battlefield where both armies fell and every man rose to sign the peace. Histories blame weather, miracle, or clerical error. The order knows the truth: somewhere nearby, a Held Breath has not yet finished exhaling, and nothing ends until they do.*
+
+**Playstyle.** Carry the field's every ending in your lungs; allies cannot fall, enemies cannot conclude, and the battle ends the way you breathe it out.
+
+**The road to The Kept Breath:**
+
+1. Reach level 60 and inhale at the start of a battle two kings swore would be a massacre, and exhale when the treaty is signed.
+2. Live one ordinary year in the village that does not die, mending fences, and let no one learn what leaves when you do.
+3. Grant death, once, to one who has earned the rest, and hold your own breath steady while you do it.
+
+**Abilities granted:**
+
+- **One Long Exhale** — While you sustain the breath, no creature in the battle can die; wounds accrue and wait, politely.
+- **Deferred Endings** — When your exhale finishes, you choose which of the waiting deaths occur and which are refused outright.
+- **Sixty Quiet Years** — Your mere residence wards a place; while you sleep, eat, or garden nearby, nothing within the walls can end.
+
+## Tier VI — Apotheosis (Level 85)
+
+### The Unturning
+
+**Role:** Absolute anchor — the world turns around you · **Advances from:** Seated Mountain
+
+*The mountain sat; the world kept turning; something had to hold still while it did. Navigators now steer by a fixed point that is not a star, and find it truer. Where the Unturning sits, quakes conclude, wandering gods orbit rather than approach, and maps agree. The office is never empty, though no one has seen it change hands.*
+
+**Playstyle.** Be the point the battle turns around; you do not move, cannot be moved, and everything hostile expends itself circling what it cannot shift.
+
+**The road to The Unturning:**
+
+1. Reach level 85 and remain seated while the world is moved — by war, by god, by cartographer — until all three put it back.
+2. Let navigators fix their charts to you, and never once make a liar of a sailor.
+3. Feel the world begin to turn around your stillness, and forgive it for needing you.
+
+**Abilities granted:**
+
+- **Hub of the Wheel** — You cannot be moved by anything, including the world; effects that would displace you displace your attacker instead.
+- **Quakes Conclude** — Area catastrophes — quakes, storms, cataclysmic spells — end at your reach and are refunded to no one.
+- **Caught Turning** — Enemies that engage you are caught in the turning; each round they fight you, their footing slides sunwise to where you prefer them.
+- **The Fixed Point** — Allies anywhere may treat your position as true north; once per battle each may arrive beside you regardless of distance.
+
+### Worldbell
+
+**Role:** Epochal striker — blows that date the ages · **Advances from:** Iron Knell
+
+*Every bell ever cast is, metallurgists agree, a copy of something. When a Worldbell strikes with full intent, the copies answer: every tower from the salt coast to the ice rings once, unrung, and historians open a new chapter out of habit. The person has become the original. Ages are not counted in years; they are counted between tolls.*
+
+**Playstyle.** Wind up rarely; when the blow lands it rings through every enemy, structure, and certainty on the field, and the date it makes is yours.
+
+**The road to Worldbell:**
+
+1. Reach level 85 and strike once, and hear the answer come back from towers that were never built to ring.
+2. Outlive the calendar that dated its years from your blow, and attend the founding of the next without striking.
+3. Hang someday in the rebuilt temple's tower — as doctrine, as warning, or as yourself — and let the monks decline to say which.
+
+**Abilities granted:**
+
+- **Strike the Original** — Your great blow sounds in every copy: all enemies on the field take its echo, armor and distance notwithstanding.
+- **New Chapter** — Once per battle, end the current engagement outright: surviving combatants are separated, deafened, and reorganized as if the fight were history.
+- **Heard in the Provinces** — Allies who cannot see you still fight within your toll: they gain your steadiness and cannot rout while the ring lasts.
+- **Between Tolls** — While your great strike is spent, enemies who know it will return fight at a penalty; nearly all of them know.
+
+### The Destination
+
+**Role:** Guardian unbound — every last moment at once · **Advances from:** Tenth Step
+
+*Somewhere between the ninth step and the tenth, the walker stopped being a person who arrives and became the arriving itself. Every rescue that comes in the last possible moment is now attributed, correctly, to the same office. Crossroads shrines no longer petition; they thank. Scholars note the tense of those inscriptions and take up other subjects.*
+
+**Playstyle.** Exist where you are needed, tense optional; strike from arrivals that have not happened yet and leave through departures already concluded.
+
+**The road to The Destination:**
+
+1. Reach level 85 and be present at every last-moment rescue recorded in a single year, including two you have not performed yet.
+2. Attend the dedication of a shrine to you that predates your birth, and leave the offering you remember finding there as a novice.
+3. Arrive, at the end, wherever the world is ending, without being asked, on time.
+
+**Abilities granted:**
+
+- **In the Nick** — Whenever an ally would die anywhere, you may already be there; the killing blow becomes your opening counter.
+- **Answer at the Crossroads** — Once per battle an ally may call your name at any distance; you arrive regardless of walls, wards, or your own whereabouts.
+- **Departed Already** — Attacks resolve against where you were; you have been elsewhere since before the attacker decided, which courts find difficult.
+- **The Crowded Instant** — Arrive several times into one moment; each arrival may strike once before the moment notices and moves on.
+
+### The Vacant Throne
+
+**Role:** Ascendant god-ender — heaven kept empty · **Advances from:** Empty Heaven
+
+*Heaven is not empty, theologians insist; it is kept. At the top of the last stair stands a seat no one sits in, and a figure who owns nothing, not even the sitting. Gods do not visit. Pretenders climb occasionally; the accounts of their descents are brief. While the throne stays vacant, nothing worse can claim it.*
+
+**Playstyle.** Fight anything that claims divinity, anywhere it claims it; your open hand outranks godhood, and your poverty is a fortress nothing bribes.
+
+**The road to The Vacant Throne:**
+
+1. Reach level 85 and climb the last stair a second time, find the throne built since your first visit, and decline it daily thereafter.
+2. Catch what climbs the stair wearing a dead god's face, and send it down by the fast way.
+3. Keep the seat empty for a hundred years, including from yourself, especially from yourself.
+
+**Abilities granted:**
+
+- **Outrank Heaven** — Your strikes treat gods, avatars, and ascended things as mortal; divinity provides them no defense, healing, or appeal.
+- **The Sitting Refused** — You cannot be deified, worshipped, possessed, or promoted against your will; power offered to you simply is not.
+- **Brief Descent** — Hurl a pretender from any height of power to the foot of their own stair, stripped of everything they climbed with.
+- **Stilled Heaven** — Still every divine working on the field at once; miracles pause, avatars flicker, and prayers queue until you are finished.
+
+### Slackwater
+
+**Role:** Cosmic bulwark — the tide waits here · **Advances from:** Patient Flood
+
+*Sailors keep an hour no almanac prints: slackwater, when the whole sea declines to move and wise fleets pray. The person who was a Patient Flood has become that pause. Wherever they stand, the world's violence reaches its mark, hangs, and forgets to fall. The office passes; the hour, the charts note, has never once been vacant.*
+
+**Playstyle.** Anchor the field inside a standing pause; harm arriving anywhere near you queues, waits, and mostly drowns before it is permitted to happen.
+
+**The road to Slackwater:**
+
+1. Reach level 85 and stand in the strait the night two navies meet; when neither fleet can persuade an arrow to fly, walk home across the calm.
+2. Be struck from the almanacs as a navigational hazard and entered instead among the tides.
+3. Teach the ocean to wait by waiting longer, once, where it can see you.
+
+**Abilities granted:**
+
+- **The Sea Declines** — Within your reach, all damage from any source is suspended for a breath before landing, and yours is the deciding breath.
+- **Between Tides** — Once per battle, hold the entire field at slack: nothing moves, falls, bleeds, or dies until you exhale.
+- **Weight of the Waiting Sea** — Suspended harm you decline to permit sinks into you as stored force, released through your next open palm as a tide.
+- **Windless Harbor** — Allies within your stillness cannot drown, fall, or be moved, and may breathe your patience as their own once each round.
+
+### The Harrow
+
+**Role:** Slow world-breaker — what hardened, breaks · **Advances from:** Threshing Floor
+
+*After threshing, the harrow: the toothed patience dragged across the world to break what set too hard to grow. The rank has left the person and entered the calendar — ages end in a harrowing, priests say, and check the horizon. Whoever holds the office walks slowly, is expected nowhere, and arrives exactly where the crust is thickest.*
+
+**Playstyle.** Advance slowly and break everything settled — fortifications, empires' certainties, the enemy's oldest defenses; nothing that has hardened may remain hard in your furrow.
+
+**The road to The Harrow:**
+
+1. Reach level 85 and walk the length of a war unhurried, breaking every wall you pass, until both sides plant rather than rebuild.
+2. Let the priests read your footprints as a season and amend the calendar; decline the feast day they offer you.
+3. Break the oldest hardened thing you know of, which you will find behind your own ribs, and grow whatever comes after.
+
+**Abilities granted:**
+
+- **The Furrow** — You advance at a walk and cannot be stopped; walls, wards, and formations you pass through are permanently broken open.
+- **Teeth of Ages** — Your strikes ignore every defense older than a day; entrenchment, ancient wards, and long-held ground count against their owners.
+- **Broken for Sowing** — Ground you have harrowed cannot be fortified again this age, but anything planted in it — camps, crops, causes — thrives.
+- **Come the Harrowing** — Once per age — per battle, in practice — every enemy structure, summons, and standing spell on the field fails at once.
+
+### All Roads
+
+**Role:** Convergence incarnate — all flight ends at you · **Advances from:** The Overtaking
+
+*The proverb no longer names a city. Somewhere the office walks, and all roads lead to it: the escaped tyrant, the unserved sentence, the letter posted to no address. Cartographers leave one convergence off every honest map, by treaty. The person is long since beside the point; the roads have agreed among themselves, and they deliver.*
+
+**Playstyle.** Stop pursuing; the field reorganizes so that everything guilty, fleeing, or ripe for judgment is en route to you, on schedules you set.
+
+**The road to All Roads:**
+
+1. Reach level 85 and stand still for a year while every unfinished pursuit in the world concludes, one after another, at your feet.
+2. Hear the proverb spoken with your meaning in a country you have never visited, and let it stay a proverb.
+3. Walk the one road that leads away, when you find it, and do not look back to see whether it is following.
+
+**Abilities granted:**
+
+- **Every Road Agrees** — All enemy movement on the field, however directed, curves toward you; charges, retreats, and flanking maneuvers arrive at your feet alike.
+- **Delivered** — Once per round, a foe anywhere in the battle is conveyed to arm's reach by whatever route existed; roads are resourceful.
+- **The Missing Convergence** — You appear on no map, scrying, or memory of your route; ambushing you requires an appointment.
+- **Milestones** — Foes brought to you arrive diminished by the distance: winded, unblessed, and separated from anything they dropped along the way.
+
+### The Reprieve
+
+**Role:** Cosmic warden — the stay of execution · **Advances from:** The Kept Breath
+
+*Between verdict and stroke there is an office, and it is occupied. Every gallows-rope that snaps, every avalanche that hesitates, every heart that pauses and reconsiders is the same hand. The law-codes of four nations carry a line no scribe remembers adding: no ending is final until acknowledged. The office outlives every holder, which is, of course, the point.*
+
+**Playstyle.** Intervene at endings anywhere the story can see you; deaths, collapses, and dooms already in motion are subject to review, and you are the review.
+
+**The road to The Reprieve:**
+
+1. Reach level 85 and arrive at every execution held on one gray morning across four kingdoms, and leave each scaffold arguing with its own rope.
+2. Refuse the ending of an age, once, and carry the cost of its continuing without telling anyone what it is.
+3. Acknowledge, at last, one ending you have been refusing since before you held the office, and sit with it until morning.
+
+**Abilities granted:**
+
+- **Stay Granted** — Undo one ending each round — a death, a collapse, a detonation — returning its subject to the instant before.
+- **Acknowledged** — Endings you personally acknowledge become final beyond appeal; not gods, priests, or necromancy may reopen them.
+- **The Occupied Office** — You cannot be ended while any reprieve you have granted still stands; the paperwork, such as it is, protects you.
+- **Stroke Withheld** — Strike any blow and leave it unfallen in the air for as long as you like; negotiations improve remarkably.

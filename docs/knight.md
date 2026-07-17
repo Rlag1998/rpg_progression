@@ -11,11 +11,19 @@ Every Knight begins the same way: kneeling, speaking words that cannot be unsaid
 ```text
 Knight (Lv 1)
 ├── Oathwarden (Lv 10)
-│   ├── Gatesworn (Lv 25) → Warden of the Last Door (Lv 40) → The Unfallen (Lv 60)
-│   └── Lanternshield (Lv 25) → Dawnward (Lv 40) → The Last Lantern (Lv 60)
+│   ├── Gatesworn (Lv 25)
+│   │   ├── Warden of the Last Door (Lv 40) → The Unfallen (Lv 60) → The Immured (Lv 85)
+│   │   └── Ostiary (Lv 40) → The Errant Door (Lv 60) → Hinge of the World (Lv 85)
+│   └── Lanternshield (Lv 25)
+│       ├── Dawnward (Lv 40) → The Last Lantern (Lv 60) → The Kept Morning (Lv 85)
+│       └── Lampblack (Lv 40) → The Hooded Star (Lv 60) → The Kindly Dark (Lv 85)
 └── Knight Penitent (Lv 10)
-    ├── Hexdrinker (Lv 25) → The Leaden Chalice (Lv 40) → The Hollow Grail (Lv 60)
-    └── Black Confessor (Lv 25) → Dolorous Guard (Lv 40) → The Nameless Vow (Lv 60)
+    ├── Hexdrinker (Lv 25)
+    │   ├── The Leaden Chalice (Lv 40) → The Hollow Grail (Lv 60) → The Sealed Age (Lv 85)
+    │   └── Gallglass (Lv 40) → The Patient Mirror (Lv 60) → Arc of Malison (Lv 85)
+    └── Black Confessor (Lv 25)
+        ├── Dolorous Guard (Lv 40) → The Nameless Vow (Lv 60) → The Assize (Lv 85)
+        └── Shriver (Lv 40) → The Mercy (Lv 60) → The Intercession (Lv 85)
 ```
 
 ## Tier I — Initiate (Level 1)
@@ -266,6 +274,94 @@ Knight (Lv 1)
 - **Iron Requiem** — Advance slowly and unstoppably; each step releases carried griefs as waves of terror that break formations.
 - **Take the Kingdom's Weight** — Absorb a battlefield's collective guilt: massive Grief stacks, at the cost of reduced maximum health until dawn.
 
+### Ostiary
+
+**Role:** Sanctum host — open threshold, interior punishment · **Advances from:** Gatesworn
+
+*Where the Last Door teaches that a perfected gate never opens, the Ostiaries hold the opposite heresy: a door that cannot open is only a wall with a title. They keep the sanctuary doors — open to anyone fleeing, at any hour — and answer personally for everything that follows the fleeing in.*
+
+**Playstyle.** Fight with the door open. Let the enemy cross onto ground you have consecrated, then close it behind them; nothing you admit leaves unjudged.
+
+**The road to Ostiary:**
+
+1. Reach level 40 and unbar a sanctuary door during a siege, because one family was still outside. The Order counts what you let in, and what you saved.
+2. Keep a door open for a year in country where the Wardens sealed theirs, and bury what comes through wrongly with your own hands.
+3. Refuse a Warden of the Last Door who orders your door shut, courteously, twice; the third refusal is traditionally made with drawn steel.
+4. Learn the guest-law by heart and enforce it once against a guest you loved.
+
+**Abilities granted:**
+
+- **Right of Entry** — Allies who reach your threshold gain sanctuary: untargetable for 5 seconds and healed for 15% of their maximum health.
+- **Be Welcome** — Invite an enemy across your threshold; if they cross, they are slowed 30%, silenced, and cannot recross outward for 8 seconds.
+- **The Door Answers** — Whenever an enemy crosses your threshold, strike them with an automatic counterblow that interrupts whatever they were attempting.
+- **Guest-Law** — Admitted enemies deal 20% less damage to anyone but you; striking another guest brands them, increasing all damage they take by 25%.
+
+### Lampblack
+
+**Role:** Covert escort — hooded light, unseen columns · **Advances from:** Lanternshield
+
+*The Dawnwards burn the dark back; the Lampblacks call that vanity with a body count, since every blaze shows the wolves where the column walks. They soot their mail, hood the consecrated flame behind a shutter, and move the helpless through night country unseen, unheard, and unthanked — the flame still burning, merely private.*
+
+**Playstyle.** Shepherd the column in silence. Muffle sound and lamplight, deny ambushes before they form, and when discovered, snap the shutter open and blind what found you.
+
+**The road to Lampblack:**
+
+1. Reach level 40 and cross the Sunless March without your flame showing once; the Dawnwards crossed it burning, and the Order counts their dead differently.
+2. Blacken your mail with soot from your own shield's flame, and let no smith polish it again.
+3. Move a hundred souls past a thing that hunts by light, close enough to hear it breathing, and be gone before it learns the country was ever peopled.
+4. Accept that no songs will be made of you; the Lampblacks keep their own count, and it is enough.
+
+**Abilities granted:**
+
+- **Shuttered Flame** — Your consecrated light persists but casts nothing; allies within 6 meters are muffled and cannot be detected by sight or sound.
+- **Soot and Psalm** — Whisper the psalm rather than sing it; escorted allies leave no tracks and make no sound above a heartbeat for 30 seconds.
+- **Snap the Shutter** — Unhood the lantern into a foe's eyes: blinded for 6 seconds and marked, taking bonus damage from allies striking out of darkness.
+- **Wolf-Count** — You always know how many hunters stalk your column, their bearing, and which one has noticed you.
+
+### Gallglass
+
+**Role:** Retribution tank — swallowed hexes carried home · **Advances from:** Hexdrinker
+
+*The Leaden Chalices call containment sacred; the Gallglasses call it a hoard of other people's ruin. Their doctrine is short: every curse has an author, and an address. They drink the hex, temper it a year in their own blood, and deliver it home — armor quenched black and polished to a mirror, so the maker meets the work.*
+
+**Playstyle.** Drink what the enemy casts, temper it in your blood, and hand it back sharpened. The more a foe curses you, the worse their homecoming.
+
+**The road to Gallglass:**
+
+1. Reach level 40 and carry your first curse home: three years, two borders, and a witch who believed herself forgotten. Give it back gently. Once.
+2. Quench your armor in your own hexed blood and polish it until the first curse-author flinches at their reflection.
+3. Stand before the Leaden Chalice conclave and refuse the veneration; tell them what you told the road: nothing is kept.
+4. Deliver one curse to an author already dead, and learn where curses go when the address fails.
+
+**Abilities granted:**
+
+- **Quenched in Gall** — Hostile magic striking you is dulled by 25% and remembered; your blackened plate records each caster's name in its tarnish.
+- **Carried Home** — Return one drunk curse to its original author at triple potency; range is unlimited if you know their name.
+- **The Maker's Face** — Enemies whose curse you carry see their own work in your mirror-plate and falter, losing 15% accuracy and all morale bonuses.
+- **Honed Affliction** — Spend a Draught to edge your blade with a swallowed hex; your next three strikes afflict exactly as the original curse did.
+
+### Shriver
+
+**Role:** Redeeming vanguard — pacification, burden theft · **Advances from:** Black Confessor
+
+*The Dolorous Guard lifts a realm's sin by ending the sinner; the Shrivers call the axe a confessor's failure of nerve. A Shriver takes the whole sin — the deed, the memory, the taste of it — and the shriven walk away clean, to their victims' fury. Mercy, the Order teaches, is heavier than the axe, and rarer.*
+
+**Playstyle.** Win by unmaking the will to fight. Strip rage, guilt, and frenzy from enemies and carry it yourself; the emptied yield, and yielding is victory.
+
+**The road to Shriver:**
+
+1. Reach level 40 and shrive a man the Dolorous Guard has already sentenced, then stand between him and the Guard until one of you kneels.
+2. Carry a murderer's memory of the deed for a season, waking each night at the hour it happened, and return him nothing.
+3. Face the victims' families with the man you cleaned, and take their fury too; it is also a weight, and also yours now.
+4. Refuse to shrive one who wants the sin lifted but not left; learn the difference in their eyes, for the whole craft is there.
+
+**Abilities granted:**
+
+- **Take the Deed** — Strip an enemy's empowering rage, frenzy, or blood-rite and carry it as a burden stack; they fight sober and diminished.
+- **Shrift Before Steel** — Offer shrift once per foe; one who accepts lays down arms, leaves the battle, and cannot be harmed by your allies.
+- **Clean Hands** — Take an ally's kill as your own; whatever grief, curse, or consequence it earns falls to you instead.
+- **Heavier Than the Axe** — Subduing strikes deal bonus damage per burden carried but can never kill; enemies dropped this way wake shriven and harmless.
+
 ## Tier V — Mythic (Level 60)
 
 ### The Unfallen
@@ -355,3 +451,269 @@ Knight (Lv 1)
 - **No Face, All Doors** — You cannot be scried, ambushed, or barred; guilt is a door, and everyone has one.
 - **Kneel to Lift It** — Absorb a calamity-scale wrong whole — a razed city's grief, a broken god's oath — and rise armored in it.
 - **The Vow Outlasts** — On death, the Vow does not end; it stands the body back up and finishes the judgment first.
+
+### The Errant Door
+
+**Role:** Mythic sanctum — wandering threshold, absolute refuge · **Advances from:** Ostiary
+
+*The same iron-banded door appears in accounts three centuries apart: in a hillside above a massacre, in a burning city's blind alley, once in the open sea. The hunted knock and are received into a hall that cannot be found again. Scholars dispute whether the knight keeps the door or the door keeps the knight.*
+
+**Playstyle.** Carry refuge itself. Open your door where it is needed — behind the routed, ahead of the hunted — and make any battlefield a place with an exit.
+
+**The road to The Errant Door:**
+
+1. Reach level 60 and open a door out of a city that has already fallen; the histories will record survivors and no explanation.
+2. Unhinge your sworn door and carry it on your back until the road teaches it to wander.
+3. Be knocked for from three hundred leagues away, and arrive before the knock has finished.
+4. Open onto the sea, onto the sky, and once onto the inside of a sealed grave; a door is a promise that there is another side.
+
+**Abilities granted:**
+
+- **A Door Where None Was** — Set your threshold into any surface; allies may pass through into your sheltered hall and out again, anywhere within 40 meters.
+- **The Knock Received** — Answer an ally's knock from any distance; you and your door arrive at their side within 3 seconds.
+- **Hall Beyond** — Allies within your hall cannot be tracked, scried, or harmed, and bleeding-out is suspended while they remain inside.
+- **Closed Behind You** — When the last ally passes through, the door closes; pursuers who strike it take all the damage it refused that battle.
+
+### The Hooded Star
+
+**Role:** Mythic guide — unseen passage, hunter's bane · **Advances from:** Lampblack
+
+*Refugee columns that should have died speak of a star low over the treeline that no pursuer could see, moving when they moved, gone by morning. No song names the roads taken; the roads themselves seem not to remember. Twenty years of war have produced exactly one portrait, and the frame is empty.*
+
+**Playstyle.** Be the light only your people can see. Guide entire columns invisibly, unmake pursuit itself, and leave the war unsure you were ever in it.
+
+**The road to The Hooded Star:**
+
+1. Reach level 60 and bring a nation's worth of hunted across a border watched by ten thousand eyes, and let the tally of the seen be zero.
+2. Walk beneath the open sky for a year without casting a shadow the enemy's diviners can find.
+3. Refuse the Dawnwards' twelfth shield when it is offered you, kindly; your flame answers a question they have stopped asking.
+4. Become a rumor of a rumor: let the songs about the columns you saved credit the weather, and correct no one.
+
+**Abilities granted:**
+
+- **Star for the Hunted** — Allies anywhere on the field see your position as a low guiding light; no enemy sense or spell can perceive it.
+- **The Road Forgets** — Paths your column travels close behind you; tracks, scent, and all memory of your passing fade within a minute.
+- **Gone by Morning** — End an engagement at will: your escorted allies fade from enemy perception for 10 seconds of unmolested withdrawal.
+- **One Lamp, No Shadow** — Your hooded flame casts no shadow and never has; magic that strikes at shadows finds nothing of you to hold.
+
+### The Patient Mirror
+
+**Role:** Mythic reflector — inevitable return, stored malice · **Advances from:** Gallglass
+
+*Curse-speakers in six kingdoms now write their words down rather than say them, because the said ones come back. Not swiftly — the Mirror is patient — but entire covens have disbanded upon hearing a courteous greeting, decades late, and recognizing their own phrasing. What it carries, it carries politely, and it has never once arrived early.*
+
+**Playstyle.** Absorb everything hostile without hurry, and return it on your own schedule. Your power is the certainty: nothing cast at you is ever wasted, only delayed.
+
+**The road to The Patient Mirror:**
+
+1. Reach level 60 and outwait a curse whose author will not die for forty years; the Order will teach you nothing about patience you do not already keep.
+2. Carry one hundred curses at once without keeping a single one past its delivery; the Chalices hold, the Mirror only waits.
+3. Be unsaid: hear a witch recall her words at the mere rumor of you, and let her; requital is for the said.
+4. Answer the scholars who ask what you are with the only true thing: a schedule.
+
+**Abilities granted:**
+
+- **Glass Remembers** — Store any hostile spell or curse instead of suffering it; there is no limit, and nothing stored decays.
+- **On Your Own Words** — Return any stored affliction to its caster at a moment of your choosing; it arrives unblockable, phrased exactly as cast.
+- **Decades Late** — When you enter battle, one curse you ever carried relapses upon its author, wherever in the world they are.
+- **The Mirror Declines** — Once per battle, refuse a hostile effect outright; its caster suffers it instead, and understands that a schedule now exists.
+
+### The Mercy
+
+**Role:** Mythic absolution — war's end, wrath unmade · **Advances from:** Shriver
+
+*The misericorde is the thin blade that ends a fallen knight; the order retired the knife and kept the name. The Mercy has shriven things priests deny have souls, and once, an entire army the night before its battle — both sides woke emptied of the war, and the field stayed green. Kings find this more frightening than the Guard.*
+
+**Playstyle.** End fights by removing what fuels them. Wrath, orders, causes — you take them all, and stand heavier each time, while armies discover they have no quarrel.
+
+**The road to The Mercy:**
+
+1. Reach level 60 and shrive something the priests deny has a soul, then decline to attend the theological crisis that follows.
+2. Walk between two armies the night before their battle and take the war; the treaties will claim the credit, and you will let them.
+3. Inherit the retired misericorde and let it rust shut in its sheath; the day you consider drawing it, begin the rank again.
+4. Be found by the worst thing living, walking toward you, hoping. Do not turn it away.
+
+**Abilities granted:**
+
+- **Shrive the Field** — Strip every enemy within 20 meters of rage, orders, and cause; those left with no reason to fight stop fighting.
+- **The Retired Knife** — You cannot deliver a killing blow; anything that yields to you cannot be killed by anyone for one hour.
+- **Take the War Itself** — Absorb a battle's collective grievance as burden stacks; both sides deal 5% less damage per stack while you stand.
+- **Never Set Down** — Gain 1% damage reduction per burden carried, with no cap; you have not set one down in living memory.
+
+## Tier VI — Apotheosis (Level 85)
+
+### The Immured
+
+**Role:** Apotheosis — living architecture, absolute permanence · **Advances from:** The Unfallen
+
+*Masons know the rule though none can source it: a wall holds if someone is inside it. Somewhere the Unfallen stopped shedding the petrified plates and let the stone finish. Pilgrim maps mark a stretch of rampart that is warm in winter, where sieges fail for reasons engineers refuse to publish, and offerings are left in the arrow-slits.*
+
+**Playstyle.** Become the fortification. Your body is wall, gate, and garrison at once; allies fight from you, and nothing you enclose can be reached at all.
+
+**The road to The Immured:**
+
+1. Reach level 85 and let the stone finish what the fusing began; the smith will not offer again, and you will not be asked to sit.
+2. Hold a wall that is also you through a hundred-year siege; you may count the first fifty years as rest.
+3. Feel the kingdom build onto you — towers, chapels, laundry lines — and permit all of it; a wall serves, or it is only stone.
+4. Answer the pilgrims' offerings once a century, briefly, so the masons' rule stays a rule and never becomes a question.
+
+**Abilities granted:**
+
+- **Let the Stone Finish** — Become living rampart: forty meters of indestructible wall, you inside it, for 20 seconds.
+- **Warm in Winter** — Allies sheltering at your wall heal steadily and cannot rout, freeze, or despair; the warmth deepens with each siege you have outlasted.
+- **Load-Bearing Myth** — Structures you touch cannot collapse and lines you anchor cannot break; the rule holds because you are inside it.
+- **Unpublished Reasons** — Siege engines and battering rams targeting your wall fail mechanically, inexplicably, and permanently; their engineers retire early.
+
+### The Kept Morning
+
+**Role:** Apotheosis — custodial dawn, light as law · **Advances from:** The Last Lantern
+
+*Astronomers keep missing it: dawn is not arriving on its own. Each morning is fetched, carried up over the rim of the world, and set burning by an office the doctrine finally has a name for. The Last Lantern walked out of its songs and into the schedule of the sky. The dark has filed no further objections.*
+
+**Playstyle.** Carry daylight as an office, not a spell. Where you stand is morning, permanently; the dark must renegotiate the whole battlefield around that fact.
+
+**The road to The Kept Morning:**
+
+1. Reach level 85 and fetch one morning yourself, from wherever mornings wait, because the sun was late and the columns could not be.
+2. Give your flame to the horizon the way you once gave it to twelve shields, and take the horizon's watch in exchange.
+3. Keep the schedule for a mortal lifetime without one late dawn; the world has stopped checking, which is the trust, which is the weight.
+4. Walk backward out of your own songs, still facing the dark, and let morning answer to your office and not your name.
+
+**Abilities granted:**
+
+- **The Fetched Sun** — True morning exists within 30 meters of you regardless of hour, depth, curse, or eclipse, and does not expire.
+- **Schedule of the Sky** — Declare dawn early; when it arrives, every ally rises reset, as if fully rested, once per day.
+- **Relieved at Dawn** — Any ally who survives to your morning is healed whole and cleansed; their night watch, the office rules, is over.
+- **No Further Objections** — Creatures of darkness inside your morning may not use darkness for anything; the matter has been ruled upon.
+
+### The Sealed Age
+
+**Role:** Apotheosis — era-scale custody, ruin annulled · **Advances from:** The Hollow Grail
+
+*Historians divide time by it now: before the Sealing, and since. Somewhere the Hollow Grail made the daily choice so many times that it stopped being a choice and became a condition of the world — ruin flows downhill into one custody, and the age simply does not end the way its curses intended. Treaties cite it. None dare footnote it.*
+
+**Playstyle.** Be where ruin goes. All catastrophe on the field drains toward you and is kept; your allies fight inside the calm you are keeping.
+
+**The road to The Sealed Age:**
+
+1. Reach level 85 and keep the vigil past counting: when you notice you have stopped choosing, because there is no longer a choice, the age has sealed.
+2. Outlive the treaties written around your silence, and be cited by their successors as terrain.
+3. Accept the age's last unclaimed ruin — the small, spiteful, household kind — for the seal is not sealed while one curse sleeps outside it.
+4. Answer the historians' one question — what happens when you die — by continuing not to.
+
+**Abilities granted:**
+
+- **Before and Since** — Field-scale catastrophes — spells, plagues, collapses — occur inside your custody instead of the world; observers note only a quiet.
+- **Ruin Runs Downhill** — All curses, afflictions, and hostile fields within 40 meters drain slowly into you, where they are kept indefinitely, politely.
+- **The Condition of the World** — You cannot be possessed, unmade, or overturned; effects that attempt it are sealed on contact and counted among your keeping.
+- **A Century, Poured** — Pour one measure of what the age gave you upon an enemy army; the effect predates description.
+
+### The Assize
+
+**Role:** Apotheosis — judgment as natural law · **Advances from:** The Nameless Vow
+
+*Above a certain weight, wrongs now answer for themselves — armies desert the day before atrocities, tyrants confess to empty rooms. Jurists call it the Assize: the court that convenes wherever it is needed, needing no summons, no bench, and no name for its judge. The empty page in the Guard's archive has begun issuing rulings.*
+
+**Playstyle.** Convene rather than fight. Your presence is a sitting court: the guilty weaken under their own verdicts, and battles end as sentences, not slaughters.
+
+**The road to The Assize:**
+
+1. Reach level 85 and convene where no one called you, for the wrong had no witnesses left; a court that requires summons is only a queue.
+2. Sit in judgment of a wrong done to you, and recuse the last of yourself that could still be wronged; what remains is the court.
+3. Let kingdoms write you into their law codes between flood and lightning, and be exactly as negotiable.
+4. Adjourn once an age, wherever mercy files its appeal, and grant it; even the Assize answers to something.
+
+**Abilities granted:**
+
+- **Court in Session** — While you stand on a field, every combatant's guilt is weighed continuously; the guilty deal reduced damage proportional to the weight.
+- **No Summons Needed** — Appear at any wrong of sufficient weight as it happens; distance, walls, and wards are procedural details, and overruled.
+- **Sentence Without Judge** — Condemn an enemy without word or gesture; the sentence executes itself through their own hands, arms, and allies.
+- **The Docket Endures** — Wrongs that flee your field are continued, not dismissed; they resume with greater weight wherever the offender next draws steel.
+
+### Hinge of the World
+
+**Role:** Apotheosis — universal threshold, world-spanning sanctuary · **Advances from:** The Errant Door
+
+*Somewhere the Errant Door stopped being a door and became the reason doors work. Cartographers note the phenomenon without explaining it: the cornered find hinges where there was stone, and things that hunt have learned to dread a rectangle of lamplight opening in the dark. The world turns on it. It still answers knocks personally.*
+
+**Playstyle.** Doors are your jurisdiction. Step out of any of them, decide what every threshold on the field permits, and give whole armies somewhere to run.
+
+**The road to Hinge of the World:**
+
+1. Reach level 85 and let the door go through you: hinge, hasp, and grain, until knocking anywhere is knocking on you.
+2. Answer, in one night, every knock in the world that no one else will answer; dawn is permitted to find you tired.
+3. Decline every shrine the grateful raise over hillsides where your door once stood; a hinge that accepts worship begins to stick.
+4. Be, at last, on both sides of every door at once, and keep each side's secret from the other.
+
+**Abilities granted:**
+
+- **Every Door Is Yours** — Emerge from any doorway, arch, or gate in the world; enemies learn that closed rooms are a courtesy you extend.
+- **Jurisdiction of Thresholds** — Every doorway on the field obeys you — opening, shutting, admitting, refusing — at any distance, without your hand.
+- **The World Ajar** — Once per battle, set before every ally a door that leads home; those who step through arrive, whatever stood between.
+- **What the Hinge Bears** — You cannot be moved, sealed, or barred; force spent trying turns the hinge and heals you instead.
+
+### The Kindly Dark
+
+**Role:** Apotheosis — sheltering night, hunters starved · **Advances from:** The Hooded Star
+
+*There are nights now that take sides. Hunted things — children, columns, whole routed armies — pass through them unseen, while hunters starve on empty roads. Peasants call it the kindly dark and leave a hooded lamp out for it. Somewhere inside the weather there is still a knight, walking rearguard for everyone at once.*
+
+**Playstyle.** Be the night your allies move through. Extinguish enemy perception across the whole field, carry the desperate inside your weather, and let pursuit die of hunger.
+
+**The road to The Kindly Dark:**
+
+1. Reach level 85 and give your name to the night; it will spend it better than you did.
+2. Shelter, in a single winter, everyone who runs: the guilty and innocent alike, for the dark does not stop to try cases.
+3. Let the last portrait's empty frame be buried with honors in your stead, and attend, unrecognized, at the back.
+4. Teach one night, somewhere, to be kind without you, then walk on; the weather must outlive the walker.
+
+**Abilities granted:**
+
+- **The Dark Takes Sides** — Night falls across the battlefield for enemies only; allies see clearly, and every hostile lantern, spell-light, and torch gutters.
+- **Rearguard for the World** — Any ally anywhere who flees something stronger gains your escort: unseen, untracked, and unslowed until they reach safety.
+- **Hunter's Famine** — Enemies without a visible target weaken each second, losing damage and resolve; the stacks do not expire while night holds.
+- **A Lamp Left Out** — Allies sheltering near any lamp left burning for you receive your protection whether or not you attend in person.
+
+### Arc of Malison
+
+**Role:** Apotheosis — curses arc home, cursing ends · **Advances from:** The Patient Mirror
+
+*In the latter histories, cursing simply stops paying. Malice thrown hard enough curves; the learned draw the arc on slates and cannot find the bend's cause, only its constancy. Grandmothers put it plainer: what you say comes home. Inside the law there is still a knight, walking the long curve, making certain.*
+
+**Playstyle.** You are the bend in every hostile trajectory. Sorcery, arrows, and intentions curve back toward their sources while you walk the field, unhurried, confirming.
+
+**The road to Arc of Malison:**
+
+1. Reach level 85 and bend one curse you did not carry: prove the road home now runs without a courier.
+2. Survive the age's cursers uniting to curse the Arc itself, and let the field where they tried grow grass again in your lifetime.
+3. Be demoted from person to proverb, and answer to it: what you say comes home.
+4. Walk the long curve once, all the way around, and arrive behind the first word ever spoken in spite. The histories decline to record what you did there.
+
+**Abilities granted:**
+
+- **The Long Curve** — Hostile projectiles and spells within 30 meters bend homeward; their authors become valid targets for their own work.
+- **Law of the Said** — Enemies who speak incantations, orders, or threats aloud in your presence suffer the stated effect themselves first.
+- **Nothing Lands** — Once per battle, for 10 seconds, no hostile effect anywhere on the field lands except at its point of origin.
+- **The Arc Confirmed** — When returned malice ends its author, every affliction on your allies departs early, homeward, at speed.
+
+### The Intercession
+
+**Role:** Apotheosis — suspended endings, sovereign mercy · **Advances from:** The Mercy
+
+*Every gallows in the world now hesitates. Between sentence and stroke there is a pause that was not there in older histories — one breath, in which anything may be said. Most say nothing, and the stroke falls. But the pause belongs to an office, and the office is occupied, and some breaths have lasted years.*
+
+**Playstyle.** Stand inside the pause before every ending. Suspend deaths, verdicts, and final blows across the field, and decide which of them ever resume.
+
+**The road to The Intercession:**
+
+1. Reach level 85 and lend your last breath to the pause; the world will return it whenever anything is about to end, which is always.
+2. Attend every execution in the world for one season, unseen, and intervene at only one; the choosing is the office.
+3. Hear your name become a legal term in kingdoms that never knew you, and let the lawyers keep it; they use it more gently than kings did.
+4. Take the last unshriven weight, the world's own, and hold the pause while it confesses; it is still confessing.
+
+**Abilities granted:**
+
+- **The Breath Between** — Every killing blow on the field is suspended for one breath; you may stand inside any of them, regardless of distance.
+- **Mercy's Delay** — Suspend one death indefinitely; the target cannot die, act, or be acted upon until you release the breath.
+- **Heard at Any Distance** — Every plea for mercy on the field reaches you, and grants the pleader your damage reduction until you have answered it.
+- **Some Breaths Last Years** — Once per day, extend the pause over an entire battle; nothing ends — no death, no rout, no fall — until you exhale.

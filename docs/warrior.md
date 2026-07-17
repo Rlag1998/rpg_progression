@@ -11,11 +11,19 @@ The Warrior asks for nothing you were born with. No bloodline, no pact, no whisp
 ```text
 Warrior (Lv 1)
 ├── Drillsworn (Lv 10)
-│   ├── Halfsword (Lv 25) → Doomfencer (Lv 40) → The Unanswered (Lv 60)
-│   └── Edgewright (Lv 25) → Severant (Lv 40) → Hundredth Form (Lv 60)
+│   ├── Halfsword (Lv 25)
+│   │   ├── Doomfencer (Lv 40) → The Unanswered (Lv 60) → The Opponent (Lv 85)
+│   │   └── Swordtaker (Lv 40) → The Bloodless (Lv 60) → The Armistice (Lv 85)
+│   └── Edgewright (Lv 25)
+│       ├── Severant (Lv 40) → Hundredth Form (Lv 60) → The Cloven Way (Lv 85)
+│       └── Sellstroke (Lv 40) → The Civil Blade (Lv 60) → Worldcut (Lv 85)
 └── Bannerhand (Lv 10)
-    ├── Linebreaker (Lv 25) → Forlorn Captain (Lv 40) → Ruin of Gates (Lv 60)
-    └── Ironmuster (Lv 25) → Standfast (Lv 40) → Sovereign of Hosts (Lv 60)
+    ├── Linebreaker (Lv 25)
+    │   ├── Forlorn Captain (Lv 40) → Ruin of Gates (Lv 60) → The General Surrender (Lv 85)
+    │   └── Knockunder (Lv 40) → The Buried Siege (Lv 60) → The Investment (Lv 85)
+    └── Ironmuster (Lv 25)
+        ├── Standfast (Lv 40) → Sovereign of Hosts (Lv 60) → The Ten Thousand (Lv 85)
+        └── Barefield (Lv 40) → The Refused Battle (Lv 60) → The Mud Season (Lv 85)
 ```
 
 ## Tier I — Initiate (Level 1)
@@ -268,6 +276,94 @@ Warrior (Lv 1)
 - **Outlast** — Passive: each hour a battle continues, your formation's guard and stamina recovery climb.
 - **The Wall Speaks** — A single shout halts a rout; fleeing allies within earshot stop, turn, and re-form on you.
 
+### Swordtaker
+
+**Role:** Control duelist — disarms and bloodless verdicts · **Advances from:** Halfsword
+
+*Where the Doomfencer's stroke closes a case, the Swordtaker's answer is that no case should close in a grave. They hire into blood-feuds as champions — sometimes for both sides at once — and end them by emptying every hand involved. Each taken sword hangs in the order's hall, labeled, until its owner comes to ask for it back politely.*
+
+**Playstyle.** Nonlethal control duelist. Win the bind, strip weapons, exhaust tempers, and end fights with the opponent standing, empty-handed, and oddly grateful. Killing is available, and beneath you.
+
+**The road to Swordtaker:**
+
+1. Reach level 40 and end seven blood-feuds as hired champion, leaving every principal alive — including the ones who fought hardest to die.
+2. Take the sword of a duelist who came to kill you, and hang it in the hall with the edge dressed and the name spelled right.
+3. Stand opposite a Doomfencer in a lawful duel and end it with both of you breathing. The courts are still arguing the verdict.
+4. Refuse the killing stroke with your own life at stake, and win anyway. The order watches for exactly this.
+
+**Abilities granted:**
+
+- **Empty the Hand** — Win a contested bind to send the enemy's weapon into your off hand; they cannot recover it while you stand.
+- **Flat of the Blade** — Any strike of yours may deal its full damage nonlethally; a foe dropped this way wakes disarmed and honor-bound to yield the quarrel.
+- **The Longer Argument** — Passive: each round a duel continues, your opponent's stamina drains faster and your binds grow harder to refuse.
+- **Hang the Sword** — A foe you disarm must pass a test of will to continue the quarrel by any means; most do not.
+
+### Sellstroke
+
+**Role:** Burst striker — commissioned single cuts · **Advances from:** Edgewright
+
+*The Severed Order climbed away from the world; the Sellstrokes stayed to take its commissions. Guildhalls in every port post their rates: mooring chains parted in storms, millstones trued, gallows ropes cut at the king's late mercy. They hold that falling silk proves nothing — only need can grade an edge honestly, and need pays.*
+
+**Playstyle.** Deliberate burst striker for hire. Scout the job, quote the stroke, deliver one exact cut under the worst conditions on offer — storm, riot, collapsing mine — and collect.
+
+**The road to Sellstroke:**
+
+1. Reach level 40, post your rates in a chartered guildhall, and honor the first seven commissions however bad the weather turns.
+2. Part a mooring chain in a running storm, one stroke, before the ship is lost. Collect afterward.
+3. Refuse the Severed Order's invitation to the scarp. Send back a fair quote for their waterfall instead.
+4. Cut something for no fee, once, and tell no one. The guild pretends this rule is not written down.
+
+**Abilities granted:**
+
+- **Working Conditions** — Passive: weather, darkness, footing, and panic impose no penalty on any cut you were given time to quote.
+- **The Quoted Cut** — Name your target and price aloud; your next strike against that target cannot miss, glance, or be parried.
+- **Journeyman's Eye** — Passive: you read the grain of any material or guard at a glance, and know where one stroke would part it.
+- **Rope, Chain, and Bone** — Your cut severs one object per swing regardless of thickness, and deals doubled damage to rigging, harness, and siegework.
+
+### Knockunder
+
+**Role:** Siege sapper — undermining and tunnel fighting · **Advances from:** Linebreaker
+
+*The forlorn hope goes over the wall; the Knockunder has been beneath it since spring. They dig the galleries, fire the props, and fight the counter-mine knife-work no ballad has the stomach for — dark, close, listening. Garrisons name them for the sound that comes up through chapel floors when surrender has quietly stopped being an option.*
+
+**Playstyle.** Subterranean siege specialist. Fight blind and close in spaces one shoulder wide, drop chosen ground under chosen enemies, and never once hurry.
+
+**The road to Knockunder:**
+
+1. Reach level 40 and bring down a curtain wall from below without losing one digger to the counter-mine.
+2. Win a knife-fight in a gallery too low to kneel in. Then finish the shift.
+3. Lie still a day and a night while counter-miners listen for you through three feet of clay.
+4. Stay below during the storming. The wall coming down was the whole argument; the applause belongs to whoever wants it.
+
+**Abilities granted:**
+
+- **Listening Watch** — Passive: you sense movement, weight, and digging through earth and stone within sixty feet, waking or sleeping.
+- **Fire the Props** — Collapse a tunnel, floor, or wall you have undermined; whatever stood on it drops one story onto ground you prepared.
+- **Gallery Fighting** — Passive: in darkness or confined spaces you strike first, and enemies larger than you lose every advantage of size.
+- **The Knock** — Strike the earth three times; every enemy above who hears it must check morale, because they know what it means.
+
+### Barefield
+
+**Role:** Attrition commander — withdrawal and denial · **Advances from:** Ironmuster
+
+*The Standfast hold that some ground cannot be lost; the Barefields have never met such ground. Their doctrine burns granaries, fouls wells, lifts whole villages onto carts, and hands the enemy mile after mile of nothing to eat. The order's muster-book records no positions at all — only armies, every one of which came home.*
+
+**Playstyle.** Withdrawal-and-denial commander. Trade space for time, bleed pursuit at every ford, and run the deadliest rearguard alive. Done perfectly, winning looks exactly like leaving.
+
+**The road to Barefield:**
+
+1. Reach level 40 and bring an outnumbered army home through two hundred hostile miles without offering battle once.
+2. Burn your own family's granary first, so the order knows you will not flinch at anyone else's.
+3. Hold a ford with twelve soldiers for one hour, then be gone before the enemy can write down what happened.
+4. Read the Standfast muster-book, all eleven retreats, and account for what each would have cost your way: nothing.
+
+**Abilities granted:**
+
+- **Bare the Field** — Country you withdraw through yields the enemy no forage, water, or shelter; their attrition losses double until they resupply from home.
+- **Rearguard Arithmetic** — Passive: allies under your command take reduced damage while retreating, and your rearguard strikes pursuers as if charging.
+- **Lift the Village** — Evacuate a settlement in one night — people, herds, hinges, bells — leaving nothing an army could use or avenge.
+- **A Mile for a Day** — Each mile yielded in good order grants your army a day's worth of rest, repair, and rations saved.
+
 ## Tier V — Mythic (Level 60)
 
 ### The Unanswered
@@ -357,3 +453,269 @@ Warrior (Lv 1)
 - **The Field Entire** — Passive: you perceive the whole battlefield as a single shape; all allies act on your initiative.
 - **Worth a Legion** — An enemy force that learns you command must check morale before offering battle at all.
 - **One Voice** — Your orders reach every ally on the field regardless of distance, din, or dying.
+
+### The Bloodless
+
+**Role:** Apex duelist — victory without harm · **Advances from:** Swordtaker
+
+*Chroniclers quarrel over everything about the Bloodless except the count of the dead, which is nothing. Kingdoms now settle wars by sending champions against one, knowing both armies march home. Some witnesses swear they have never actually seen the Bloodless strike — only opponents discovering, mid-lunge, that their hands were somehow empty.*
+
+**Playstyle.** Perfect nonlethal apex. Disarm anything that can be held, calm anything that can be angered, and end battles by subtraction until nobody present is armed. Including you.
+
+**The road to The Bloodless:**
+
+1. Reach level 60 with no death recorded against your point since the day you swore to take swords, not lives.
+2. End a war by champions' duel, and walk both champions home alive to their own camps.
+3. Hang the thousandth taken sword in the order's hall, and let its owner die of nothing worse than age.
+4. Be challenged by one who has studied every account of you, and leave them unharmed, holding nothing, unsure it has begun.
+
+**Abilities granted:**
+
+- **Empty Every Hand** — Once per battle, disarm all enemies who can see you; their weapons arrive at your feet, politely arranged.
+- **Quarrel's End** — Strike the weapon and not the wielder to cut the quarrel itself; the feud's cause must be argued again from nothing.
+- **No Blood Today** — Passive: nothing dies in a fight you preside over unless you permit it; killing blows nearby resolve as yields instead.
+- **The Gentle Terror** — Passive: enemies who know your record must pass a test of will or lay down arms; the gentleness is the frightening part.
+
+### The Civil Blade
+
+**Role:** Apex striker — monumental public cuts · **Advances from:** Sellstroke
+
+*Six towns keep documents proving the Civil Blade was born there; two are forgeries, and historians cannot agree which. What stands is the work: the winter pass opened in an afternoon, the flood turned down a channel one stroke wide, the harbor reef gone between tides. Whole provinces eat because of cuts that took one motion.*
+
+**Playstyle.** Monumental apex striker. Your cuts operate at landscape scale — fell the cliff, not the soldiers on it — and every stroke doubles as engineering the enemy cannot answer.
+
+**The road to The Civil Blade:**
+
+1. Reach level 60 and open a trade pass through standing mountain before the first snow closes it. Charge fairly.
+2. Turn a river in flood down a channel of your own cutting, and accept the statue the city insists on, facing the water.
+3. Cut for six crowns in one year without any of them learning what the others paid.
+4. Make one cut nobody commissioned and nobody witnessed. Let the geographers find it slowly.
+
+**Abilities granted:**
+
+- **One Stroke Wide** — Cut a permanent channel, breach, or pass through any terrain feature; the map is redrawn where you swung.
+- **Civic Works** — Passive: allies moving through ground you have cut travel faster, camp safely, and drink clean; your work remembers its purpose.
+- **Name the Day** — Declare a fortification and a date; unless honestly bought off, on that date it opens. Garrisons believe you, with reason.
+- **The Day's Work** — Once per day, finish in one motion a cutting labor that should take a hundred workers a season.
+
+### The Buried Siege
+
+**Role:** Apex sapper — fortress-scale undermining · **Advances from:** Knockunder
+
+*Somewhere under the border marches one siege has been running for decades, never lifted, and every fortress in the world may already stand inside it. Surveyors keep finding old galleries under keeps that were never besieged — shored, swept, patient. The Buried Siege has never demanded a surrender. Garrisons offer anyway, addressing the letters downward.*
+
+**Playstyle.** Fortress-scale apex sapper. Any battlefield becomes yours after a night's digging; you decide what ground exists, and choose the moment it stops existing.
+
+**The road to The Buried Siege:**
+
+1. Reach level 60 and take, from below and alone, a fortress that three field armies had failed to invest.
+2. Dig one gallery for ten years under a keep you may never need. Because you may.
+3. Let a garrison find your works, brick them up, and post a watch. Visit the watch-room anyway, from below, leaving only a knock.
+4. Accept a fortress's surrender addressed to the ground itself, and file it with the others.
+
+**Abilities granted:**
+
+- **Already Beneath** — Passive: fortifications more than a decade old count as undermined by you; collapse one section of one per siege.
+- **The Long Gallery** — Your galleries connect: move troops through workings no map records, emerging days ahead of any surface march.
+- **The Chosen Acre** — Choose an acre of the field at dawn; at any later moment of your choosing, it stops being load-bearing.
+- **Never Lifted** — Passive: sieges you conduct do not end when you leave; the works remain, patient, and resume when you return.
+
+### The Refused Battle
+
+**Role:** Apex commander — victory without engagement · **Advances from:** Barefield
+
+*Three empires have marched against the Refused Battle. Their chronicles describe burned plains, missing bridges, winter arriving early, and no enemy — then describe going home, thinner. Whether the Refused Battle has ever actually fought anyone is the liveliest dispute in military letters; the armies that never found them agree it does not matter.*
+
+**Playstyle.** Apex evasion commander. Your army is always elsewhere; enemies fight roads, hunger, and rumor while you spend soldiers on nothing and lose none of them.
+
+**The road to The Refused Battle:**
+
+1. Reach level 60 and defeat an empire's invasion without one pitched engagement, then decline the triumph the saved insist on holding.
+2. Be declared dead by three enemy chronicles, each citing a different battle you were not at.
+3. March your army the length of a hostile empire, unseen, fed by nothing you did not carry or cache.
+4. Refuse the battle your own soldiers beg you to fight, and bring every one of them home to complain about it.
+
+**Abilities granted:**
+
+- **Always Elsewhere** — Passive: enemy scouts, spies, and divinations place your army one full day behind wherever it actually is.
+- **Hollow Country** — Territory you have withdrawn through turns hostile to pursuers: forage fails, wheels break, wells disappoint, maps argue.
+- **Give Them the Field** — Decline an offered battle; the enemy suffers a defeat's worth of desertion and lost morale anyway, having won nothing.
+- **The Unspent Army** — Passive: your army treats every march as rest and every winter as quarters; you end campaigns at full strength.
+
+## Tier VI — Apotheosis (Level 85)
+
+### The Opponent
+
+**Role:** Apotheosis — the adversary in every duel · **Advances from:** The Unanswered
+
+*The Unanswered refused the last challenge, and the silence that followed took up the office. Now every drill-yard shadow-fencer, every duelist rehearsing at midnight, is facing the same figure — the perfect adversary the mind supplies when nobody else is good enough. That figure holds a rank, and the rank is occupied. Occasionally, it fences back.*
+
+**Playstyle.** Be the adversary all training imagines and the doubt inside every draw. Enter any single combat, anywhere, as the opponent both fighters were secretly expecting.
+
+**The road to The Opponent:**
+
+1. Reach level 85 and answer, at last, the question you left standing — alone, at midnight, in the yard where you began.
+2. Fence the silence you appointed as your successor, and win the office back from it.
+3. Stand, the same dawn, in the mind's eye of every soldier drilling alone, and correct one wrist apiece.
+4. Accept that no one will speak your name again. The office does not keep one; opponents are never introduced.
+
+**Abilities granted:**
+
+- **The Imagined Blade** — Manifest in any single combat you are aware of, on either side; you were always the expected opponent.
+- **Second of All Duels** — Passive: you may attend any formal duel unbidden; while you watch, no dishonorable stroke can land.
+- **The Perfect Adversary** — Passive: you fight each enemy at exactly their level plus one lesson; survivors leave better, which is the point.
+- **The Standing Question** — An enemy raising arms against you must first answer why; those without an answer find their bodies decline the fight.
+
+### The Cloven Way
+
+**Role:** Apotheosis — perfect division made pilgrimage · **Advances from:** Hundredth Form
+
+*When a hundredth form is performed, the order raises a shrine from the pieces. Pilgrims walking between shrines noticed the paths connect: one line of split stones crossing the ranges, older in places than the shrines themselves. The Cloven Way is that line, still being cut from inside, and the order admits, when pressed, that it is held.*
+
+**Playstyle.** Travel as the cut travels. Step out of any perfect parting — split stone, opened gate, the line dawn draws — and finish forms other hands began.
+
+**The road to The Cloven Way:**
+
+1. Reach level 85 and walk the whole Way on foot, shrine to shrine, greeting each stone by its maker's mark.
+2. Find the stones no order remembers cutting, and learn what has been performing the form since before there were people.
+3. Cut nothing for a year, and watch the Way lengthen anyway. Conclude what the elders concluded, and keep it as quietly.
+4. Add your shrine to the Way while still alive to sweep it. The office is tenancy; the stone can wait.
+
+**Abilities granted:**
+
+- **Walk the Parting** — Enter the Way through any flawless cut and leave it through any other, arriving with your blade already drawn.
+- **Finish the Form** — Complete any technique an ally begins; it resolves as though you performed it, and they briefly learn what that felt like.
+- **Maker's Signature** — Passive: anything you cut stays cut; no mending, healing, or restoration closes a parting you signed.
+- **One Line, All Passes** — Passive: the Way runs under your feet everywhere; walls, formations, and difficult ground count as already parted for your movement.
+
+### The General Surrender
+
+**Role:** Apotheosis — every wall already yielded · **Advances from:** Ruin of Gates
+
+*Six kingdoms learned from the Ruin of Gates that walls only decide when surrender happens, never whether. Jurists drew the full conclusion: all fortification is provisional, and yielding arrives for everyone eventually. The office holds every gate's eventual opening in trust. Three cities surrender to it annually, in advance, as civic insurance; the paperwork is considered devotional.*
+
+**Playstyle.** Sieges are paperwork you personally embody. Arrive, and fortifications remember they are provisional; garrisons find themselves negotiating with the inevitable, which is you.
+
+**The road to The General Surrender:**
+
+1. Reach level 85 and accept the surrender of a city no army has approached in a century. It will know why you came.
+2. Open, gently and alone, a gate the Ruin of Gates once spared, and leave it standing open.
+3. Countersign the annual surrenders of the three prudent cities, and attend each festival held in the office's honor.
+4. Open nothing for a year, so the doctrine remembers it is mercy and not appetite.
+
+**Abilities granted:**
+
+- **Provisional Architecture** — Passive: no door, gate, or wall is closed to you; each was always going to open, and you are when.
+- **Surrender in Advance** — A garrison may yield to you before any war exists; many do, and the terms are famously kind.
+- **The Oldest Terms** — Invoke a city's ancient surrender — every city has one filed somewhere — and its walls stand neutral while you walk in.
+- **Nothing Personal** — Passive: defenders cannot hate you, and assaults you lead cost remarkably few lives; everyone present already understands the conclusion.
+
+### The Ten Thousand
+
+**Role:** Apotheosis — one soldier who is a host · **Advances from:** Sovereign of Hosts
+
+*The Sovereign of Hosts was owed an army; the apotheosis is the army. Ten thousand stopped being a count and became a condition: wherever that many stand together in discipline — harvest crews, road gangs, pilgrim columns — the Ten Thousand is partly present, and can be wholly summoned. Kingdoms stopped asking who commands it. It commands itself, wearing one face.*
+
+**Playstyle.** Singular and plural at will. Fight as one veteran or arrive as ten thousand; the difference is administrative, and you file it.
+
+**The road to The Ten Thousand:**
+
+1. Reach level 85 and answer a muster-horn alone; let the clerks count you, recount, and enter ten thousand.
+2. March one border's length as a column of one, and be reported by every watchtower as a field army with banners.
+3. Disband yourself once, entirely, and see whether the world permits it. It will not; learn what that obligates.
+4. End a war at roll-call by being discovered on both muster-rolls at once; send everyone home, confused and alive.
+
+**Abilities granted:**
+
+- **Muster of One** — Unfold into as many as ten thousand veteran soldiers for a day; you are each of them, and dismissal is instant.
+- **The Rolls Eternal** — Passive: any living veteran of your musters hears your summons wherever they stand; most come.
+- **One Face** — Passive: every ally in any army you join fights as if personally drilled by you, because at some remove they were.
+- **An Army at Law** — Passive: treaties, morale, and logistics must treat you alone as a full host; you are spoken of in the plural.
+
+### The Armistice
+
+**Role:** Apotheosis — the truce given a body · **Advances from:** The Bloodless
+
+*When the Bloodless finally struck — histories agree it happened once, and agree on nothing else — the stroke did not land on anyone. It landed between. The gap it opened is still there: the pause in which truces are signed, the hour when both lines breathe. Treaties do not create that hour; they visit it. The office receives them politely.*
+
+**Playstyle.** Fight by ending fights. Open the gap the first stroke cut, hold whole battles inside it, and make war negotiate its way back out past you.
+
+**The road to The Armistice:**
+
+1. Reach level 85 and inherit the hall of yielded swords, then notice it has begun accepting them from wars you never attended.
+2. Walk the length of an active front, unarmed, and leave it quiet behind you for a year.
+3. Be written into a treaty as terrain.
+4. Refuse to end one war, because its peace would have been crueler than its fighting. Carry the office's first exception.
+
+**Abilities granted:**
+
+- **The Stroke Between** — Cut a truce into an active battle: all hostilities in sight pause until someone dares to be first, and none wish to.
+- **The Quiet Hour** — Declare one hour of armistice each day; within it, no weapon inside a mile of you can wound. Including yours.
+- **Receive the Sword** — Any combatant anywhere may yield to you directly, vanishing from their battle and arriving at your hall — disarmed, safe, and embarrassed.
+- **Both Lines Breathe** — Passive: you may stand in any no-man's-land untouched; while you hold it, neither side can cross it in anger.
+
+### Worldcut
+
+**Role:** Apotheosis — geography as standing commission · **Advances from:** The Civil Blade
+
+*Geographers reconciling old maps keep finding the same signature: this strait, that pass, the valley the river obviously did not make. The guild's conclusion, published quietly, is that the world's habitable shape is one commission, still being delivered — a single serving cut of continental length. The Civil Blade's apotheosis is tenure of that stroke. The rates remain posted.*
+
+**Playstyle.** Continue the continental stroke. Cut at the scale of coastlines when commissioned, of doorways when not, and keep the world roughly navigable either way.
+
+**The road to Worldcut:**
+
+1. Reach level 85 and find the world-stroke's living edge, somewhere past the last mapped cape, still warm.
+2. Complete one commission the first hand left unfinished, matching the signature so exactly the geographers never notice the seam.
+3. Set a fair price for a harbor, and a fairer one for the village that cannot pay. Deliver both.
+4. Decline to finish the cut. The commission outlasts every holder; leave the world workable for whoever posts the rates next.
+
+**Abilities granted:**
+
+- **The Continuing Cut** — Once per season, extend the world-stroke: raise a strait, open a pass, or retire a mountain. Permanently.
+- **Posted Rates** — Passive: anyone, anywhere, may commission you and learn your price by asking aloud. You always hear the asking.
+- **Cut to Fit** — Passive: your strikes resize the field itself — narrow the front, widen the retreat, adjust the river to today's requirements.
+- **Habitable Shape** — Allies live well on terrain you have cut: fresh water surfaces, winds gentle themselves, roads discover they were always convenient.
+
+### The Investment
+
+**Role:** Apotheosis — the siege that encircles everything · **Advances from:** The Buried Siege
+
+*Siegecraft begins by drawing a line around a place and calling it invested. The Buried Siege drew its last line somewhere out past the horizon, unhurried, and closed it. Nothing has escaped since; nothing has noticed. Every wall now stands inside the works, every border is a concession, and the office walks the circumvallation at its own pace, inspecting.*
+
+**Playstyle.** Hold the lines of the world's one siege. Everything is already surrounded; battles are merely sorties, and you decide which sorties get back inside.
+
+**The road to The Investment:**
+
+1. Reach level 85 and walk the whole line once — the one drawn past the horizon — repairing it where the world has worn thin.
+2. Answer the knock that comes up through your own floor one night, and learn who has been besieging the besiegers.
+3. Accept the surrender of something too large to know it had been invested — a range, a river, a republic.
+4. Lift one siege, once, entirely, and watch the world fail to believe you. The office permits mercy; history does not record it.
+
+**Abilities granted:**
+
+- **Lines of Circumvallation** — Passive: any enemy force you face counts as besieged: no reinforcement, resupply, or retreat crosses your unseen works.
+- **Older Than Maps** — Passive: your trenches, galleries, and lines already exist wherever you arrive; you built them before the map was drawn.
+- **Sortie Permit** — Nothing enters or leaves a place you invest without your stamp; armies, rivers, and rumors queue alike.
+- **Time Served** — Once per siege, declare an invested stronghold reduced: its defenses count as breached, mined, and starved already.
+
+### The Mud Season
+
+**Role:** Apotheosis — the season war cannot march · **Advances from:** The Refused Battle
+
+*Every general owns two enemies: the one across the field and the one underfoot when the rains come. The second answers to an office. Since the Refused Battle refused its last pursuit, the mud arrives where it is needed — roads dissolve under invasions, fords deepen ahead of columns — and campaigns drown politely, without casualties. Almanacs print it. Farmers approve.*
+
+**Playstyle.** Arrive as weather underfoot. Exhaust campaigns by existing, ration violence the way rain rations roads, and choose which invasions simply never arrive.
+
+**The road to The Mud Season:**
+
+1. Reach level 85 and be predicted by an almanac before you have decided anything. Read your entry; it is accurate.
+2. Walk an empire's border during your season and find every garrison helping with the harvest.
+3. End the longest war alive by outlasting its reasons, then attend the treaty as the weather.
+4. Refuse to make the season permanent, though every widow asks. A rest that cannot end is not peace; it is a cage.
+
+**Abilities granted:**
+
+- **Declare the Season** — Open your season across a realm: armies cannot muster, march, or hold formation, while harvests and healing double.
+- **Wrong Season for It** — Passive: hostile action against you is logistically impossible; attackers arrive under-supplied, mis-mustered, and rained on.
+- **Struck from the Almanac** — Erase a declared battle before it is joined; both sides remember deciding against it and feel obscurely relieved.
+- **Seedcorn** — Passive: whatever allies preserve through your season — soldiers, stores, patience — returns doubled when the roads finally dry.
